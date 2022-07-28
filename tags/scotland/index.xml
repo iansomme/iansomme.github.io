@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Scotland on Images and Opinions</title>
+    <link>https://iansomme.github.io/tags/scotland/</link>
+    <description>Recent content in Scotland on Images and Opinions</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <lastBuildDate>Mon, 04 May 2020 15:24:59 +0100</lastBuildDate>
+    
+	<atom:link href="https://iansomme.github.io/tags/scotland/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The UK has had its day</title>
+      <link>https://iansomme.github.io/opinions/uk-had-its-day/</link>
+      <pubDate>Mon, 04 May 2020 15:24:59 +0100</pubDate>
+      
+      <guid>https://iansomme.github.io/opinions/uk-had-its-day/</guid>
+      <description>Why I believe that leaving the EU has the inevitable consequence of the break up of the UK?
+I originally wrote this post shortly after the Brexit referendum in 2016. I set why I have changed my views on Scottish independence and why I believe that Scotland should be an independent nation that us part of the EU.
+Since then, we have had years of uncertainty, the election of a right-wing, pro-Brexit government and, most significantly a global pandemic that has had immense human, social and economic consequences.</description>
+    </item>
+    
+    <item>
+      <title>Scottish Delicacies</title>
+      <link>https://iansomme.github.io/foodpages/scottish-delicacies/</link>
+      <pubDate>Thu, 09 Apr 2020 15:43:12 +0100</pubDate>
+      
+      <guid>https://iansomme.github.io/foodpages/scottish-delicacies/</guid>
+      <description>I wrote this short guide to some &amp;lsquo;traditional&amp;rsquo; Scottish food and drink for people planning a TGO Challenge - a cross country walk across Scotland, which I&amp;rsquo;ve done a few times. However, I think it may be of more general interest so I&amp;rsquo;ve extended it a wee bit and put it in the more general food section rather than the TGOC pages.
+I won’t write here about the excellent ‘high-end’ Scottish food such as venison and langoustines, that you might get in restaurants.</description>
+    </item>
+    
+  </channel>
+</rss>

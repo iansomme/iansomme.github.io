@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  
+
+
+
+
+
+
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>First Thoughts on Hugo - Images and Opinions</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="icon" href="/favicon-32x32.png">
+
+  
+  
+  
+  <link rel="stylesheet" href="/css/style.min.ec179f436bb5c6c0b6a40135ec801c3fd7329e0c4ddd2a2460302f48544e2d54.css">
+  
+
+  
+
+
+
+</head>
+
+<body class='page page-default-single'>
+  
+
+
+
+
+
+
+  <div id="main-menu-mobile" class="main-menu-mobile">
+  <ul>
+    
+    
+    <li class="menu-item-home">
+      <a href="/">
+        <span>Home</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-photography">
+      <a href="/myimages/">
+        <span>Photography</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-opinions">
+      <a href="/opinions/">
+        <span>Opinions</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-walks">
+      <a href="/walks/">
+        <span>Walks</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-tgoc">
+      <a href="/tgoc/">
+        <span>TGOC</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-food">
+      <a href="/foodpages/">
+        <span>Food</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-technology">
+      <a href="/technology/">
+        <span>Technology</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-professional">
+      <a href="/professional/">
+        <span>Professional</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-books">
+      <a href="/books/">
+        <span>Books</span>
+      </a>
+    </li>
+    
+  </ul>
+</div>
+
+  <div class="wrapper">
+    <div class='header'>
+  <div class="container">
+    <div class="logo">
+      <a href="https://iansomme.github.io"><img alt="Serif - A Hugo Business Theme" src="/images/logo.svg" /></a>
+    </div>
+    <div class="logo-mobile">
+      <a href="https://iansomme.github.io"><img alt="Serif - A Hugo Business Theme" src="/images/logo-mobile.svg" /></a>
+    </div>
+    <div id="main-menu" class="main-menu">
+  <ul>
+    
+    
+    <li class="menu-item-home">
+      <a href="/">
+        
+        <span>Home</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-photography">
+      <a href="/myimages/">
+        
+        <span>Photography</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-opinions">
+      <a href="/opinions/">
+        
+        <span>Opinions</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-walks">
+      <a href="/walks/">
+        
+        <span>Walks</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-tgoc">
+      <a href="/tgoc/">
+        
+        <span>TGOC</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-food">
+      <a href="/foodpages/">
+        
+        <span>Food</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-technology">
+      <a href="/technology/">
+        
+        <span>Technology</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-professional">
+      <a href="/professional/">
+        
+        <span>Professional</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-books">
+      <a href="/books/">
+        
+        <span>Books</span>
+      </a>
+    </li>
+    
+  </ul>
+</div>
+    <button id="toggle-main-menu-mobile" class="hamburger hamburger--slider" type="button" aria-label="Mobile Menu">
+  <span class="hamburger-box">
+    <span class="hamburger-inner"></span>
+  </span>
+</button>
+  </div>
+</div>
+
+    
+<div class="container pb-6 pt-6 pt-md-10 pb-md-10">
+  <div class="row justify-content-start">
+    <div class="col-12 col-md-8">
+      <div class="service service-single">
+        <h1 class="title">First Thoughts on Hugo</h1>
+        <div class="content"><p>Changing technology platforms, for whatever purpose, is always a disruptive experience. You get used to the features and the inbuilt assumptions made by a platform, such as Wordpress, and develop an internal model of how to use the platform to do what you want.
+When you change platform, your tendency is to try and adapt what you kow to that platform.
+However, this rarely works as each platform is built around a different set of assumptions and a different model of work.</p>
+<p>Hugo is no exception to this. When I initially started looking at hugo about a week ago, my first inclination
+was to try and replicate the design and organisation of my Wordpress site using hugo - a mistake, as I quickly got
+tangled up in details such as how to implement pull-down menus, etc.</p>
+<p>Hugo documentation is not really beginner-friendly and I struggled a bit until I found an excellent <a href="https://www.youtube.com/channel/UCvmINlrza7JHB1zkIOuXEbw">YouTube channel</a> by Mike Dane, which has a set of Hugo tutorial videos. Once I started to get my head around Hugo&rsquo;s different model of working, then everything got much easier.</p>
+<p>You mostly work from the terminal command line to use Hugo. I am fine with this (in the dim and distant past
+I was a sysadmin for a VAX Unix system) but I found it worthwhile to define a number of shell functions to make things
+easier. It&rsquo;s important to be in the right directory when you run Hugo commands as they make assumptions about the
+organization of the filestore. You also need a decent text editor such as BBEdit.</p>
+<h2 id="good-things">Good Things</h2>
+<ol>
+<li>
+<p>I really like being able to run and maintain the site on my own computer so that I have complete control of everything. One problem with remotely-hosted solutions is that, with the best will in the world, it&rsquo;s very hard to keep local copies and remote copies of posts and pages in sync.  (you get this from any static site generator)</p>
+</li>
+<li>
+<p>Hugo generates a site incredibly quickly and it has been very reliable so far.</p>
+</li>
+<li>
+<p>Hugo has a facility to automatically generate a list of pages so that you can create a list of all of the posts and pages in a directory. This happens automatically so you just organize your storage system and pages recording that organization just appear.</p>
+</li>
+<li>
+<p>I hate the way that Wordpress handles images and, if you have a lot of images, image organization is a pain.
+I actually ended up hosting all images on Dropbox - but this meant they were very slow to load.
+As far as Hugo is concerned, images are files so there is no need for special treatment.</p>
+</li>
+<li>
+<p>Once you understand it, the templates that allow you to define layouts for pages or
+parts of pages are very powerful. Until you understand them, however, they can be confusing.</p>
+</li>
+<li>
+<p>Writing markdown is easier than writing html. Not as easy as a visual editor but my experience
+with the Wordpress visual editor was that it was never quite right.</p>
+</li>
+</ol>
+<h2 id="bad-things">Bad things</h2>
+<ol>
+<li>
+<p>CSS is an invention of the devil and it&rsquo;s generally hard to understand what CSS relates to what elements on pages.
+It&rsquo;s worse with Hugo. It uses a page layout system called Bootstrap which adds more confusion than ever.
+I ended up simply randomly experimenting with the CSS to see what affected what.</p>
+</li>
+<li>
+<p>Error reporting is virtually non-existent. If something doesn&rsquo;t work, all you see is a non-working
+system. This is particularly disconcerting when all your pages disappear - I have no idea what
+I did and ended up restoring from a backup.</p>
+</li>
+<li>
+<p>There are a limited number of themes and many of them are pretty similiar. If you want the
+kind of choice you get with Wordpress, you don&rsquo;t get it with Hugo.
+Unless you find one that&rsquo;s just right for you, you need to get into template modification and css.</p>
+</li>
+</ol>
+<h2 id="next-steps">Next steps</h2>
+<p>I&rsquo;ve still got quite a lot to learn but I feel I&rsquo;ve progressed beyond the &lsquo;what the hell am I doing&rsquo; stage of using the platform. So far, I&rsquo;ve tinkered with existing templates rather than writing my own but that&rsquo;s the next thing I&rsquo;m going to tackle.</p>
+<p>And, of course, I need to sort out some content.</p>
+</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  </div>
+
+  
+
+  
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/scripts.min.bf1e1f7ae8e03db5f012356e825843facdff51c0a559cb0d27fe2bbe1db405c2.js"></script>
+  
+
+  
+
+
+
+
+
+
+  
+  <link href="https://fonts.googleapis.com/css?family=DM+Serif+Display&display=swap" rel="stylesheet">
+</body>
+
+</html>

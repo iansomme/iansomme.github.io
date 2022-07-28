@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SE book on Images and Opinions</title>
+    <link>https://iansomme.github.io/tags/se-book/</link>
+    <description>Recent content in SE book on Images and Opinions</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <lastBuildDate>Fri, 15 May 2020 07:58:09 +0100</lastBuildDate>
+    
+	<atom:link href="https://iansomme.github.io/tags/se-book/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Scotland and UBI</title>
+      <link>https://iansomme.github.io/opinions/ubi/</link>
+      <pubDate>Fri, 15 May 2020 07:58:09 +0100</pubDate>
+      
+      <guid>https://iansomme.github.io/opinions/ubi/</guid>
+      <description>Should an independent Scotland consider introducing a universal basic income?
+During this Coronavirus lockdown. many people, including me, have been posting on blogs and social media about their current or past lifestyle. They write about and share photographs of meals they have cooked, bread they have baked, things they have crafted and walks and holidays they have enjoyed in the past.
+A perspective on posts like this that they are middle-class boasting of a lifestyle that many of our fellow citizens do not share.</description>
+    </item>
+    
+  </channel>
+</rss>

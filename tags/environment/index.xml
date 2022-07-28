@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>environment on Images and Opinions</title>
+    <link>https://iansomme.github.io/tags/environment/</link>
+    <description>Recent content in environment on Images and Opinions</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <lastBuildDate>Wed, 13 Nov 2019 15:28:46 +0100</lastBuildDate>
+    
+	<atom:link href="https://iansomme.github.io/tags/environment/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Highland Spaceports - A Development Dilemma</title>
+      <link>https://iansomme.github.io/opinions/highland_spaceports/</link>
+      <pubDate>Wed, 13 Nov 2019 15:28:46 +0100</pubDate>
+      
+      <guid>https://iansomme.github.io/opinions/highland_spaceports/</guid>
+      <description>My thoughts on the development of spaceports in environmentally sensitive areas in the Scottish Highlands.
+Over the past year or so, the potential of the Scottish Highlands as a suitable area for launching small rockets has been recognised with proposals for development in Sutherland, Shetland and, most recently, North Uist. My twitter feed has been full of retweets recently from outdoor folks asking me to write to the Western Isles Council opposing the North Uist development.</description>
+    </item>
+    
+    <item>
+      <title>Signs on the Hills</title>
+      <link>https://iansomme.github.io/opinions/signs-on-the-hills/</link>
+      <pubDate>Sat, 14 Sep 2019 13:02:23 +0100</pubDate>
+      
+      <guid>https://iansomme.github.io/opinions/signs-on-the-hills/</guid>
+      <description>Should there be more signposting to reduce navigation mistakes on the hills?
+A tweet caught my eye a while ago about a proposal by a mountain rescue team in the Lakes to put signs up on Scafell Pike because so many people are getting lost and then calling out the mountain rescue. The reaction from the mountaineering and backpacking community was predictable outrage. Signs despoil the landscape, remove any feeling of remoteness and encourage people who don’t know what they are doing onto the hills.</description>
+    </item>
+    
+  </channel>
+</rss>

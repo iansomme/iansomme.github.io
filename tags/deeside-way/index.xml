@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>deeside way on Images and Opinions</title>
+    <link>https://iansomme.github.io/tags/deeside-way/</link>
+    <description>Recent content in deeside way on Images and Opinions</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <lastBuildDate>Tue, 14 Apr 2020 19:57:23 +0100</lastBuildDate>
+    
+	<atom:link href="https://iansomme.github.io/tags/deeside-way/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>My Deeside Way Guide</title>
+      <link>https://iansomme.github.io/walks/deeside-way-guide/</link>
+      <pubDate>Tue, 14 Apr 2020 19:57:23 +0100</pubDate>
+      
+      <guid>https://iansomme.github.io/walks/deeside-way-guide/</guid>
+      <description>We live right beside the Deeside Way, a walking and riding path that stretches from Aberdeen to Ballater (about 55km). I walk on the Way every week that we are at home and have taken hundreds if not thousands of photographs on these walks.
+I decided to set myself a wee project to write a short guide to the Deeside Way that was a bit better than the rather bland description on the official website.</description>
+    </item>
+    
+    <item>
+      <title>Ballater to Aboyne</title>
+      <link>https://iansomme.github.io/walks/aberdeenshire/ballater-to-aboyne/</link>
+      <pubDate>Sun, 15 Apr 2012 21:43:53 +0100</pubDate>
+      
+      <guid>https://iansomme.github.io/walks/aberdeenshire/ballater-to-aboyne/</guid>
+      <description>The Deeside way is a long distance path that follows the valley of the River Dee from Ballater to Duthie Park in Aberdeen. It mostly follows the old Deeside railway line which was built in the 19th century and which became well-known as Queen Victoria&amp;rsquo;s route to Balmoral Castle. It is a &amp;lsquo;work in progress&amp;rsquo; i.e it isn&amp;rsquo;t finished and there is a gap between Banchory and Potarch Bridge and a shorter gap between Aboyne and Kincardine O&amp;rsquo;Neill.</description>
+    </item>
+    
+  </channel>
+</rss>

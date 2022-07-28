@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>professional on Images and Opinions</title>
+    <link>https://iansomme.github.io/tags/professional/</link>
+    <description>Recent content in professional on Images and Opinions</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <lastBuildDate>Fri, 24 Apr 2020 10:28:40 +0100</lastBuildDate>
+    
+	<atom:link href="https://iansomme.github.io/tags/professional/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>My professional career</title>
+      <link>https://iansomme.github.io/professional/about/</link>
+      <pubDate>Fri, 24 Apr 2020 10:28:40 +0100</pubDate>
+      
+      <guid>https://iansomme.github.io/professional/about/</guid>
+      <description>I wrote my first computer program in 1970 and have been involved in software engineering research and teaching since the late-1970s. So I have lived through changes to computer generations from mainframes to minicomputers to PCs and mobile devices. I started using the Internet in the early 1980s and my first web site was published in 1995. I was born in Glasgow, Scotland and educated at Strathclyde University (BSc Physics) and St Andrews University (MSc, PhD Computer Science).</description>
+    </item>
+    
+    <item>
+      <title>Research</title>
+      <link>https://iansomme.github.io/professional/research/</link>
+      <pubDate>Fri, 24 Apr 2020 08:11:42 +0100</pubDate>
+      
+      <guid>https://iansomme.github.io/professional/research/</guid>
+      <description>This page summarises my research career from its beginnings as a PhD student in the 1970s to my retirement from St Andrews University in 2014. I have published lots of papers during that time – my Google Scholar profile  includes a reasonably complete list (at least of those papers that are available on the Web).
+Early research I completed my PhD at St Andrews University in 1977 where I worked in the areas of computer architecture and programming languages.</description>
+    </item>
+    
+    <item>
+      <title>Course: Critical Systems Engineering</title>
+      <link>https://iansomme.github.io/professional/critical-systems-engineering/</link>
+      <pubDate>Fri, 24 Apr 2020 08:24:45 +0100</pubDate>
+      
+      <guid>https://iansomme.github.io/professional/critical-systems-engineering/</guid>
+      <description>Many software systems are now critical systems whose failure can have serious economic, human and social consequences. This course is an advanced software engineering course that is focused on system dependability and security and how business-critical, safety-critical and mission-critical systems can be developed. For critical systems, we need to be confident that system failure will not have serious adverse effects and this means that a range of analysis and assurance techniques have to be used in their development.</description>
+    </item>
+    
+    <item>
+      <title>Course: Systems Engineering for LSCITS</title>
+      <link>https://iansomme.github.io/professional/systems-engineering-for-lscits/</link>
+      <pubDate>Fri, 24 Apr 2020 10:05:19 +0100</pubDate>
+      
+      <guid>https://iansomme.github.io/professional/systems-engineering-for-lscits/</guid>
+      <description>Large-scale complex IT systems(LSCITS) are organizational systems, used by a range of stakeholders with differing goals and priorities. Their scale and complexity means that they may exhibit unexpected behaviour and performance and changing these systems can be difficult and have unpredictable consequences. Usually, LSCITS are made up of a number of other systems (sometimes, they are referred to as a system of systems) with the component systems independently managed. LSCITS are deeply embedded in organizational socio-technical systems and so their procurement, development and operation is influenced by human, social, organizational and cultural factors.</description>
+    </item>
+    
+    <item>
+      <title>Course: Socio-Techical Systems</title>
+      <link>https://iansomme.github.io/professional/socio-tech-systems/</link>
+      <pubDate>Fri, 24 Apr 2020 10:17:59 +0100</pubDate>
+      
+      <guid>https://iansomme.github.io/professional/socio-tech-systems/</guid>
+      <description>This course was presented as part of an Engineering Doctorate (EngD) course in Large-scale Complex IT Systems at York University. Students had a background in computer science or engineering and were all working on systems research projects in conjunction with industry.
+Aim of the course The aim of the course was to introduce socio-technical systems and explain why socio-technical issues are particularly important in the procurement, design and operation of large-scale complex IT systems.</description>
+    </item>
+    
+    <item>
+      <title>Books</title>
+      <link>https://iansomme.github.io/professional/books/</link>
+      <pubDate>Thu, 23 Apr 2020 16:05:13 +0100</pubDate>
+      
+      <guid>https://iansomme.github.io/professional/books/</guid>
+      <description>Like lots of things in life, I got into writing technical books through a fortunate correspondence of events. As a young lecturer at Strathclyde University in Glasgow, I volunteered to present a course on large-scale software (so called) and I wrote a set of notes for this. My then colleague, Andrew McGettrick had recently taken on the role of series editor for a new UK book series to be produced by Addison-Wesley and he suggested that I might like to turn these into a book.</description>
+    </item>
+    
+    <item>
+      <title>Videos</title>
+      <link>https://iansomme.github.io/professional/videos/</link>
+      <pubDate>Fri, 24 Apr 2020 10:24:54 +0100</pubDate>
+      
+      <guid>https://iansomme.github.io/professional/videos/</guid>
+      <description>Many students find videos helpful in developing their understanding so I have made a number of videos on a range of software engineering topics. Many of these were made to support a course I was teaching in Critical Systems Engineering, so there is a focus on system security and dependability. Some of the videos cover material (such as SCADA control systems) that is not covered in the book. I have included these as some readers may be interested in following up topics in more detail.</description>
+    </item>
+    
+  </channel>
+</rss>

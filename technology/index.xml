@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Technology on Images and Opinions</title>
+    <link>https://iansomme.github.io/technology/</link>
+    <description>Recent content in Technology on Images and Opinions</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <lastBuildDate>Fri, 17 Apr 2020 13:17:32 +0100</lastBuildDate>
+    
+	<atom:link href="https://iansomme.github.io/technology/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The Underwhelming Impact of Software Engineering Research (April 2022)</title>
+      <link>https://iansomme.github.io/technology/research-impact/</link>
+      <pubDate>Wed, 06 Apr 2022 09:56:26 +0100</pubDate>
+      
+      <guid>https://iansomme.github.io/technology/research-impact/</guid>
+      <description>This article was prompted by responses to a tweet I wrote in response to an analysis of the research area of papers submitted to the 2022 ICSE conference, the flagship conference for software engineering research. These led me to reflect on software engineering research in general. I’m sorry to say that I think that we, as a community, have not really delivered very much that’s substantive in over 40 years of research.</description>
+    </item>
+    
+    <item>
+      <title>Three factors that inhibit the take-up of software engineering research (April 2022)</title>
+      <link>https://iansomme.github.io/technology/research-failure-2/</link>
+      <pubDate>Tue, 12 Apr 2022 13:59:38 +0100</pubDate>
+      
+      <guid>https://iansomme.github.io/technology/research-failure-2/</guid>
+      <description>I wrote in a recent article about my views on why software engineering research has had very little direct impact on software engineering practice. I identified three short-comings in the research community that I believe has contributed to this namely short-term thinking, a mistaken belief in reductionism and a failure to cooperate rather than compete.
+To be fair to the research community, however, the problems of research impact are not all of their own making.</description>
+    </item>
+    
+    <item>
+      <title>Understanding the Cloud</title>
+      <link>https://iansomme.github.io/technology/understanding-the-cloud/</link>
+      <pubDate>Fri, 17 Apr 2020 13:29:57 +0100</pubDate>
+      
+      <guid>https://iansomme.github.io/technology/understanding-the-cloud/</guid>
+      <description>An introduction to the Cloud for people who don’t care how it works but want to know how it might be useful for them.
+There are basically two ways in which computers are used:
+ Personal computers which are used by one person (or sometimes a family) and which can store data, run applications and so on. Shared computers where the computer is shared by a number of different people and which, usually, provide quite specific services.</description>
+    </item>
+    
+  </channel>
+</rss>

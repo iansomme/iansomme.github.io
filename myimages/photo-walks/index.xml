@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Photo walks on Images and Opinions</title>
+    <link>https://iansomme.github.io/myimages/photo-walks/</link>
+    <description>Recent content in Photo walks on Images and Opinions</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <lastBuildDate>Tue, 21 Apr 2020 17:58:54 +0100</lastBuildDate>
+    
+	<atom:link href="https://iansomme.github.io/myimages/photo-walks/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Autumn Abstractions</title>
+      <link>https://iansomme.github.io/myimages/photo-walks/autumn-abstractions/</link>
+      <pubDate>Tue, 14 Apr 2020 13:14:42 +0100</pubDate>
+      
+      <guid>https://iansomme.github.io/myimages/photo-walks/autumn-abstractions/</guid>
+      <description>Last week, I went to an interesting talk entitled ‘Art, Photography and Creativity’ by Stan Farrow. Stan talked about the evolution of painting from a representative art to something much more diverse. Painting evolved from explorations of abstract presentations of subjects through to pure abstracts from painters such as Mark Rothko and Jackson Pollock. Stan showed examples of his digital photographic art and how it has developed from purely representative photography.</description>
+    </item>
+    
+    <item>
+      <title>A Walk in the Woods</title>
+      <link>https://iansomme.github.io/myimages/photo-walks/a-walk-in-the-woods/</link>
+      <pubDate>Sun, 14 Apr 2019 13:44:00 +0100</pubDate>
+      
+      <guid>https://iansomme.github.io/myimages/photo-walks/a-walk-in-the-woods/</guid>
+      <description>Life has been a wee bit busy this summer (2019). Our daughter gave birth to twins (boy and girl) at the end of July and we&amp;rsquo;ve been involved helping with them and our older grandson since then. Before that, we had decided to move to Edinburgh to be closer to family and, maybe unwisely given that we are no longer spring chickens, bought a house that needs complete renovation. So the summer has been spent working on a house, trying (with no success) to sell a house and helping look after babies and a two-year old.</description>
+    </item>
+    
+  </channel>
+</rss>

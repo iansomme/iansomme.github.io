@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>technology on Images and Opinions</title>
+    <link>https://iansomme.github.io/tags/technology/</link>
+    <description>Recent content in technology on Images and Opinions</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <lastBuildDate>Fri, 25 Mar 2022 13:46:28 +0000</lastBuildDate>
+    
+	<atom:link href="https://iansomme.github.io/tags/technology/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Software engineering education</title>
+      <link>https://iansomme.github.io/technology/teaching/</link>
+      <pubDate>Fri, 25 Mar 2022 13:46:28 +0000</pubDate>
+      
+      <guid>https://iansomme.github.io/technology/teaching/</guid>
+      <description>Some of my thoughts on how we should be teaching students about software engineering.</description>
+    </item>
+    
+    <item>
+      <title>Technology</title>
+      <link>https://iansomme.github.io/technology/</link>
+      <pubDate>Fri, 17 Apr 2020 13:17:32 +0100</pubDate>
+      
+      <guid>https://iansomme.github.io/technology/</guid>
+      <description>I&amp;rsquo;m generally interested in technology, especially but not exclusively digital technologies. I started by writing a blog about systems, software and technology but the problem with blogs is that posts on general issues get lost amongst shorter-term ephemera. I&amp;rsquo;ve now given up on blogging although I still sometimes comment on technology on Twitter (@iansommerville).
+The articles here are a selection from my previous technology blog posts plus (very) occasional new articles on technology topics.</description>
+    </item>
+    
+    <item>
+      <title>Understanding the Cloud</title>
+      <link>https://iansomme.github.io/technology/understanding-the-cloud/</link>
+      <pubDate>Fri, 17 Apr 2020 13:29:57 +0100</pubDate>
+      
+      <guid>https://iansomme.github.io/technology/understanding-the-cloud/</guid>
+      <description>An introduction to the Cloud for people who don’t care how it works but want to know how it might be useful for them.
+There are basically two ways in which computers are used:
+ Personal computers which are used by one person (or sometimes a family) and which can store data, run applications and so on. Shared computers where the computer is shared by a number of different people and which, usually, provide quite specific services.</description>
+    </item>
+    
+  </channel>
+</rss>

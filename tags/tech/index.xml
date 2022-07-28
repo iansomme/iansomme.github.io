@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tech on Images and Opinions</title>
+    <link>https://iansomme.github.io/tags/tech/</link>
+    <description>Recent content in tech on Images and Opinions</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <lastBuildDate>Fri, 25 Mar 2022 13:46:28 +0000</lastBuildDate>
+    
+	<atom:link href="https://iansomme.github.io/tags/tech/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Out with the UML!</title>
+      <link>https://iansomme.github.io/technology/teaching/out-with-uml/</link>
+      <pubDate>Thu, 23 Apr 2020 06:34:41 +0100</pubDate>
+      
+      <guid>https://iansomme.github.io/technology/teaching/out-with-uml/</guid>
+      <description>In the 1980s and 1990s, universities started to introduce software engineering courses into their computer science degree programs. At that time, software engineering was dominated by the problems of creating large custom software systems. These were developed by managed teams working on long-lifetime software projects.
+This project-based approach was reflected in software engineering courses and in textbooks developed to support these courses. My own book adopted this approach as did texts by Pressman, Van Vliet and others.</description>
+    </item>
+    
+    <item>
+      <title>Goodbye Wordpress, Hello Hugo</title>
+      <link>https://iansomme.github.io/technology/website/startingwithhugo/</link>
+      <pubDate>Mon, 13 Apr 2020 15:18:42 +0100</pubDate>
+      
+      <guid>https://iansomme.github.io/technology/website/startingwithhugo/</guid>
+      <description>I&amp;rsquo;ve become increasingly fed up with Wordpress - particularly the fact that there seem to be millions of malicious hackers and spammers trying to get into your site. I&amp;rsquo;ve been short of time to do anything about this but the coronavirus locked means that I&amp;rsquo;ve finally got round to doing something about this. I&amp;rsquo;m currently rebuilding the content of my site (which will take a while) but, apart from tweaks, I&amp;rsquo;m happy with the new design.</description>
+    </item>
+    
+    <item>
+      <title>Research</title>
+      <link>https://iansomme.github.io/professional/research/</link>
+      <pubDate>Fri, 24 Apr 2020 08:11:42 +0100</pubDate>
+      
+      <guid>https://iansomme.github.io/professional/research/</guid>
+      <description>This page summarises my research career from its beginnings as a PhD student in the 1970s to my retirement from St Andrews University in 2014. I have published lots of papers during that time – my Google Scholar profile  includes a reasonably complete list (at least of those papers that are available on the Web).
+Early research I completed my PhD at St Andrews University in 1977 where I worked in the areas of computer architecture and programming languages.</description>
+    </item>
+    
+    <item>
+      <title>First Thoughts on Hugo</title>
+      <link>https://iansomme.github.io/technology/website/first-thoughts-on-hugo/</link>
+      <pubDate>Wed, 15 Apr 2020 16:02:38 +0100</pubDate>
+      
+      <guid>https://iansomme.github.io/technology/website/first-thoughts-on-hugo/</guid>
+      <description>Changing technology platforms, for whatever purpose, is always a disruptive experience. You get used to the features and the inbuilt assumptions made by a platform, such as Wordpress, and develop an internal model of how to use the platform to do what you want. When you change platform, your tendency is to try and adapt what you kow to that platform. However, this rarely works as each platform is built around a different set of assumptions and a different model of work.</description>
+    </item>
+    
+    <item>
+      <title>Course: Critical Systems Engineering</title>
+      <link>https://iansomme.github.io/professional/critical-systems-engineering/</link>
+      <pubDate>Fri, 24 Apr 2020 08:24:45 +0100</pubDate>
+      
+      <guid>https://iansomme.github.io/professional/critical-systems-engineering/</guid>
+      <description>Many software systems are now critical systems whose failure can have serious economic, human and social consequences. This course is an advanced software engineering course that is focused on system dependability and security and how business-critical, safety-critical and mission-critical systems can be developed. For critical systems, we need to be confident that system failure will not have serious adverse effects and this means that a range of analysis and assurance techniques have to be used in their development.</description>
+    </item>
+    
+    <item>
+      <title>Course: Systems Engineering for LSCITS</title>
+      <link>https://iansomme.github.io/professional/systems-engineering-for-lscits/</link>
+      <pubDate>Fri, 24 Apr 2020 10:05:19 +0100</pubDate>
+      
+      <guid>https://iansomme.github.io/professional/systems-engineering-for-lscits/</guid>
+      <description>Large-scale complex IT systems(LSCITS) are organizational systems, used by a range of stakeholders with differing goals and priorities. Their scale and complexity means that they may exhibit unexpected behaviour and performance and changing these systems can be difficult and have unpredictable consequences. Usually, LSCITS are made up of a number of other systems (sometimes, they are referred to as a system of systems) with the component systems independently managed. LSCITS are deeply embedded in organizational socio-technical systems and so their procurement, development and operation is influenced by human, social, organizational and cultural factors.</description>
+    </item>
+    
+    <item>
+      <title>Course: Socio-Techical Systems</title>
+      <link>https://iansomme.github.io/professional/socio-tech-systems/</link>
+      <pubDate>Fri, 24 Apr 2020 10:17:59 +0100</pubDate>
+      
+      <guid>https://iansomme.github.io/professional/socio-tech-systems/</guid>
+      <description>This course was presented as part of an Engineering Doctorate (EngD) course in Large-scale Complex IT Systems at York University. Students had a background in computer science or engineering and were all working on systems research projects in conjunction with industry.
+Aim of the course The aim of the course was to introduce socio-technical systems and explain why socio-technical issues are particularly important in the procurement, design and operation of large-scale complex IT systems.</description>
+    </item>
+    
+    <item>
+      <title>Videos</title>
+      <link>https://iansomme.github.io/professional/videos/</link>
+      <pubDate>Fri, 24 Apr 2020 10:24:54 +0100</pubDate>
+      
+      <guid>https://iansomme.github.io/professional/videos/</guid>
+      <description>Many students find videos helpful in developing their understanding so I have made a number of videos on a range of software engineering topics. Many of these were made to support a course I was teaching in Critical Systems Engineering, so there is a focus on system security and dependability. Some of the videos cover material (such as SCADA control systems) that is not covered in the book. I have included these as some readers may be interested in following up topics in more detail.</description>
+    </item>
+    
+    <item>
+      <title>What is Complexity</title>
+      <link>https://iansomme.github.io/technology/complexsys/complexity/</link>
+      <pubDate>Fri, 24 Apr 2020 14:39:15 +0100</pubDate>
+      
+      <guid>https://iansomme.github.io/technology/complexsys/complexity/</guid>
+      <description>Lots of people talk about &amp;lsquo;complex systems&amp;rsquo; and &amp;lsquo;complex issues&amp;rsquo; and we are never sure if different people mean the same thing when they use the word &amp;lsquo;complexity&amp;rsquo;. I&amp;rsquo;m interested in this in the context of large software-intensive systems but the I think the discussion here is equally applicable to other types of system such as &amp;lsquo;the healthcare system&amp;rsquo;, &amp;lsquo;the power generation system&amp;rsquo; and so on.
+Some argue that the term complexity should be reserved for complex adaptive systems, systems which are dominated by emergent behaviour.</description>
+    </item>
+    
+    <item>
+      <title>Reductionism and Complex Systems Engineering</title>
+      <link>https://iansomme.github.io/technology/complexsys/reductionism/</link>
+      <pubDate>Fri, 24 Apr 2020 14:35:05 +0100</pubDate>
+      
+      <guid>https://iansomme.github.io/technology/complexsys/reductionism/</guid>
+      <description>Reductionism is a philosophical position that a complex system is nothing but the sum of its parts, and that an account of it can be reduced to accounts of individual constituents (wikipedia).
+This notion is the foundation for the engineering of large systems – essentially, design a system so that it is composed of discrete parts which, because they are smaller, are easier to understand and construct, define interfaces that allow these parts to work together, build the parts of the system then integrate these to create the desired system.</description>
+    </item>
+    
+    <item>
+      <title>Refining Maier&#39;s classification of systems of systems</title>
+      <link>https://iansomme.github.io/technology/complexsys/systems-of-systems/</link>
+      <pubDate>Fri, 24 Apr 2020 14:22:45 +0100</pubDate>
+      
+      <guid>https://iansomme.github.io/technology/complexsys/systems-of-systems/</guid>
+      <description>I recently re-read Mark Maier’s now classic systems engineering paper ‘ ‘Architecting Principles for Systems of Systems’. In that paper, Maier suggests that the difference between a general system and a system of systems are that some of the elements of an SoS are operationally and managerially independent. This means that these systems can operate and provide useful services outside of the SoS and that the management of these systems is undertaken by separate organisations according to their own policies and rules.</description>
+    </item>
+    
+    <item>
+      <title>The Myth of Software Simplicity</title>
+      <link>https://iansomme.github.io/technology/complexsys/software-simplicity/</link>
+      <pubDate>Mon, 20 Apr 2020 20:09:31 +0100</pubDate>
+      
+      <guid>https://iansomme.github.io/technology/complexsys/software-simplicity/</guid>
+      <description>I gave a talk a while ago about complexity and large-scale systems. In the discussion following the talk, one of the audience suggested that what we should be doing is making our systems simpler, not more complex.
+Simplicity is one of the Holy Grails of computer science. Edsger Dijkstra, a pioneering computer scientist, emphasised the importance of simplicity in the 1960s and ever since then, the CS community has claimed that, in systems construction, the KISS principle – Keep It Simple Stupid – is the approach we should follow.</description>
+    </item>
+    
+  </channel>
+</rss>

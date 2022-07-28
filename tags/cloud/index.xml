@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cloud on Images and Opinions</title>
+    <link>https://iansomme.github.io/tags/cloud/</link>
+    <description>Recent content in cloud on Images and Opinions</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <lastBuildDate>Fri, 17 Apr 2020 13:29:57 +0100</lastBuildDate>
+    
+	<atom:link href="https://iansomme.github.io/tags/cloud/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Understanding the Cloud</title>
+      <link>https://iansomme.github.io/technology/understanding-the-cloud/</link>
+      <pubDate>Fri, 17 Apr 2020 13:29:57 +0100</pubDate>
+      
+      <guid>https://iansomme.github.io/technology/understanding-the-cloud/</guid>
+      <description>An introduction to the Cloud for people who don’t care how it works but want to know how it might be useful for them.
+There are basically two ways in which computers are used:
+ Personal computers which are used by one person (or sometimes a family) and which can store data, run applications and so on. Shared computers where the computer is shared by a number of different people and which, usually, provide quite specific services.</description>
+    </item>
+    
+  </channel>
+</rss>

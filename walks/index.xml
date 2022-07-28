@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Walks on Images and Opinions</title>
+    <link>https://iansomme.github.io/walks/</link>
+    <description>Recent content in Walks on Images and Opinions</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <lastBuildDate>Fri, 10 Apr 2020 17:05:30 +0100</lastBuildDate>
+    
+	<atom:link href="https://iansomme.github.io/walks/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>My Deeside Way Guide</title>
+      <link>https://iansomme.github.io/walks/deeside-way-guide/</link>
+      <pubDate>Tue, 14 Apr 2020 19:57:23 +0100</pubDate>
+      
+      <guid>https://iansomme.github.io/walks/deeside-way-guide/</guid>
+      <description>We live right beside the Deeside Way, a walking and riding path that stretches from Aberdeen to Ballater (about 55km). I walk on the Way every week that we are at home and have taken hundreds if not thousands of photographs on these walks.
+I decided to set myself a wee project to write a short guide to the Deeside Way that was a bit better than the rather bland description on the official website.</description>
+    </item>
+    
+    <item>
+      <title>The TGO Challenge</title>
+      <link>https://iansomme.github.io/walks/tgoc/</link>
+      <pubDate>Thu, 30 Apr 2020 10:13:19 +0100</pubDate>
+      
+      <guid>https://iansomme.github.io/walks/tgoc/</guid>
+      <description>The TGO Challenge is an annual event where people walk across Scotland from the west to the east coast. They choose their own route and there are various meeting points, such as Braemar, where participants congregate. I&amp;rsquo;ve taken part in this 4 times (so far) and I hope to be able to do a few more.
+I&amp;rsquo;ve documented my Challenges under a separate heading.
+The TGO Challenge</description>
+    </item>
+    
+  </channel>
+</rss>

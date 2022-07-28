@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>complexity on Images and Opinions</title>
+    <link>https://iansomme.github.io/tags/complexity/</link>
+    <description>Recent content in complexity on Images and Opinions</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <lastBuildDate>Fri, 24 Apr 2020 14:39:15 +0100</lastBuildDate>
+    
+	<atom:link href="https://iansomme.github.io/tags/complexity/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>What is Complexity</title>
+      <link>https://iansomme.github.io/technology/complexsys/complexity/</link>
+      <pubDate>Fri, 24 Apr 2020 14:39:15 +0100</pubDate>
+      
+      <guid>https://iansomme.github.io/technology/complexsys/complexity/</guid>
+      <description>Lots of people talk about &amp;lsquo;complex systems&amp;rsquo; and &amp;lsquo;complex issues&amp;rsquo; and we are never sure if different people mean the same thing when they use the word &amp;lsquo;complexity&amp;rsquo;. I&amp;rsquo;m interested in this in the context of large software-intensive systems but the I think the discussion here is equally applicable to other types of system such as &amp;lsquo;the healthcare system&amp;rsquo;, &amp;lsquo;the power generation system&amp;rsquo; and so on.
+Some argue that the term complexity should be reserved for complex adaptive systems, systems which are dominated by emergent behaviour.</description>
+    </item>
+    
+    <item>
+      <title>Reductionism and Complex Systems Engineering</title>
+      <link>https://iansomme.github.io/technology/complexsys/reductionism/</link>
+      <pubDate>Fri, 24 Apr 2020 14:35:05 +0100</pubDate>
+      
+      <guid>https://iansomme.github.io/technology/complexsys/reductionism/</guid>
+      <description>Reductionism is a philosophical position that a complex system is nothing but the sum of its parts, and that an account of it can be reduced to accounts of individual constituents (wikipedia).
+This notion is the foundation for the engineering of large systems – essentially, design a system so that it is composed of discrete parts which, because they are smaller, are easier to understand and construct, define interfaces that allow these parts to work together, build the parts of the system then integrate these to create the desired system.</description>
+    </item>
+    
+    <item>
+      <title>Refining Maier&#39;s classification of systems of systems</title>
+      <link>https://iansomme.github.io/technology/complexsys/systems-of-systems/</link>
+      <pubDate>Fri, 24 Apr 2020 14:22:45 +0100</pubDate>
+      
+      <guid>https://iansomme.github.io/technology/complexsys/systems-of-systems/</guid>
+      <description>I recently re-read Mark Maier’s now classic systems engineering paper ‘ ‘Architecting Principles for Systems of Systems’. In that paper, Maier suggests that the difference between a general system and a system of systems are that some of the elements of an SoS are operationally and managerially independent. This means that these systems can operate and provide useful services outside of the SoS and that the management of these systems is undertaken by separate organisations according to their own policies and rules.</description>
+    </item>
+    
+  </channel>
+</rss>

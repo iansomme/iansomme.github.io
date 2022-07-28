@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>autumn on Images and Opinions</title>
+    <link>https://iansomme.github.io/tags/autumn/</link>
+    <description>Recent content in autumn on Images and Opinions</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <lastBuildDate>Sat, 25 Apr 2020 14:30:57 +0100</lastBuildDate>
+    
+	<atom:link href="https://iansomme.github.io/tags/autumn/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Autumn in Scotland</title>
+      <link>https://iansomme.github.io/myimages/autumn-in-scotland/</link>
+      <pubDate>Sat, 25 Apr 2020 14:30:57 +0100</pubDate>
+      
+      <guid>https://iansomme.github.io/myimages/autumn-in-scotland/</guid>
+      <description>Autumn is the most colourful season and, like most outdoor photographers, I love to get out to photograph the landscape at that time of year. Obviously the landscapes are beautiful but I also like to look at a smaller scale for autumn details.
+Most of the images here were taken close to my home in Aberdeenshire with a couple on visits to the Highlands.
+ River Faskally, near Pitlochry   River Broom near Ullapool with An Teallach in the background.</description>
+    </item>
+    
+    <item>
+      <title>Autumn Abstractions</title>
+      <link>https://iansomme.github.io/myimages/photo-walks/autumn-abstractions/</link>
+      <pubDate>Tue, 14 Apr 2020 13:14:42 +0100</pubDate>
+      
+      <guid>https://iansomme.github.io/myimages/photo-walks/autumn-abstractions/</guid>
+      <description>Last week, I went to an interesting talk entitled ‘Art, Photography and Creativity’ by Stan Farrow. Stan talked about the evolution of painting from a representative art to something much more diverse. Painting evolved from explorations of abstract presentations of subjects through to pure abstracts from painters such as Mark Rothko and Jackson Pollock. Stan showed examples of his digital photographic art and how it has developed from purely representative photography.</description>
+    </item>
+    
+  </channel>
+</rss>

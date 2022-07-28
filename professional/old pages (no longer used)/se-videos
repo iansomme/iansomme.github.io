@@ -1,0 +1,67 @@
+---
+title: "SE Videos"
+date: 2020-05-15T07:58:09+01:00
+draft: false
+tags: []
+---
+Many students find videos helpful in developing their understanding so I have made a number of videos on a range of software engineering topics.  Many of these were made to support a course I was teaching in Critical Systems Engineering, so there is a focus on system security and dependability. Some of the videos cover material (such as SCADA control systems) that is not covered in the book. I have included these as some readers may be interested in following up topics in more detail.
+
+There are thousands of videos on software engineering topics on YouTube but most of these are either poor quality (out of focus, unreadable text, etc.), unwatchably boring (no diagrams, no visual variation, etc.)  or are commercial, selling some particular product or method. Topic coverage is very patchy – for example, there are many excellent videos on agile methods but very few on software evolution. I have reviewed (some of) the YouTube videos that are available and I have included links to those videos that are (a) of reasonable quality and (b) provide useful information that supports material in the book.  If you find other potentially useful videos, please let me know.
+
+I have arranged the videos around a set of topic headings rather than per chapter as some videos are relevant to more than one chapter. The list of videos is currently incomplete. A complete list will be available after the book has been published.
+
+<div class="table-responsive">
+    <table style="width:100%; " class="easy-table easy-table-default " border="0">
+        <thead>
+            <tr>
+                <th>Video pages</th>
+                <th></th>
+                <th></th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <a title="Software engineering" href="https://iansommerville.com/software-engineering-book/static/videos/software-engineering/">Software Engineering</a>
+                </td>
+                <td>
+                    <a title="Agile methods" href="https://iansommerville.com/software-engineering-book/static/videos/agile-methods/">Agile Methods</a>
+                </td>
+                <td>
+                    <a title="Requirements and design" href="https://iansommerville.com/software-engineering-book/static/videos/requirements-and-design/">Requirements and Design</a>
+                </td>
+                <td>
+                    <a title="Implementation and evolution" href="https://iansommerville.com/software-engineering-book/static/videos/implementation-and-evolution/">Implementation and Evolution</a>
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>
+                    <a title="Critical systems" href="https://iansommerville.com/software-engineering-book/static/videos/critical-systems/">Critical Systems</a>
+                </td>
+                <td>
+                    <a title="Reliability and safety" href="https://iansommerville.com/software-engineering-book/static/videos/reliability-and-safety/">Reliability and Safety</a>
+                </td>
+                <td>
+                    <a title="Security and resilience" href="https://iansommerville.com/software-engineering-book/static/videos/security-and-resilience/">Security and Resilience</a>
+                </td>
+                <td>
+                    <a title="Software reuse" href="https://iansommerville.com/software-engineering-book/static/videos/software-reuse/">Software Reuse</a>
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>
+                    <a title="Systems engineering" href="https://iansommerville.com/software-engineering-book/static/videos/systems-engineering/">Systems Engineering</a>
+                </td>
+                <td>
+                    <a title="Software management" href="https://iansommerville.com/software-engineering-book/static/videos/software-management/">Software Management</a>
+                </td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+</div>

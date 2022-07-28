@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>The TGO Challenge on Images and Opinions</title>
+    <link>https://iansomme.github.io/tgoc/</link>
+    <description>Recent content in The TGO Challenge on Images and Opinions</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <lastBuildDate>Fri, 10 Apr 2020 17:14:30 +0100</lastBuildDate>
+    
+	<atom:link href="https://iansomme.github.io/tgoc/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A Guide to Scottish Delicacies for TGO Challengers</title>
+      <link>https://iansomme.github.io/tgoc/scottish-delicacies/</link>
+      <pubDate>Sat, 11 Apr 2020 15:47:14 +0100</pubDate>
+      
+      <guid>https://iansomme.github.io/tgoc/scottish-delicacies/</guid>
+      <description>In 2014, I wrote a short guide to some of the Scottish food that Challengers from outwith Scotland may come across. I&amp;rsquo;ve now revised this and turned it into a more general guide in the food section.
+Scottish food has a bad reputation but, in the last 15 years or so, it has improved immeasurably, especially in Highland hotels and restaurants. If you eat in a reasonable restaurant, there&amp;rsquo;s every chance you will get a good meal.</description>
+    </item>
+    
+    <item>
+      <title>Places to finish the Challenge</title>
+      <link>https://iansomme.github.io/tgoc/finishing-the-challenge/</link>
+      <pubDate>Sat, 11 Apr 2020 15:47:14 +0100</pubDate>
+      
+      <guid>https://iansomme.github.io/tgoc/finishing-the-challenge/</guid>
+      <description>The TGO Challenge is a cross-Scotland walk, starting on the west coast between Ardrishaig and Torridon and ending on the East, between Arbroath and Fraserburgh.
+Roger Smith has written an excellent “Essential Guide to Finishing Points” for the TGO Challenge but to slightly misquote Alice in Wonderland: “what is use is a book that has no pictures”. As I’ve visited lots of the places on his list as I’ve wandered up and down the east coast, I thought I’d write a pictorial guide.</description>
+    </item>
+    
+  </channel>
+</rss>

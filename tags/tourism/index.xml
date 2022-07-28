@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tourism on Images and Opinions</title>
+    <link>https://iansomme.github.io/tags/tourism/</link>
+    <description>Recent content in tourism on Images and Opinions</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <lastBuildDate>Wed, 13 Nov 2019 15:28:46 +0100</lastBuildDate>
+    
+	<atom:link href="https://iansomme.github.io/tags/tourism/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Highland Spaceports - A Development Dilemma</title>
+      <link>https://iansomme.github.io/opinions/highland_spaceports/</link>
+      <pubDate>Wed, 13 Nov 2019 15:28:46 +0100</pubDate>
+      
+      <guid>https://iansomme.github.io/opinions/highland_spaceports/</guid>
+      <description>My thoughts on the development of spaceports in environmentally sensitive areas in the Scottish Highlands.
+Over the past year or so, the potential of the Scottish Highlands as a suitable area for launching small rockets has been recognised with proposals for development in Sutherland, Shetland and, most recently, North Uist. My twitter feed has been full of retweets recently from outdoor folks asking me to write to the Western Isles Council opposing the North Uist development.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Building this web site on Images and Opinions</title>
+    <link>https://iansomme.github.io/technology/website/</link>
+    <description>Recent content in Building this web site on Images and Opinions</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <lastBuildDate>Wed, 30 Mar 2022 20:46:57 +0100</lastBuildDate>
+    
+	<atom:link href="https://iansomme.github.io/technology/website/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Goodbye Wordpress, Hello Hugo</title>
+      <link>https://iansomme.github.io/technology/website/startingwithhugo/</link>
+      <pubDate>Mon, 13 Apr 2020 15:18:42 +0100</pubDate>
+      
+      <guid>https://iansomme.github.io/technology/website/startingwithhugo/</guid>
+      <description>I&amp;rsquo;ve become increasingly fed up with Wordpress - particularly the fact that there seem to be millions of malicious hackers and spammers trying to get into your site. I&amp;rsquo;ve been short of time to do anything about this but the coronavirus locked means that I&amp;rsquo;ve finally got round to doing something about this. I&amp;rsquo;m currently rebuilding the content of my site (which will take a while) but, apart from tweaks, I&amp;rsquo;m happy with the new design.</description>
+    </item>
+    
+    <item>
+      <title>First Thoughts on Hugo</title>
+      <link>https://iansomme.github.io/technology/website/first-thoughts-on-hugo/</link>
+      <pubDate>Wed, 15 Apr 2020 16:02:38 +0100</pubDate>
+      
+      <guid>https://iansomme.github.io/technology/website/first-thoughts-on-hugo/</guid>
+      <description>Changing technology platforms, for whatever purpose, is always a disruptive experience. You get used to the features and the inbuilt assumptions made by a platform, such as Wordpress, and develop an internal model of how to use the platform to do what you want. When you change platform, your tendency is to try and adapt what you kow to that platform. However, this rarely works as each platform is built around a different set of assumptions and a different model of work.</description>
+    </item>
+    
+    <item>
+      <title>Getting started with Adobe Portfolio</title>
+      <link>https://iansomme.github.io/technology/website/portfolio/</link>
+      <pubDate>Thu, 17 Mar 2022 17:35:58 +0000</pubDate>
+      
+      <guid>https://iansomme.github.io/technology/website/portfolio/</guid>
+      <description>Adobe Portfolio is a web builder that is part of the Adobe Creative Cloud ecosystem. It is specifically designed to showcase images with the target market being photographers and designers who use the Creative Cloud suite. It isn’t available without a Creative Cloud subscription.
+The USP of Adobe Portfolio is that it is integrated with Lightroom, a photo management and editing system that is also part of the Creative Cloud ecosystem.</description>
+    </item>
+    
+    <item>
+      <title>Why Two Sites?</title>
+      <link>https://iansomme.github.io/technology/website/why-tow-sites/</link>
+      <pubDate>Thu, 31 Mar 2022 10:36:18 +0100</pubDate>
+      
+      <guid>https://iansomme.github.io/technology/website/why-tow-sites/</guid>
+      <description>I decided to switch to Hugo for my web sites a couple of years ago after almost 10 years of using a Wordpress site. I got fed up with the maintenance overhead of Wordpress, its security problems (my site was hacked a couple of times), its slowness and its appalling image management system.
+The key advantage of using a static site generator is that everything is on your own computer and you don&amp;rsquo;t depend on an external provider who hosts the system.</description>
+    </item>
+    
+  </channel>
+</rss>

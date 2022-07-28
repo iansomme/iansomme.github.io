@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>opinions on Images and Opinions</title>
+    <link>https://iansomme.github.io/tags/opinions/</link>
+    <description>Recent content in opinions on Images and Opinions</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <lastBuildDate>Mon, 04 May 2020 15:24:59 +0100</lastBuildDate>
+    
+	<atom:link href="https://iansomme.github.io/tags/opinions/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The UK has had its day</title>
+      <link>https://iansomme.github.io/opinions/uk-had-its-day/</link>
+      <pubDate>Mon, 04 May 2020 15:24:59 +0100</pubDate>
+      
+      <guid>https://iansomme.github.io/opinions/uk-had-its-day/</guid>
+      <description>Why I believe that leaving the EU has the inevitable consequence of the break up of the UK?
+I originally wrote this post shortly after the Brexit referendum in 2016. I set why I have changed my views on Scottish independence and why I believe that Scotland should be an independent nation that us part of the EU.
+Since then, we have had years of uncertainty, the election of a right-wing, pro-Brexit government and, most significantly a global pandemic that has had immense human, social and economic consequences.</description>
+    </item>
+    
+    <item>
+      <title>Drawing With Light</title>
+      <link>https://iansomme.github.io/myimages/drawing-with-light/</link>
+      <pubDate>Mon, 04 May 2020 15:05:22 +0100</pubDate>
+      
+      <guid>https://iansomme.github.io/myimages/drawing-with-light/</guid>
+      <description>The word ‘photography’ derives from two Greek roots, which roughly translated mean ‘light’ and ‘to draw’ so photography means ‘drawing with light’. It isn’t ‘copying with light’ because when photography was introduced it did not reproduce what was in front of the camera exactly as seen. Individuals draw the same scene differently, emphasising what is important to them, and until not so long ago, the same was true of photographers - they interpreted and presented what was in front of the camera in quite different ways.</description>
+    </item>
+    
+  </channel>
+</rss>

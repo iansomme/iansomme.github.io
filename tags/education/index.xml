@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>education on Images and Opinions</title>
+    <link>https://iansomme.github.io/tags/education/</link>
+    <description>Recent content in education on Images and Opinions</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <lastBuildDate>Thu, 23 Apr 2020 06:34:41 +0100</lastBuildDate>
+    
+	<atom:link href="https://iansomme.github.io/tags/education/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Out with the UML!</title>
+      <link>https://iansomme.github.io/technology/teaching/out-with-uml/</link>
+      <pubDate>Thu, 23 Apr 2020 06:34:41 +0100</pubDate>
+      
+      <guid>https://iansomme.github.io/technology/teaching/out-with-uml/</guid>
+      <description>In the 1980s and 1990s, universities started to introduce software engineering courses into their computer science degree programs. At that time, software engineering was dominated by the problems of creating large custom software systems. These were developed by managed teams working on long-lifetime software projects.
+This project-based approach was reflected in software engineering courses and in textbooks developed to support these courses. My own book adopted this approach as did texts by Pressman, Van Vliet and others.</description>
+    </item>
+    
+  </channel>
+</rss>

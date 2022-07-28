@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>books on Images and Opinions</title>
+    <link>https://iansomme.github.io/tags/books/</link>
+    <description>Recent content in books on Images and Opinions</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <lastBuildDate>Thu, 23 Apr 2020 16:05:13 +0100</lastBuildDate>
+    
+	<atom:link href="https://iansomme.github.io/tags/books/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Books</title>
+      <link>https://iansomme.github.io/professional/books/</link>
+      <pubDate>Thu, 23 Apr 2020 16:05:13 +0100</pubDate>
+      
+      <guid>https://iansomme.github.io/professional/books/</guid>
+      <description>Like lots of things in life, I got into writing technical books through a fortunate correspondence of events. As a young lecturer at Strathclyde University in Glasgow, I volunteered to present a course on large-scale software (so called) and I wrote a set of notes for this. My then colleague, Andrew McGettrick had recently taken on the role of series editor for a new UK book series to be produced by Addison-Wesley and he suggested that I might like to turn these into a book.</description>
+    </item>
+    
+  </channel>
+</rss>

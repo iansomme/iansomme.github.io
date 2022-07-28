@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>research on Images and Opinions</title>
+    <link>https://iansomme.github.io/tags/research/</link>
+    <description>Recent content in research on Images and Opinions</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <lastBuildDate>Wed, 06 Apr 2022 09:56:26 +0100</lastBuildDate>
+    
+	<atom:link href="https://iansomme.github.io/tags/research/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The Underwhelming Impact of Software Engineering Research (April 2022)</title>
+      <link>https://iansomme.github.io/technology/research-impact/</link>
+      <pubDate>Wed, 06 Apr 2022 09:56:26 +0100</pubDate>
+      
+      <guid>https://iansomme.github.io/technology/research-impact/</guid>
+      <description>This article was prompted by responses to a tweet I wrote in response to an analysis of the research area of papers submitted to the 2022 ICSE conference, the flagship conference for software engineering research. These led me to reflect on software engineering research in general. I’m sorry to say that I think that we, as a community, have not really delivered very much that’s substantive in over 40 years of research.</description>
+    </item>
+    
+  </channel>
+</rss>

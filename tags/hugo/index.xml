@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hugo on Images and Opinions</title>
+    <link>https://iansomme.github.io/tags/hugo/</link>
+    <description>Recent content in hugo on Images and Opinions</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <lastBuildDate>Wed, 15 Apr 2020 16:02:38 +0100</lastBuildDate>
+    
+	<atom:link href="https://iansomme.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Goodbye Wordpress, Hello Hugo</title>
+      <link>https://iansomme.github.io/technology/website/startingwithhugo/</link>
+      <pubDate>Mon, 13 Apr 2020 15:18:42 +0100</pubDate>
+      
+      <guid>https://iansomme.github.io/technology/website/startingwithhugo/</guid>
+      <description>I&amp;rsquo;ve become increasingly fed up with Wordpress - particularly the fact that there seem to be millions of malicious hackers and spammers trying to get into your site. I&amp;rsquo;ve been short of time to do anything about this but the coronavirus locked means that I&amp;rsquo;ve finally got round to doing something about this. I&amp;rsquo;m currently rebuilding the content of my site (which will take a while) but, apart from tweaks, I&amp;rsquo;m happy with the new design.</description>
+    </item>
+    
+    <item>
+      <title>First Thoughts on Hugo</title>
+      <link>https://iansomme.github.io/technology/website/first-thoughts-on-hugo/</link>
+      <pubDate>Wed, 15 Apr 2020 16:02:38 +0100</pubDate>
+      
+      <guid>https://iansomme.github.io/technology/website/first-thoughts-on-hugo/</guid>
+      <description>Changing technology platforms, for whatever purpose, is always a disruptive experience. You get used to the features and the inbuilt assumptions made by a platform, such as Wordpress, and develop an internal model of how to use the platform to do what you want. When you change platform, your tendency is to try and adapt what you kow to that platform. However, this rarely works as each platform is built around a different set of assumptions and a different model of work.</description>
+    </item>
+    
+  </channel>
+</rss>
