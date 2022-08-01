@@ -123,11 +123,6 @@
   </url>
   
   <url>
-    <loc>https://iansomme.github.io/software-engineering-book/</loc>
-    <lastmod>2020-05-25T09:34:28+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://iansomme.github.io/software-engineering-book/tags/se10/</loc>
     <lastmod>2020-05-25T09:34:28+01:00</lastmod>
   </url>
@@ -160,6 +155,11 @@
   <url>
     <loc>https://iansomme.github.io/software-engineering-book/errata/</loc>
     <lastmod>2020-05-22T15:07:27+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iansomme.github.io/software-engineering-book/</loc>
+    <lastmod>2020-05-21T23:16:26+01:00</lastmod>
   </url>
   
   <url>
