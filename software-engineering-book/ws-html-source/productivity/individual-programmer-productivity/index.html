@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en-GB"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Individual programmer productivity – Software Engineering 10th edition</title><link rel="dns-prefetch" href="//s0.wp.com"><link rel="dns-prefetch" href="//secure.gravatar.com"><link rel="dns-prefetch" href="//fonts.googleapis.com"><link rel="dns-prefetch" href="//s.w.org"><link rel="stylesheet" id="wp-block-library-css" href="https://c0.wp.com/c/5.2.4/wp-includes/css/dist/block-library/style.min.css" type="text/css" media="all"><link rel="stylesheet" id="chld_thm_cfg_parent-css" href="https://iansommerville.com/software-engineering-book/static/wp-content/themes/freedom/style.css" type="text/css" media="all"><link rel="stylesheet" id="freedom_style-css" href="https://iansommerville.com/software-engineering-book/static/wp-content/themes/freedom-child1/style.css" type="text/css" media="all"><link rel="stylesheet" id="freedom_googlefonts-css" href="http://fonts.googleapis.com/css?family=Fira+Sans%7CVollkorn&ver=5.2.4" type="text/css" media="all"><link rel="stylesheet" id="freedom-fontawesome-css" href="https://iansommerville.com/software-engineering-book/static/wp-content/themes/freedom/fontawesome/css/font-awesome.css" type="text/css" media="all"><link rel="stylesheet" id="easy_table_style-css" href="https://iansommerville.com/software-engineering-book/static/wp-content/plugins/easy-table/themes/default/style.css" type="text/css" media="all"><link rel="stylesheet" id="chld_thm_cfg_separate-css" href="https://iansommerville.com/software-engineering-book/static/wp-content/themes/freedom-child1/ctc-style.css" type="text/css" media="all"><link rel="stylesheet" id="jetpack_css-css" href="https://c0.wp.com/p/jetpack/7.8/css/jetpack.css" type="text/css" media="all"><script type="text/javascript" src="https://c0.wp.com/c/5.2.4/wp-includes/js/jquery/jquery.js"></script><script type="text/javascript" src="https://c0.wp.com/c/5.2.4/wp-includes/js/jquery/jquery-migrate.min.js"></script><script type="text/javascript" src="https://iansommerville.com/software-engineering-book/static/wp-content/themes/freedom/js/freedom-custom.js"></script><link rel="dns-prefetch" href="//v0.wordpress.com"><link rel="dns-prefetch" href="//c0.wp.com"><style type="text/css">img#wpstats{display:none}</style><style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style><style type="text/css">
+				/* If html does not have either class, do not show lazy loaded images. */
+				html:not( .jetpack-lazy-images-js-enabled ):not( .js ) .jetpack-lazy-image {
+					display: none;
+				}
+			</style><script>
+				document.documentElement.classList.add(
+					'jetpack-lazy-images-js-enabled'
+				);
+			</script><meta property="og:type" content="article"><meta property="og:title" content="Individual programmer productivity"><meta property="og:url" content="https://iansommerville.com/software-engineering-book/static/web/productivity/individual-programmer-productivity/"><meta property="og:description" content="The programming productivity of individuals working in an organisation is affected by a number of factors. Some of the most important of these are summarised in Figure 1. However, individual differ…"><meta property="article:published_time" content="2014-12-04T09:33:07+00:00"><meta property="article:modified_time" content="2019-02-07T09:12:47+00:00"><meta property="og:site_name" content="Software Engineering 10th edition"><meta property="og:image" content="https://s0.wp.com/i/blank.jpg"><meta property="og:locale" content="en_GB"><meta name="twitter:text:title" content="Individual programmer productivity"><meta name="twitter:card" content="summary"><style type="text/css" id="wp-custom-css">
+				img.myimg {
+	display: block;
+  margin-left: auto;
+  margin-right: auto; 
+	margin-top: 35px;
+	padding: 5px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+}
+img.horiz {
+	width: 680px;
+}
+
+img.vert {
+	height: 680px;
+}
+
+figcaption.mycap {
+  margin-left: 150px;
+  margin-right: 150px; 
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif; 
+	font-size: 19px;
+	color: #808080;   /* Mid grey */
+	font-weight: normal;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #000000;  /* black */
+}
+
+figcaption.noborder {
+	margin-bottom: 0px;
+	border-bottom: 0px solid #000000;  /* black */
+}
+
+figcaption.nospace{
+	margin-top: 0px
+}
+
+figcaption.para {
+	text-align:justify;
+}			</style></head><body class="page-template-default page page-id-803 page-child parent-pageid-395 no-sidebar-full-width wide">
+<div id="page" class="hfeed site">
+		<header id="masthead" class="site-header clearfix"><div id="header-text-nav-container" class="clearfix">
+			<div class="inner-wrap">
+				<div id="header-text-nav-wrap" class="clearfix">
+					<div id="header-left-section">
+												<div id="header-text" class="">
+															<h3 id="site-title">
+									<a href="https://iansommerville.com/software-engineering-book/static/" title="Software Engineering 10th edition" rel="home">Software Engineering 10th edition</a>
+								</h3>
+															<p id="site-description">Supplementary material for my software engineering textbook</p>
+													</div>
+					</div>
+					<div id="header-right-section">
+													<div id="header-right-sidebar" class="clearfix">
+								<aside id="search-4" class="widget widget_search"><form action="https://iansommerville.com/software-engineering-book/static/" id="search-form" class="searchform clearfix" method="get">
+	<input type="text" placeholder="Search" class="s field" name="s"><input type="submit" value="Search" class="search-submit submit" name="submit"></form></aside></div>
+												</div>
+				</div>
+			</div>
+
+			
+			<nav id="site-navigation" class="main-navigation clearfix" role="navigation"><div class="inner-wrap clearfix">
+					<p class="menu-toggle">Menu</p>
+					<div class="menu-primary-container"><ul id="menu-top-navigation" class="menu"><li id="menu-item-1098" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1098"><a href="https://iansommerville.com/software-engineering-book/static/about/">About the book/me</a></li>
+<li id="menu-item-1070" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1070"><a href="https://iansommerville.com/software-engineering-book/static/case-studies/">Case studies</a>
+<ul class="sub-menu"><li id="menu-item-1096" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1096"><a href="https://iansommerville.com/software-engineering-book/static/case-studies/airbus-340/">The Airbus 340 flight control system</a></li>
+	<li id="menu-item-1095" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1095"><a href="https://iansommerville.com/software-engineering-book/static/case-studies/ariane5/">The Ariane 5 launch accident</a></li>
+	<li id="menu-item-1092" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1092"><a href="https://iansommerville.com/software-engineering-book/static/case-studies/a-personal-insulin-pump/">An embedded control system for a personal insulin pump</a></li>
+	<li id="menu-item-1093" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1093"><a href="https://iansommerville.com/software-engineering-book/static/case-studies/the-ilearn-digital-learning-environment/">The iLearn digital learning environment</a></li>
+	<li id="menu-item-1091" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1091"><a href="https://iansommerville.com/software-engineering-book/static/case-studies/the-mentcare-system/">The Mentcare system</a></li>
+	<li id="menu-item-1094" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1094"><a href="https://iansommerville.com/software-engineering-book/static/case-studies/wilderness-weather-station/">Wilderness weather station</a></li>
+</ul></li>
+<li id="menu-item-1074" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1074"><a href="https://iansommerville.com/software-engineering-book/static/instructors-guide/">Instructors Guide</a></li>
+<li id="menu-item-1071" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1071"><a href="https://iansommerville.com/software-engineering-book/static/slides/">Slides</a></li>
+<li id="menu-item-1072" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1072"><a href="https://iansommerville.com/software-engineering-book/static/videos/">Videos</a>
+<ul class="sub-menu"><li id="menu-item-1088" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1088"><a href="https://iansommerville.com/software-engineering-book/static/videos/software-engineering/">Software engineering</a></li>
+	<li id="menu-item-1087" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1087"><a href="https://iansommerville.com/software-engineering-book/static/videos/agile-methods/">Agile methods</a></li>
+	<li id="menu-item-1086" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1086"><a href="https://iansommerville.com/software-engineering-book/static/videos/requirements-and-design/">Requirements and design</a></li>
+	<li id="menu-item-1082" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1082"><a href="https://iansommerville.com/software-engineering-book/static/videos/implementation-and-evolution/">Implementation and evolution</a></li>
+	<li id="menu-item-1089" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1089"><a href="https://iansommerville.com/software-engineering-book/static/videos/critical-systems/">Critical systems</a></li>
+	<li id="menu-item-1090" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1090"><a href="https://iansommerville.com/software-engineering-book/static/videos/reliability-and-safety/">Reliability and safety</a></li>
+	<li id="menu-item-1081" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1081"><a href="https://iansommerville.com/software-engineering-book/static/videos/security-and-resilience/">Security and resilience</a></li>
+	<li id="menu-item-1085" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1085"><a href="https://iansommerville.com/software-engineering-book/static/videos/software-reuse/">Software reuse</a></li>
+	<li id="menu-item-1084" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1084"><a href="https://iansommerville.com/software-engineering-book/static/videos/systems-engineering/">Systems engineering</a></li>
+	<li id="menu-item-1083" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1083"><a href="https://iansommerville.com/software-engineering-book/static/videos/software-management/">Software management</a></li>
+</ul></li>
+<li id="menu-item-1073" class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor menu-item-has-children menu-item-1073"><a href="https://iansommerville.com/software-engineering-book/static/web/">Downloads</a>
+<ul class="sub-menu"><li id="menu-item-1097" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1097"><a target="_blank" rel="noopener noreferrer" href="https://www.dropbox.com/s/9kd1skyiczis29b/Contents.pdf?dl=0#new_tab">Contents</a></li>
+	<li id="menu-item-1078" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1078"><a href="https://iansommerville.com/software-engineering-book/static/web/sample-chapters/">Sample chapters</a></li>
+	<li id="menu-item-1079" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1079"><a href="https://iansommerville.com/software-engineering-book/static/web/web-chapters/">Web chapters</a></li>
+	<li id="menu-item-1080" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1080"><a href="https://iansommerville.com/software-engineering-book/static/web/web-sections/">Web sections</a></li>
+</ul></li>
+<li id="menu-item-10" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-has-children menu-item-10"><a href="http://PLACEHOLDER.wpsho/">My websites</a>
+<ul class="sub-menu"><li id="menu-item-11" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11"><a href="https://iansommerville.com">Images and Opinions</a></li>
+	<li id="menu-item-13" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13"><a href="https://iansommerville.com/systems-software-and-technology">Systems, software and technology</a></li>
+	<li id="menu-item-1163" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1163"><a href="https://iansommerville.com/engineering-software-products">Engineering Software Products</a></li>
+</ul></li>
+<li id="menu-item-14" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14"><a href="https://iansommerville.com/privacy-policy">Privacy policy</a></li>
+</ul></div>				</div>
+			</nav></div>
+
+		
+	</header><div id="main" class="clearfix">
+		<div class="inner-wrap clearfix">
+
+
+	<div id="primary">
+		<div id="content" class="clearfix">
+			
+				
+<article id="post-803" class="post-803 page type-page status-publish hentry"><header class="entry-header"><h1 class="entry-title">
+				Individual programmer productivity			</h1>
+			</header><div class="entry-content clearfix">
+		<p>The programming productivity of individuals working in an organisation is affected by a number of factors. Some of the most important of these are summarised in Figure 1. However, individual differences in ability are usually more significant than any of these factors. In an early assessment of productivity, Sackman et al.(Sackman, Erikson et al. 1968) found that some programmers were more than 10 times more productive than others. My experience is that this is still true. Large teams are likely to have a mix of abilities and experience so will have ‘average’ productivity. In small teams, however, overall productivity is mostly dependent on individual aptitudes and abilities.</p>
+<p>Software development productivity varies dramatically across application domains and organisations. For large, complex, embedded systems, productivity has been estimated to be as low as 30 LOC/pm. For straightforward, well-understood application systems, written in a language such as Java, it may be as high as 900 LOC/pm. When measured in terms of object points, Boehm et al.(Boehm, Clark et al. 1995) suggest that productivity varies from 4 object points per month to 50 object points per month, depending on the type of application, tool support and developer capability.</p>
+<p style="text-align: center"><strong>Factors affecting individual productivity</strong></p>
+<div class="table-responsive"><table style="width:100%; " class="easy-table easy-table-default " border="0"><thead><tr><th>Factor</th>
+<th>Description</th>
+<th></th>
+</tr></thead><tbody><tr><td>Application domain experience</td>
+<td>Knowledge of the application domain is essential for effective software development. Engineers who already understand a domain are likely to be the most productive.</td>
+<td></td>
+</tr><tr><td>Process quality</td>
+<td>The development process used can have a significant effect on productivity. This is covered in Chapter 24.</td>
+<td></td>
+</tr><tr><td>Project size</td>
+<td>The larger a project the more time required for team communications. Less time is available for development so individual productivity is reduced.</td>
+<td></td>
+</tr><tr><td>Technology support</td>
+<td>Good support technology such as CASE tools and configuration management systems can improve productivity.</td>
+<td></td>
+</tr><tr><td>Working environment</td>
+<td>As I discussed in Chapter 22 a quiet working environment with private work areas contributes to improved productivity.</td>
+<td></td>
+</tr></tbody></table></div>
+<p>The problem with measures that rely on the amount produced in a given time period is that they take no account of quality characteristics such as reliability and maintainability. They imply that more always means better. Beck (Beck 2000), in his discussion of extreme programming, makes an excellent point about estimation. If your approach is based on continuous code simplification and improvement, then counting lines of code doesn’t mean much. These measures also do not take into account the possibility of reusing the software produced, using code generators and other tools that help create the software. What we really want to estimate is the cost of deriving a particular system with given functionality, quality, performance, maintainability and so on. This is only indirectly related to tangible measures such as the system size.</p>
+<h3>References</h3>
+<p>Beck, K. (2000). extreme Programming explained. Reading, Mass., Addison Wesley Longman.</p>
+<p>Boehm, B., B. Clark, et al. (1995). “Cost models for future life cycle processes: COCOMO 2.” Annals of Software Engineering, 1: 57-94.</p>
+<p>Sackman, H., W. J. Erikson, et al. (1968). “Exploratory experimentation studies comparing on-line and off line programming performance.”, Comm. ACM. 11(1): 3-11.</p>
+			</div>
+
+	</article></div>
+	</div>
+
+
+
+
+		</div>
+	</div>
+			<footer id="colophon" class="clearfix"><div class="footer-socket-wrapper clearfix">
+				<div class="inner-wrap">
+					<div class="footer-socket-area">
+						<div class="copyright">Copyright © 2019&nbsp<a href="https://iansommerville.com/software-engineering-book/static/" title="Software Engineering 10th edition"><span>Software Engineering 10th edition</span></a>. Powered by <a href="http://wordpress.org" target="_blank" title="WordPress"><span>WordPress</span></a> and <a href="https://themegrill.com/themes/freedom" target="_blank" title="ThemeGrill"><span>ThemeGrill</span></a>.</div>					</div>
+				</div>
+			</div>
+		</footer><a href="#masthead" id="scroll-up"><i class="fa fa-chevron-up"></i></a>
+	</div>
+		<div style="display:none">
+	</div>
+<script type="text/javascript" src="https://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201942"></script><script type="text/javascript" src="https://secure.gravatar.com/js/gprofiles.js?ver=2019Octaa"></script><script type="text/javascript">
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script><script type="text/javascript" src="https://c0.wp.com/p/jetpack/7.8/modules/wpgroho.js"></script><script type="text/javascript" src="https://iansommerville.com/software-engineering-book/static/wp-content/themes/freedom/js/navigation.js"></script><script type="text/javascript" src="https://iansommerville.com/software-engineering-book/static/wp-content/plugins/page-links-to/js/new-tab.min.js"></script><script type="text/javascript" src="https://c0.wp.com/p/jetpack/7.8/_inc/build/lazy-images/js/lazy-images.min.js"></script><script type="text/javascript" src="https://stats.wp.com/e-201942.js" async="async" defer></script><script type="text/javascript">
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:7.8',blog:'117059245',post:'803',tz:'1',srv:'iansommerville.com'} ]);
+	_stq.push([ 'clickTrackerInit', '117059245', '803' ]);
+</script></body></html>

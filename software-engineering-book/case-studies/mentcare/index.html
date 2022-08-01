@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  
+
+
+
+
+
+
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Mentcare: A mental health support system - Software Engineering</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="icon" href="/software-engineering-book/favicon-32x32.png">
+
+  
+  
+  
+  <link rel="stylesheet" href="/software-engineering-book/css/style.min.ec179f436bb5c6c0b6a40135ec801c3fd7329e0c4ddd2a2460302f48544e2d54.css">
+  
+
+  
+
+
+
+</head>
+
+<body class='page page-default-single'>
+  
+
+
+
+
+
+
+  <div id="main-menu-mobile" class="main-menu-mobile">
+  <ul>
+    
+    
+    <li class="menu-item-home">
+      <a href="/software-engineering-book/">
+        <span>Home</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-introduction">
+      <a href="/software-engineering-book/intro/">
+        <span>Introduction</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-case studies">
+      <a href="/software-engineering-book/case-studies/">
+        <span>Case Studies</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-instructor&#39;s guide">
+      <a href="/software-engineering-book/instructors/">
+        <span>Instructor&#39;s Guide</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-presentations">
+      <a href="/software-engineering-book/slides/">
+        <span>Presentations</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-videos">
+      <a href="/software-engineering-book/videos/">
+        <span>Videos</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-supplements">
+      <a href="/software-engineering-book/downloads/">
+        <span>Supplements</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-my sites">
+      <a href="/software-engineering-book/mysites/">
+        <span>My sites</span>
+      </a>
+    </li>
+    
+  </ul>
+</div>
+
+  <div class="wrapper">
+    <div class='header'>
+  <div class="container">
+    <div class="logo">
+      <a href="https://iansomme.github.io/software-engineering-book"><img alt="Serif - A Hugo Business Theme" src="/software-engineering-book/images/logo.svg" /></a>
+    </div>
+    <div class="logo-mobile">
+      <a href="https://iansomme.github.io/software-engineering-book"><img alt="Serif - A Hugo Business Theme" src="/software-engineering-book/images/logo-mobile.svg" /></a>
+    </div>
+    <div id="main-menu" class="main-menu">
+  <ul>
+    
+    
+    <li class="menu-item-home">
+      <a href="/software-engineering-book/">
+        
+        <span>Home</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-introduction">
+      <a href="/software-engineering-book/intro/">
+        
+        <span>Introduction</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-case studies">
+      <a href="/software-engineering-book/case-studies/">
+        
+        <span>Case Studies</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-instructor&#39;s guide">
+      <a href="/software-engineering-book/instructors/">
+        
+        <span>Instructor&#39;s Guide</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-presentations">
+      <a href="/software-engineering-book/slides/">
+        
+        <span>Presentations</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-videos">
+      <a href="/software-engineering-book/videos/">
+        
+        <span>Videos</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-supplements">
+      <a href="/software-engineering-book/downloads/">
+        
+        <span>Supplements</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-my sites">
+      <a href="/software-engineering-book/mysites/">
+        
+        <span>My sites</span>
+      </a>
+    </li>
+    
+  </ul>
+</div>
+    <button id="toggle-main-menu-mobile" class="hamburger hamburger--slider" type="button" aria-label="Mobile Menu">
+  <span class="hamburger-box">
+    <span class="hamburger-inner"></span>
+  </span>
+</button>
+  </div>
+</div>
+
+    
+<div class="container pb-6 pt-6 pt-md-10 pb-md-10">
+  <div class="row justify-content-start">
+    <div class="col-12 col-md-8">
+      <div class="service service-single">
+        <h1 class="title">Mentcare: A mental health support system</h1>
+        <div class="content"><p>This case study focuses on the requirements for a system that I have called the Mentcare system, which is a real system (although that is not its real name) which was used  in a number of UK hospitals, including hospitals in Scotland. The system is designed for use in clinics attended by patients suffering from mental health problems and records details of their consultations and conditions. It is separate from a more general patient records system as more detailed information has to be maintained and the system has to be set up to generate letters and reports of different types and to help ensure that the laws pertaining to mental health are maintained by staff treating patients.</p>
+<p>This is a secondary safety-critical system as system failure can lead to decisions that compromise the safety of the patient or the medical staff caring for the patient. There are also significant security and privacy considerations that have to be taken into account in the Mentcare system.</p>
+<h3 id="use-of-this-case-study-in-teaching">Use of this case study in teaching</h3>
+<p>I use this case study to discuss general issues of around the requirements for information systems where the system dependability is important and security is a significant concern. It is particularly useful for highlighting requirements conflicts as there is a clear conflict between requirements for patient privacy and safety requirements for maintaining the safety of the patient and their carers.</p>
+<p>The case study is also useful in any course on requirements engineering as a complete requirements document for the system is available. This illustrates how requirements documents may be organized and can be used as a basis for discussing the issues and problems in developing requirements documents.</p>
+<h3 id="supplementary-documents">Supplementary documents</h3>
+<p>This document is a ‘complete’ requirements document for the system that reflects what might be produced by a system procurer when issuing a request for a new system. As such, I have deliberately not corrected all of the omissions and inconsistencies in the document and I do not intend to do so.  I have used this document in a requirements engineering course where I have set students the task of discovering conflicts in the document and proposing new requirements that resolve (wherever possible) these conflicts.</p>
+<p><a href="https://www.dropbox.com/s/61a7hg7tbw4p0nx/Mentcare%20requirements%20document.pdf?dl=0">Mentcare requirements document</a></p>
+<p>The following paper describes an approach to requirements engineering that was developed to take account of system-wide dependability and security requirements. This uses examples from the system from which the Mentcare requirements were defined. The presentation discusses the use of this approach in deriving requirements for the Mentcare system.</p>
+<p><a href="https://www.dropbox.com/s/ffj12h421nfqzk1/DependabilityReqEngineering.pdf?dl=0">Dependability Reqirements Engineering</a></p>
+<p><a href="https://www.dropbox.com/s/8t84unls2ddvi53/Deriving%20dependability%20requirements.pdf?dl=0">Deriving dependability requirements</a></p>
+<p>The general approach to requirements engineering based on viewpoints and concerns was further developed in the PreView method that is described in the following paper.</p>
+<p><a href="https://www.dropbox.com/s/dc1deptncml6pgy/PreView%20paper.pdf?dl=0">PreView paper</a></p>
+</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  </div>
+
+  
+
+  
+
+  
+  
+
+  
+  <script type="text/javascript" src="/software-engineering-book/js/scripts.min.bf1e1f7ae8e03db5f012356e825843facdff51c0a559cb0d27fe2bbe1db405c2.js"></script>
+  
+
+  
+
+
+
+
+
+
+  
+  <link href="https://fonts.googleapis.com/css?family=DM+Serif+Display&display=swap" rel="stylesheet">
+</body>
+
+</html>

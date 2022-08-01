@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  
+
+
+
+
+
+
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>iLearn: A digital learning environment - Software Engineering</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="icon" href="/software-engineering-book/favicon-32x32.png">
+
+  
+  
+  
+  <link rel="stylesheet" href="/software-engineering-book/css/style.min.ec179f436bb5c6c0b6a40135ec801c3fd7329e0c4ddd2a2460302f48544e2d54.css">
+  
+
+  
+
+
+
+</head>
+
+<body class='page page-default-single'>
+  
+
+
+
+
+
+
+  <div id="main-menu-mobile" class="main-menu-mobile">
+  <ul>
+    
+    
+    <li class="menu-item-home">
+      <a href="/software-engineering-book/">
+        <span>Home</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-introduction">
+      <a href="/software-engineering-book/intro/">
+        <span>Introduction</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-case studies">
+      <a href="/software-engineering-book/case-studies/">
+        <span>Case Studies</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-instructor&#39;s guide">
+      <a href="/software-engineering-book/instructors/">
+        <span>Instructor&#39;s Guide</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-presentations">
+      <a href="/software-engineering-book/slides/">
+        <span>Presentations</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-videos">
+      <a href="/software-engineering-book/videos/">
+        <span>Videos</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-supplements">
+      <a href="/software-engineering-book/downloads/">
+        <span>Supplements</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-my sites">
+      <a href="/software-engineering-book/mysites/">
+        <span>My sites</span>
+      </a>
+    </li>
+    
+  </ul>
+</div>
+
+  <div class="wrapper">
+    <div class='header'>
+  <div class="container">
+    <div class="logo">
+      <a href="https://iansomme.github.io/software-engineering-book"><img alt="Serif - A Hugo Business Theme" src="/software-engineering-book/images/logo.svg" /></a>
+    </div>
+    <div class="logo-mobile">
+      <a href="https://iansomme.github.io/software-engineering-book"><img alt="Serif - A Hugo Business Theme" src="/software-engineering-book/images/logo-mobile.svg" /></a>
+    </div>
+    <div id="main-menu" class="main-menu">
+  <ul>
+    
+    
+    <li class="menu-item-home">
+      <a href="/software-engineering-book/">
+        
+        <span>Home</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-introduction">
+      <a href="/software-engineering-book/intro/">
+        
+        <span>Introduction</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-case studies">
+      <a href="/software-engineering-book/case-studies/">
+        
+        <span>Case Studies</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-instructor&#39;s guide">
+      <a href="/software-engineering-book/instructors/">
+        
+        <span>Instructor&#39;s Guide</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-presentations">
+      <a href="/software-engineering-book/slides/">
+        
+        <span>Presentations</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-videos">
+      <a href="/software-engineering-book/videos/">
+        
+        <span>Videos</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-supplements">
+      <a href="/software-engineering-book/downloads/">
+        
+        <span>Supplements</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-my sites">
+      <a href="/software-engineering-book/mysites/">
+        
+        <span>My sites</span>
+      </a>
+    </li>
+    
+  </ul>
+</div>
+    <button id="toggle-main-menu-mobile" class="hamburger hamburger--slider" type="button" aria-label="Mobile Menu">
+  <span class="hamburger-box">
+    <span class="hamburger-inner"></span>
+  </span>
+</button>
+  </div>
+</div>
+
+    
+<div class="container pb-6 pt-6 pt-md-10 pb-md-10">
+  <div class="row justify-content-start">
+    <div class="col-12 col-md-8">
+      <div class="service service-single">
+        <h1 class="title">iLearn: A digital learning environment</h1>
+        <div class="content"><p>In 2012, I was invited to become part of a group developing a specification and architectural design for a digital learning environment for Scottish schools. This came to be called Glow Plus but, in the book, I have called it the iLearn system.</p>
+<p>The iLearn system is a digital learning environment used to support learning in schools with students from age 4 to 18. It is intended to replace an existing system (Glow) that was specially built for the purpose and which includes its own applications for e-mail, etc.  Glow was a closed system where it was impossible for users to introduce their own applications.  It became less and less used as the facilities in freely available systems were far superior to those offered in the closed system.</p>
+<p>One of the most important requirements for the iLearn system was that it should be an open system that could easily accommodate new features and existing services. We aimed to achieve this by designing the system so that everything was a service and that, with appropriate permissions, users could replace pre-specified services with their own service version. This approach also allowed us to deal with the complexity of integrating with existing network management systems (local areas had different policies on which web sites could be visited by school students, depending on age and content) and school administration systems. By creating a service interface to these systems, different underlying systems could be accommodated.</p>
+<p>There are three types of service in the system:</p>
+<ol>
+<li>Utility services
+that provide basic application-independent functionality and which may be used by other services in the system. Utility services are usually developed or adapted specifically for this system.</li>
+<li>Application services
+that provide specific applications such as email, conferencing, photo sharing etc. and access to specific educational content such as scientific films or historical resources. Application services are external services that are either specifically purchased for the system or are available freely over the Internet.</li>
+<li>Configuration services
+that are used to adapt the environment with a specific set of application services and do define how services are shared between students, teachers and their parents.</li>
+</ol>
+<p>In the course of this work, I tried to use a number of different software engineering methods including viewpoint oriented requirements, use-cases, and UML modeling. These all failed. The only approach which worked was user stories, which people without a technical background could easily relate to. The main reasons why these software engineering methods failed were firstly (and most importantly) users did not care about the system requirements and did not have time to interact with the development team. Secondly, stakeholders simply did not understand the terminology or approaches used – terms such as use-case simply made no sense to them.</p>
+<p>The first issue, that of disengaged users, is one that is increasingly common. There is so much cheap or free software available, that users can develop their own way of working and simply do not see the point of corporate system. In some respects, this is because they do not understand issues such as security but in others, the problem is that the benefits of corporate system are not for the end-user but for the organization. It is perfectly reasonable for end-users not to wish to take time out from their normal job to discuss new systems which offer them no real benefits. Consequently, requirements engineering for systems that have a diverse user base is becoming increasingly difficult.</p>
+<h3 id="use-of-this-case-study-in-teaching">Use of this case study in teaching</h3>
+<p>This case study of a digital learning system can be used in a number of different ways:</p>
+<ol>
+<li>In discussions of the use of user stories as a means of deriving system requirements. User stories were extensively used here by the development team to get an overall picture of how the system might be used.</li>
+<li>In lectures about architecture, where the layered architecture of the system can be discussed. Elements in the architecture are implemented as replaceable services.</li>
+<li>In general discussions of systems of systems. This was designed as a system of systems with the digital learning system interacting with other network management and administrative systems.</li>
+<li>In discussions of sociotechnical systems and complexity. In this system, the technical complexity is relatively low but the governance complexity is very high.</li>
+</ol>
+<h3 id="supporting-documents">Supporting documents</h3>
+<p>We developed and published a set of scenarios for the iLearn system (here called Glow Plus) and invited comments on them. These were published on a Scottish Government site but, unfortunately, they are no longer online. Contact me if you need further examples of the scenarios that we developed.</p>
+<p>This is an article that describes the sociotechnical problems that we encountered when designing the iLearn environment
+<a href="http://arxiv.org/pdf/1411.3948">Designing for the Don’t Cares: A story about a sociotechnical system</a>
+ (external link)</p>
+<p> My original document proposing a service-oriented architecture for the iLearn system.
+<a href="https://www.dropbox.com/s/6axsd1f5os5zpud/Architecture%20proposal%20.pdf?dl=0/">iLearn – an architectural proposal</a></p>
+</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  </div>
+
+  
+
+  
+
+  
+  
+
+  
+  <script type="text/javascript" src="/software-engineering-book/js/scripts.min.bf1e1f7ae8e03db5f012356e825843facdff51c0a559cb0d27fe2bbe1db405c2.js"></script>
+  
+
+  
+
+
+
+
+
+
+  
+  <link href="https://fonts.googleapis.com/css?family=DM+Serif+Display&display=swap" rel="stylesheet">
+</body>
+
+</html>

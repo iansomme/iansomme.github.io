@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Case Studies on Software Engineering</title>
+    <link>https://iansomme.github.io/software-engineering-book/case-studies/</link>
+    <description>Recent content in Case Studies on Software Engineering</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <lastBuildDate>Fri, 22 May 2020 12:35:16 +0100</lastBuildDate>
+    
+	<atom:link href="https://iansomme.github.io/software-engineering-book/case-studies/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>iLearn: A digital learning environment</title>
+      <link>https://iansomme.github.io/software-engineering-book/case-studies/ilearn/</link>
+      <pubDate>Fri, 22 May 2020 15:37:19 +0100</pubDate>
+      
+      <guid>https://iansomme.github.io/software-engineering-book/case-studies/ilearn/</guid>
+      <description>In 2012, I was invited to become part of a group developing a specification and architectural design for a digital learning environment for Scottish schools. This came to be called Glow Plus but, in the book, I have called it the iLearn system.
+The iLearn system is a digital learning environment used to support learning in schools with students from age 4 to 18. It is intended to replace an existing system (Glow) that was specially built for the purpose and which includes its own applications for e-mail, etc.</description>
+    </item>
+    
+    <item>
+      <title>Mentcare: A mental health support system</title>
+      <link>https://iansomme.github.io/software-engineering-book/case-studies/mentcare/</link>
+      <pubDate>Fri, 22 May 2020 15:38:01 +0100</pubDate>
+      
+      <guid>https://iansomme.github.io/software-engineering-book/case-studies/mentcare/</guid>
+      <description>This case study focuses on the requirements for a system that I have called the Mentcare system, which is a real system (although that is not its real name) which was used in a number of UK hospitals, including hospitals in Scotland. The system is designed for use in clinics attended by patients suffering from mental health problems and records details of their consultations and conditions. It is separate from a more general patient records system as more detailed information has to be maintained and the system has to be set up to generate letters and reports of different types and to help ensure that the laws pertaining to mental health are maintained by staff treating patients.</description>
+    </item>
+    
+    <item>
+      <title>A personal insulin pump</title>
+      <link>https://iansomme.github.io/software-engineering-book/case-studies/insulin-pump/</link>
+      <pubDate>Fri, 22 May 2020 15:37:19 +0100</pubDate>
+      
+      <guid>https://iansomme.github.io/software-engineering-book/case-studies/insulin-pump/</guid>
+      <description>This case study discusses the control software for a personal insulin pump, which is used by diabetics to mimic the function of the pancreas and hence control the level of glucose (sugar) in their blood. The system hardware is illustrated schematically in the following diagram:
+ &amp;nbsp; The level of blood sugar depends on what the system user has eaten, the speed of their digestive processes and the effectiveness of their body in metabolising blood sugar.</description>
+    </item>
+    
+    <item>
+      <title>A wilderness weather station</title>
+      <link>https://iansomme.github.io/software-engineering-book/case-studies/weather/</link>
+      <pubDate>Fri, 22 May 2020 15:38:01 +0100</pubDate>
+      
+      <guid>https://iansomme.github.io/software-engineering-book/case-studies/weather/</guid>
+      <description>This case study is based on the software for a wilderness weather station that collects weather information in remote areas that do not have local infrastructure (power, communications, roads, etc.). These weather stations are part of a national weather information system that is intended to capture and analyse detailed weather information to help understand both local and national climate change and to support the national weather forecasting service.
+The important characteristic of the weather station is that it has to be entirely self-contained as power and communications are not available.</description>
+    </item>
+    
+    <item>
+      <title>Airbus 340 flight control system</title>
+      <link>https://iansomme.github.io/software-engineering-book/case-studies/airbus340/</link>
+      <pubDate>Fri, 22 May 2020 15:37:19 +0100</pubDate>
+      
+      <guid>https://iansomme.github.io/software-engineering-book/case-studies/airbus340/</guid>
+      <description>This case study describes the architecture of the Airbus 340 flight control system, a safety critical system that implements the fly-by-wire flight system on the Airbus.
+The Airbus A340 is a long-haul aircraft that includes a critical fly-by-wire flight control system that mediates pilot commands and controls flight surface actuators. This is a development of the first fly-by-wire system which was introduced in the Airbus A320 aircraft. It is of particular interest because of the approach used for hardware and software redundancy.</description>
+    </item>
+    
+    <item>
+      <title>Ariane 5 launch accident</title>
+      <link>https://iansomme.github.io/software-engineering-book/case-studies/ariane5/</link>
+      <pubDate>Fri, 22 May 2020 15:38:01 +0100</pubDate>
+      
+      <guid>https://iansomme.github.io/software-engineering-book/case-studies/ariane5/</guid>
+      <description>This case study describes the accident that occurred on the initial launch of the Ariane 5 rocket, a launcher developed by the European Space Agency. The rocket exploded shortly after take-off and the subsequent enquiry showed that this was due to a fault in the software in the inertial navigation system.
+In June 1996, the then new Ariane 5 rocket was launched on its maiden flight. It carried a payload of scientific satellites.</description>
+    </item>
+    
+  </channel>
+</rss>

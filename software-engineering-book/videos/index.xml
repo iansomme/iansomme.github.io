@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Videos on Software Engineering</title>
+    <link>https://iansomme.github.io/software-engineering-book/videos/</link>
+    <description>Recent content in Videos on Software Engineering</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <lastBuildDate>Fri, 22 May 2020 12:36:09 +0100</lastBuildDate>
+    
+	<atom:link href="https://iansomme.github.io/software-engineering-book/videos/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Software engineering</title>
+      <link>https://iansomme.github.io/software-engineering-book/videos/se/</link>
+      <pubDate>Sat, 23 May 2020 14:26:03 +0100</pubDate>
+      
+      <guid>https://iansomme.github.io/software-engineering-book/videos/se/</guid>
+      <description>These videos support the material in Chapters 1 and 2 in the 10th edition of Software Engineering. My videos are starred (*).
+Introducing Software Engineering Ten Questions about Software Engineering (*) In this video, I introduce software engineering by answering ten key questions about the discipline covering its nature and the differences between software engineering and other disciplines. Why Software Engineering Matters (*)
+In this video, I explain the economic and social importance of software engineering and how it is central to all economic and social developments in the 21st century.</description>
+    </item>
+    
+    <item>
+      <title>Agile methods</title>
+      <link>https://iansomme.github.io/software-engineering-book/videos/agile/</link>
+      <pubDate>Sat, 23 May 2020 14:26:18 +0100</pubDate>
+      
+      <guid>https://iansomme.github.io/software-engineering-book/videos/agile/</guid>
+      <description>These videos support the material in Chapter 3 in the 10th edition of Software Engineering. My videos are starred (*).
+Introducing agile development What is agile development (Part 1): What is Agile Development ;
+What is agile development (Part 2): An Agile Project Case Study ;
+These are a nicely presented introduction to agile development intended for beginners in this area. Genesis Consulting: Agile vs Waterfall
+An excellent short video that discusses factors to be considered in deciding if an agile development approach should be adopted.</description>
+    </item>
+    
+    <item>
+      <title>Requirements and design</title>
+      <link>https://iansomme.github.io/software-engineering-book/videos/req/</link>
+      <pubDate>Sat, 23 May 2020 14:26:34 +0100</pubDate>
+      
+      <guid>https://iansomme.github.io/software-engineering-book/videos/req/</guid>
+      <description>These videos support the material in Chapters 4, 5, 6 and 17 in the 10th edition of Software Engineering. My videos are starred (*).
+Requirements engineering An introduction to requirements engineering (*)
+In this introductory video I explain what is meant by requirements and requirements engineering. What is a requirement?
+This is the first of a series of short, clearly explained requirements engineering videos by a leading RE consultant. You can access other videos by following the links on the YouTube page.</description>
+    </item>
+    
+    <item>
+      <title>Implementation and evolution</title>
+      <link>https://iansomme.github.io/software-engineering-book/videos/imp/</link>
+      <pubDate>Sat, 23 May 2020 14:26:41 +0100</pubDate>
+      
+      <guid>https://iansomme.github.io/software-engineering-book/videos/imp/</guid>
+      <description>These videos support the material in Chapters 7, 8 and 9 in the 10th edition of Software Engineering. My videos are starred (*). .
+Object-oriented design and the UML UML 2.0 video tutorial (Derek Banas)
+This is the first of a set of video tutorials that introduce the UML 2.0 notation. You can access the others, that cover the main UML diagram types, from this introduction. Design patterns Design patterns – introduction</description>
+    </item>
+    
+    <item>
+      <title>Critical systems</title>
+      <link>https://iansomme.github.io/software-engineering-book/videos/critical/</link>
+      <pubDate>Sat, 23 May 2020 14:26:47 +0100</pubDate>
+      
+      <guid>https://iansomme.github.io/software-engineering-book/videos/critical/</guid>
+      <description>These videos support the material in Chapter 10 in the 10th edition of Software Engineering. My videos are starred (*).
+An introduction to critical systems An introduction to critical systems
+In this video, I explain what is meant by a critical system and why these are important. Critical systems engineering
+In this video, I explain why we need to use more rigorous software engineering methods and techniques when we are developing critical systems.</description>
+    </item>
+    
+    <item>
+      <title>Reliability and safety</title>
+      <link>https://iansomme.github.io/software-engineering-book/videos/reliability/</link>
+      <pubDate>Sat, 23 May 2020 14:27:05 +0100</pubDate>
+      
+      <guid>https://iansomme.github.io/software-engineering-book/videos/reliability/</guid>
+      <description>These videos support the material in Chapters 11 and 12 in the 10th edition of Software Engineering. My videos are starred (*).
+Software reliability and availability Availability and reliability (*)
+This video explains what availability and reliability means in critical systems. Airbus FCS – software and hardware redundancy (*)
+In this video, I explain how software and hardware redundancy is used to achieve high reliability and availability in the safety-critical flight control system in the Airbus 340.</description>
+    </item>
+    
+    <item>
+      <title>Security and resilience</title>
+      <link>https://iansomme.github.io/software-engineering-book/videos/security/</link>
+      <pubDate>Sat, 23 May 2020 14:27:14 +0100</pubDate>
+      
+      <guid>https://iansomme.github.io/software-engineering-book/videos/security/</guid>
+      <description>These videos support the material in Chapters 13 and 14 in the 10th edition of Software Engineering. My videos are starred (*).
+System security System security (*)
+This video explains what system security is and its relationship with other dependability attributes.  Security is a sociotechnical issue (*)
+This video explains why technical approaches are not enough to deal with the problems of cybersecurity and why it is essential to view cybersecurity as a sociotechnical issue.</description>
+    </item>
+    
+    <item>
+      <title>Software reuse</title>
+      <link>https://iansomme.github.io/software-engineering-book/videos/reuse/</link>
+      <pubDate>Sat, 23 May 2020 14:27:19 +0100</pubDate>
+      
+      <guid>https://iansomme.github.io/software-engineering-book/videos/reuse/</guid>
+      <description>These videos support the material in Chapters 15, 16 and 18 in the 10th edition of Software Engineering. My videos are starred (*).
+Software reuse The reuse landscape (*)
+In this video, I introduce the wide range of ways in which software can be reused. Introduction to Web Application Frameworks
+Introduces a number of web application frameworks although he doesn’t really say a great deal about what these actually are. Software Product Line Engineering</description>
+    </item>
+    
+    <item>
+      <title>Systems engineering</title>
+      <link>https://iansomme.github.io/software-engineering-book/videos/systems/</link>
+      <pubDate>Sat, 23 May 2020 14:27:34 +0100</pubDate>
+      
+      <guid>https://iansomme.github.io/software-engineering-book/videos/systems/</guid>
+      <description>These videos support the material in Chapters 19 to 21 in the 10th edition of Software Engineering. My videos are starred (*).
+Systems engineering Introducing sociotechnical systems (*)
+In this video, I introduce the idea of sociotechnical systems and explains the differences between sociotechnical and technical systems. Emergent properties of sociotechnical systems (*)
+This video discusses the key emergent properties of sociotechnical systems. System success and failure (*)
+In this video, I discuss how the notions of success and failure are not absolute for sociotechnical systems but depend on the judgment of the system user or observer.</description>
+    </item>
+    
+    <item>
+      <title>Software management</title>
+      <link>https://iansomme.github.io/software-engineering-book/videos/management/</link>
+      <pubDate>Sat, 23 May 2020 14:27:41 +0100</pubDate>
+      
+      <guid>https://iansomme.github.io/software-engineering-book/videos/management/</guid>
+      <description>These videos support the material in Chapters 19, 20 and 21 in the 10th edition of Software Engineering. My videos are starred (*).
+Project management Why software project management is different?
+A video that explains why software project management differs from other types of project management. I don’t agree with everything she says but she is right that there are important differences. Risk management fundamentals
+This is quite a nice introduction to risk management although I find the chalkboard presentation style to be a bit irritating.</description>
+    </item>
+    
+  </channel>
+</rss>

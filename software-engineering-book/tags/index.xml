@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Software Engineering</title>
+    <link>https://iansomme.github.io/software-engineering-book/tags/</link>
+    <description>Recent content in Tags on Software Engineering</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <lastBuildDate>Mon, 25 May 2020 09:34:28 +0100</lastBuildDate>
+    
+	<atom:link href="https://iansomme.github.io/software-engineering-book/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>books</title>
+      <link>https://iansomme.github.io/software-engineering-book/tags/books/</link>
+      <pubDate>Mon, 25 May 2020 09:34:28 +0100</pubDate>
+      
+      <guid>https://iansomme.github.io/software-engineering-book/tags/books/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SE10</title>
+      <link>https://iansomme.github.io/software-engineering-book/tags/se10/</link>
+      <pubDate>Mon, 25 May 2020 09:34:28 +0100</pubDate>
+      
+      <guid>https://iansomme.github.io/software-engineering-book/tags/se10/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SE book</title>
+      <link>https://iansomme.github.io/software-engineering-book/tags/se-book/</link>
+      <pubDate>Sat, 23 May 2020 14:27:34 +0100</pubDate>
+      
+      <guid>https://iansomme.github.io/software-engineering-book/tags/se-book/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>videos</title>
+      <link>https://iansomme.github.io/software-engineering-book/tags/videos/</link>
+      <pubDate>Sat, 23 May 2020 14:27:34 +0100</pubDate>
+      
+      <guid>https://iansomme.github.io/software-engineering-book/tags/videos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SEB</title>
+      <link>https://iansomme.github.io/software-engineering-book/tags/seb/</link>
+      <pubDate>Mon, 18 May 2020 13:08:58 +0100</pubDate>
+      
+      <guid>https://iansomme.github.io/software-engineering-book/tags/seb/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

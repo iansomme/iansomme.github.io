@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  
+
+
+
+
+
+
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>A personal insulin pump - Software Engineering</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="icon" href="/software-engineering-book/favicon-32x32.png">
+
+  
+  
+  
+  <link rel="stylesheet" href="/software-engineering-book/css/style.min.ec179f436bb5c6c0b6a40135ec801c3fd7329e0c4ddd2a2460302f48544e2d54.css">
+  
+
+  
+
+
+
+</head>
+
+<body class='page page-default-single'>
+  
+
+
+
+
+
+
+  <div id="main-menu-mobile" class="main-menu-mobile">
+  <ul>
+    
+    
+    <li class="menu-item-home">
+      <a href="/software-engineering-book/">
+        <span>Home</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-introduction">
+      <a href="/software-engineering-book/intro/">
+        <span>Introduction</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-case studies">
+      <a href="/software-engineering-book/case-studies/">
+        <span>Case Studies</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-instructor&#39;s guide">
+      <a href="/software-engineering-book/instructors/">
+        <span>Instructor&#39;s Guide</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-presentations">
+      <a href="/software-engineering-book/slides/">
+        <span>Presentations</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-videos">
+      <a href="/software-engineering-book/videos/">
+        <span>Videos</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-supplements">
+      <a href="/software-engineering-book/downloads/">
+        <span>Supplements</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-my sites">
+      <a href="/software-engineering-book/mysites/">
+        <span>My sites</span>
+      </a>
+    </li>
+    
+  </ul>
+</div>
+
+  <div class="wrapper">
+    <div class='header'>
+  <div class="container">
+    <div class="logo">
+      <a href="https://iansomme.github.io/software-engineering-book"><img alt="Serif - A Hugo Business Theme" src="/software-engineering-book/images/logo.svg" /></a>
+    </div>
+    <div class="logo-mobile">
+      <a href="https://iansomme.github.io/software-engineering-book"><img alt="Serif - A Hugo Business Theme" src="/software-engineering-book/images/logo-mobile.svg" /></a>
+    </div>
+    <div id="main-menu" class="main-menu">
+  <ul>
+    
+    
+    <li class="menu-item-home">
+      <a href="/software-engineering-book/">
+        
+        <span>Home</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-introduction">
+      <a href="/software-engineering-book/intro/">
+        
+        <span>Introduction</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-case studies">
+      <a href="/software-engineering-book/case-studies/">
+        
+        <span>Case Studies</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-instructor&#39;s guide">
+      <a href="/software-engineering-book/instructors/">
+        
+        <span>Instructor&#39;s Guide</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-presentations">
+      <a href="/software-engineering-book/slides/">
+        
+        <span>Presentations</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-videos">
+      <a href="/software-engineering-book/videos/">
+        
+        <span>Videos</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-supplements">
+      <a href="/software-engineering-book/downloads/">
+        
+        <span>Supplements</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-my sites">
+      <a href="/software-engineering-book/mysites/">
+        
+        <span>My sites</span>
+      </a>
+    </li>
+    
+  </ul>
+</div>
+    <button id="toggle-main-menu-mobile" class="hamburger hamburger--slider" type="button" aria-label="Mobile Menu">
+  <span class="hamburger-box">
+    <span class="hamburger-inner"></span>
+  </span>
+</button>
+  </div>
+</div>
+
+    
+<div class="container pb-6 pt-6 pt-md-10 pb-md-10">
+  <div class="row justify-content-start">
+    <div class="col-12 col-md-8">
+      <div class="service service-single">
+        <h1 class="title">A personal insulin pump</h1>
+        <div class="content"><p>This case study discusses the control software for a personal insulin pump, which is used by diabetics to mimic the function of the pancreas and hence control the level of glucose (sugar) in their blood. The system hardware is illustrated schematically in the following diagram:</p>
+<img class="aligncenter" src="https://www.dropbox.com/s/hmqfonbwe9t87df/1.4%20InsulinPumpHW.jpg?raw=1" alt="Insulin Pump Diagram" width="471" height="300">
+<p> &nbsp; </p>
+<p>The level of blood sugar depends on what the system user has eaten, the speed of their digestive processes and the effectiveness of their body in metabolising blood sugar. Therefore, their is not a simple relationship between a blood sugar measurement and the amount of insulin to be injected. Rather, the control system has to make several measurements and assess the rate of change of blood sugar. Based on the current level and the rate and direction of change, the incremental amount of insulin to be injected is computed and injected using the micro-pump in the system.
+This is a safety-critical system as failure to inject the correct amount of insulin can have serious health consequences.</p>
+<h3 id="use-of-this-case-study-in-teaching">Use of this case study in teaching</h3>
+<p>I use this case study to discuss general issues of safety and safety-critical systems.
+It is used in discussing issues of dependability specification and the use of formal specification techniques in dependable system engineering. Formal specification is especially valuable for this system as the computation to calculate the amount of insulin required is detailed and complex and quite difficult to specify using natural language. The formal specification in the Z notation is here and I discuss the specification of the control algorithm in the web chapter on formal specification. In lectures on dependability assurance, I use examples from the insulin pump system to illustrate safety arguments and safety cases.
+You can use the example more generally in lectures on requirements engineering, system modeling and embedded systems.</p>
+<h3 id="supporting-documents">Supporting documents</h3>
+<p><a href="https://www.dropbox.com/s/tzc8shdjmrqo4cz/InsulinPumpOverview.pdf?dl=0" target="_blank">Overview of a software controlled insulin pump</a></p>
+<p><a href="http://www.slideshare.net/software-engineering-book/insulin-pump-overview" target="_blank">System overview slides </a> (PPTX)</p>
+<p><a href="https://www.dropbox.com/s/grgaaxtdas4oj1i/InsulinPumpRequirements.pdf?dl=0" target="_blank">Insulin Pump Requirements Specification</a> (which references the formal specification so is not a stand-alone document).</p>
+<p><a href="https://www.dropbox.com/s/gmswnees66p0r3x/Insulin%20Pump%20Z%20schemas.pdf?dl=0" target="_blank">Insulin Pump Z schemas</a></p>
+</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  </div>
+
+  
+
+  
+
+  
+  
+
+  
+  <script type="text/javascript" src="/software-engineering-book/js/scripts.min.bf1e1f7ae8e03db5f012356e825843facdff51c0a559cb0d27fe2bbe1db405c2.js"></script>
+  
+
+  
+
+
+
+
+
+
+  
+  <link href="https://fonts.googleapis.com/css?family=DM+Serif+Display&display=swap" rel="stylesheet">
+</body>
+
+</html>

@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  
+
+
+
+
+
+
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Ariane 5 launch accident - Software Engineering</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="icon" href="/software-engineering-book/favicon-32x32.png">
+
+  
+  
+  
+  <link rel="stylesheet" href="/software-engineering-book/css/style.min.ec179f436bb5c6c0b6a40135ec801c3fd7329e0c4ddd2a2460302f48544e2d54.css">
+  
+
+  
+
+
+
+</head>
+
+<body class='page page-default-single'>
+  
+
+
+
+
+
+
+  <div id="main-menu-mobile" class="main-menu-mobile">
+  <ul>
+    
+    
+    <li class="menu-item-home">
+      <a href="/software-engineering-book/">
+        <span>Home</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-introduction">
+      <a href="/software-engineering-book/intro/">
+        <span>Introduction</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-case studies">
+      <a href="/software-engineering-book/case-studies/">
+        <span>Case Studies</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-instructor&#39;s guide">
+      <a href="/software-engineering-book/instructors/">
+        <span>Instructor&#39;s Guide</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-presentations">
+      <a href="/software-engineering-book/slides/">
+        <span>Presentations</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-videos">
+      <a href="/software-engineering-book/videos/">
+        <span>Videos</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-supplements">
+      <a href="/software-engineering-book/downloads/">
+        <span>Supplements</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-my sites">
+      <a href="/software-engineering-book/mysites/">
+        <span>My sites</span>
+      </a>
+    </li>
+    
+  </ul>
+</div>
+
+  <div class="wrapper">
+    <div class='header'>
+  <div class="container">
+    <div class="logo">
+      <a href="https://iansomme.github.io/software-engineering-book"><img alt="Serif - A Hugo Business Theme" src="/software-engineering-book/images/logo.svg" /></a>
+    </div>
+    <div class="logo-mobile">
+      <a href="https://iansomme.github.io/software-engineering-book"><img alt="Serif - A Hugo Business Theme" src="/software-engineering-book/images/logo-mobile.svg" /></a>
+    </div>
+    <div id="main-menu" class="main-menu">
+  <ul>
+    
+    
+    <li class="menu-item-home">
+      <a href="/software-engineering-book/">
+        
+        <span>Home</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-introduction">
+      <a href="/software-engineering-book/intro/">
+        
+        <span>Introduction</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-case studies">
+      <a href="/software-engineering-book/case-studies/">
+        
+        <span>Case Studies</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-instructor&#39;s guide">
+      <a href="/software-engineering-book/instructors/">
+        
+        <span>Instructor&#39;s Guide</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-presentations">
+      <a href="/software-engineering-book/slides/">
+        
+        <span>Presentations</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-videos">
+      <a href="/software-engineering-book/videos/">
+        
+        <span>Videos</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-supplements">
+      <a href="/software-engineering-book/downloads/">
+        
+        <span>Supplements</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-my sites">
+      <a href="/software-engineering-book/mysites/">
+        
+        <span>My sites</span>
+      </a>
+    </li>
+    
+  </ul>
+</div>
+    <button id="toggle-main-menu-mobile" class="hamburger hamburger--slider" type="button" aria-label="Mobile Menu">
+  <span class="hamburger-box">
+    <span class="hamburger-inner"></span>
+  </span>
+</button>
+  </div>
+</div>
+
+    
+<div class="container pb-6 pt-6 pt-md-10 pb-md-10">
+  <div class="row justify-content-start">
+    <div class="col-12 col-md-8">
+      <div class="service service-single">
+        <h1 class="title">Ariane 5 launch accident</h1>
+        <div class="content"><p>This case study describes the accident that occurred on the initial launch of the Ariane 5 rocket, a launcher developed by the European Space Agency. The rocket exploded shortly after take-off and the subsequent enquiry showed that this was due to a fault in the software in the inertial navigation system.</p>
+<p>In June 1996, the then new Ariane 5 rocket was launched on its maiden flight. It carried a payload of scientific satellites. Ariane 5 was commercially very significant for the European Space Agency as it could carry a much heavier payload than the Ariane 4 series of launchers. Thirty seven seconds into the flight, software in the inertial navigation system, whose software was reused from Ariane 4, shut down causing incorrect signals to be sent to the engines. These swivelled in such a way that uncontrollable stresses were placed on the rocket and it started to break up. Ground controllers initiated self-destruct and the rocket and payload was destroyed.</p>
+<p>A subsequent enquiry showed that the cause of the failure was that the software in the inertial reference system shut itself down because of an unhandled numeric exception (integer overflow). There was a backup software system but this was not diverse so it failed in the same way.</p>
+<h3 id="use-of-this-case-study-in-teaching">Use of this case study in teaching</h3>
+<p>This case study illustrates issues with requirements specification, multi-organisational working, critical systems validation and some of the problems of software reuse. The example illustrates that good software engineering practice (reuse, don’t introduce changes unless necessary) can have problems and highlights the need for diversity as well as redundancy. It also shows the organisational complexity of systems development and how organisational issues can lead to systems failure.I have used it in conjunction with lectures on critical systems validation.</p>
+<h3 id="supporting-documents">Supporting documents</h3>
+<p><a href="https://www.youtube.com/watch?v=W3YJeoYgozw" target="_blank">My video explaining the causes of the Ariane 5 launch explosion</a></p>
+<p><a href="https://www.youtube.com/watch?v=gp_D8r-2hwk" target="_blank">A video of the take-off and explosion after 37 seconds</a></p>
+<p><a href="http://www.slideshare.net/software-engineering-book/ariane5failure-pres" target="_blank">The Ariane 5 failure. </a> A Powerpoint overview of the system failure</p>
+<p><a href="https://www.dropbox.com/s/tr02fmo4xzytzhv/Bashar-Ariane5.pdf?dl=0" target="_blank">Ariane 5 – Who Dunnit?</a>. A short article by a distinguished professor of software engineering discussing the complex causes of the failure</p>
+<p><a href="http://sunnyday.mit.edu/accidents/Ariane5accidentreport.html" target="_blank">Ariane 5: Report of the post-accident enquiry</a> (External link)</p>
+<p><a href="http://www.rvs.uni-bielefeld.de/publications/Reports/ariane.html" target="_blank">Ariane 5: A programming problem?</a> (External link). An extended discussion of the Ariane 5 failure</p>
+</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  </div>
+
+  
+
+  
+
+  
+  
+
+  
+  <script type="text/javascript" src="/software-engineering-book/js/scripts.min.bf1e1f7ae8e03db5f012356e825843facdff51c0a559cb0d27fe2bbe1db405c2.js"></script>
+  
+
+  
+
+
+
+
+
+
+  
+  <link href="https://fonts.googleapis.com/css?family=DM+Serif+Display&display=swap" rel="stylesheet">
+</body>
+
+</html>

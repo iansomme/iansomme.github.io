@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  
+
+
+
+
+
+
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Airbus 340 flight control system - Software Engineering</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="icon" href="/software-engineering-book/favicon-32x32.png">
+
+  
+  
+  
+  <link rel="stylesheet" href="/software-engineering-book/css/style.min.ec179f436bb5c6c0b6a40135ec801c3fd7329e0c4ddd2a2460302f48544e2d54.css">
+  
+
+  
+
+
+
+</head>
+
+<body class='page page-default-single'>
+  
+
+
+
+
+
+
+  <div id="main-menu-mobile" class="main-menu-mobile">
+  <ul>
+    
+    
+    <li class="menu-item-home">
+      <a href="/software-engineering-book/">
+        <span>Home</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-introduction">
+      <a href="/software-engineering-book/intro/">
+        <span>Introduction</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-case studies">
+      <a href="/software-engineering-book/case-studies/">
+        <span>Case Studies</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-instructor&#39;s guide">
+      <a href="/software-engineering-book/instructors/">
+        <span>Instructor&#39;s Guide</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-presentations">
+      <a href="/software-engineering-book/slides/">
+        <span>Presentations</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-videos">
+      <a href="/software-engineering-book/videos/">
+        <span>Videos</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-supplements">
+      <a href="/software-engineering-book/downloads/">
+        <span>Supplements</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-my sites">
+      <a href="/software-engineering-book/mysites/">
+        <span>My sites</span>
+      </a>
+    </li>
+    
+  </ul>
+</div>
+
+  <div class="wrapper">
+    <div class='header'>
+  <div class="container">
+    <div class="logo">
+      <a href="https://iansomme.github.io/software-engineering-book"><img alt="Serif - A Hugo Business Theme" src="/software-engineering-book/images/logo.svg" /></a>
+    </div>
+    <div class="logo-mobile">
+      <a href="https://iansomme.github.io/software-engineering-book"><img alt="Serif - A Hugo Business Theme" src="/software-engineering-book/images/logo-mobile.svg" /></a>
+    </div>
+    <div id="main-menu" class="main-menu">
+  <ul>
+    
+    
+    <li class="menu-item-home">
+      <a href="/software-engineering-book/">
+        
+        <span>Home</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-introduction">
+      <a href="/software-engineering-book/intro/">
+        
+        <span>Introduction</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-case studies">
+      <a href="/software-engineering-book/case-studies/">
+        
+        <span>Case Studies</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-instructor&#39;s guide">
+      <a href="/software-engineering-book/instructors/">
+        
+        <span>Instructor&#39;s Guide</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-presentations">
+      <a href="/software-engineering-book/slides/">
+        
+        <span>Presentations</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-videos">
+      <a href="/software-engineering-book/videos/">
+        
+        <span>Videos</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-supplements">
+      <a href="/software-engineering-book/downloads/">
+        
+        <span>Supplements</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-my sites">
+      <a href="/software-engineering-book/mysites/">
+        
+        <span>My sites</span>
+      </a>
+    </li>
+    
+  </ul>
+</div>
+    <button id="toggle-main-menu-mobile" class="hamburger hamburger--slider" type="button" aria-label="Mobile Menu">
+  <span class="hamburger-box">
+    <span class="hamburger-inner"></span>
+  </span>
+</button>
+  </div>
+</div>
+
+    
+<div class="container pb-6 pt-6 pt-md-10 pb-md-10">
+  <div class="row justify-content-start">
+    <div class="col-12 col-md-8">
+      <div class="service service-single">
+        <h1 class="title">Airbus 340 flight control system</h1>
+        <div class="content"><p>This case study describes the architecture of the Airbus 340 flight control system, a safety critical system that implements the fly-by-wire flight system on the Airbus.</p>
+<p>The Airbus A340 is a long-haul aircraft that includes a critical fly-by-wire flight control system that mediates pilot commands and controls flight surface actuators. This is a development of the first fly-by-wire system which was introduced in the Airbus A320 aircraft. It is of particular interest because of the approach used for hardware and software redundancy.</p>
+<p>There is an excellent description of this system in
+<a href="http://www.neilstorey.com/safebook.php">Safety-Critical Computer Systems</a>, (External link). Neil Storey. Addison Wesley, 1996.</p>
+<h3 id="use-of-this-case-study-in-teaching">Use of this case study in teaching</h3>
+<p>I use this case study in conjunction with Chapter 11, which covers reliability engineering. The computers used in the Airbus FCS are organized using the self-monitoring architectural pattern discussed in Chapter 11. It is an excellent illustration of using redundancy and diversity in a safety-critical system.</p>
+<h3 id="supporting-documents">Supporting documents</h3>
+<p><a href="http://www.aerospace-technology.com/projects/a340-200/" target="_blank">General information on Airbus A340 aircraft </a>(External link)</p>
+<p><a href="http://www.slideshare.net/software-engineering-book/airbus-fcs-42647819" target="_blank">Overview of the flight control system</a>.  My Powerpoint presentation prepared from the case study in Storey’s book that give an overview of the A340 system.</p>
+<p><a href="https://www.youtube.com/watch?v=EOexjozpBdI" target="_blank">The Airbus flight control system</a>.  My video explaining the software and hardware architecture of the Airbus 340 flight control system.</p>
+<p>More detailed information on the Airbus A340 flight control system- from a course given at the University of Twente, used with permission.</p>
+<p><a href="https://www.dropbox.com/s/o6d7056eh3bvv9u/FCS1.pdf?dl=0" target="_blank">Part 1- Airbus 330/340 FCS System specification </a></p>
+<p><a href="https://www.dropbox.com/s/jbe0ajlhxotvqn2/FCS2.pdf?dl=0" target="_blank">Part 2- Airbus 330/340 FCS</a></p>
+<p><a href="http://catless.ncl.ac.uk/Risks/16.96.html#subj7">Report on RISKS of problems with A340 system</a>
+(External link)  Problems were experienced on landing an A340 at Heathrow Airport London. This is a brief discussion of these problems and the causes that were identified in the subsequent incident report. The plane landed safely.</p>
+</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  </div>
+
+  
+
+  
+
+  
+  
+
+  
+  <script type="text/javascript" src="/software-engineering-book/js/scripts.min.bf1e1f7ae8e03db5f012356e825843facdff51c0a559cb0d27fe2bbe1db405c2.js"></script>
+  
+
+  
+
+
+
+
+
+
+  
+  <link href="https://fonts.googleapis.com/css?family=DM+Serif+Display&display=swap" rel="stylesheet">
+</body>
+
+</html>
