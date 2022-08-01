@@ -1,0 +1,159 @@
+
+<!DOCTYPE html>
+<html lang="en-GB"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Web section – Software Engineering 10th edition</title><link rel="dns-prefetch" href="//s0.wp.com"><link rel="dns-prefetch" href="//secure.gravatar.com"><link rel="dns-prefetch" href="//fonts.googleapis.com"><link rel="dns-prefetch" href="//s.w.org"><link rel="stylesheet" id="wp-block-library-css" href="https://c0.wp.com/c/5.2.4/wp-includes/css/dist/block-library/style.min.css" type="text/css" media="all"><link rel="stylesheet" id="chld_thm_cfg_parent-css" href="https://iansommerville.com/software-engineering-book/static/wp-content/themes/freedom/style.css" type="text/css" media="all"><link rel="stylesheet" id="freedom_style-css" href="https://iansommerville.com/software-engineering-book/static/wp-content/themes/freedom-child1/style.css" type="text/css" media="all"><link rel="stylesheet" id="freedom_googlefonts-css" href="http://fonts.googleapis.com/css?family=Fira+Sans%7CVollkorn&ver=5.2.4" type="text/css" media="all"><link rel="stylesheet" id="freedom-fontawesome-css" href="https://iansommerville.com/software-engineering-book/static/wp-content/themes/freedom/fontawesome/css/font-awesome.css" type="text/css" media="all"><link rel="stylesheet" id="easy_table_style-css" href="https://iansommerville.com/software-engineering-book/static/wp-content/plugins/easy-table/themes/default/style.css" type="text/css" media="all"><link rel="stylesheet" id="chld_thm_cfg_separate-css" href="https://iansommerville.com/software-engineering-book/static/wp-content/themes/freedom-child1/ctc-style.css" type="text/css" media="all"><link rel="stylesheet" id="jetpack_css-css" href="https://c0.wp.com/p/jetpack/7.8/css/jetpack.css" type="text/css" media="all"><script type="text/javascript" src="https://c0.wp.com/c/5.2.4/wp-includes/js/jquery/jquery.js"></script><script type="text/javascript" src="https://c0.wp.com/c/5.2.4/wp-includes/js/jquery/jquery-migrate.min.js"></script><script type="text/javascript" src="https://iansommerville.com/software-engineering-book/static/wp-content/themes/freedom/js/freedom-custom.js"></script><link rel="dns-prefetch" href="//v0.wordpress.com"><link rel="dns-prefetch" href="//c0.wp.com"><style type="text/css">img#wpstats{display:none}</style><style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style><style type="text/css">
+				/* If html does not have either class, do not show lazy loaded images. */
+				html:not( .jetpack-lazy-images-js-enabled ):not( .js ) .jetpack-lazy-image {
+					display: none;
+				}
+			</style><script>
+				document.documentElement.classList.add(
+					'jetpack-lazy-images-js-enabled'
+				);
+			</script><meta property="og:type" content="article"><meta property="og:title" content="Event-driven control"><meta property="og:url" content="https://iansommerville.com/software-engineering-book/static/web/archpatterns/event-driven-control/"><meta property="og:description" content="In centralized control models, control decisions are usually determined by the values of some system state variables. By contrast, event-driven control models are driven by externally generated eve…"><meta property="article:published_time" content="2014-10-07T13:01:04+00:00"><meta property="article:modified_time" content="2019-02-07T09:11:52+00:00"><meta property="og:site_name" content="Software Engineering 10th edition"><meta property="og:image" content="https://s0.wp.com/i/blank.jpg"><meta property="og:locale" content="en_GB"><meta name="twitter:text:title" content="Event-driven control"><meta name="twitter:card" content="summary"><style type="text/css" id="wp-custom-css">
+				img.myimg {
+	display: block;
+  margin-left: auto;
+  margin-right: auto; 
+	margin-top: 35px;
+	padding: 5px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+}
+img.horiz {
+	width: 680px;
+}
+
+img.vert {
+	height: 680px;
+}
+
+figcaption.mycap {
+  margin-left: 150px;
+  margin-right: 150px; 
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif; 
+	font-size: 19px;
+	color: #808080;   /* Mid grey */
+	font-weight: normal;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #000000;  /* black */
+}
+
+figcaption.noborder {
+	margin-bottom: 0px;
+	border-bottom: 0px solid #000000;  /* black */
+}
+
+figcaption.nospace{
+	margin-top: 0px
+}
+
+figcaption.para {
+	text-align:justify;
+}			</style></head><body class="page-template-default page page-id-697 page-child parent-pageid-282 no-sidebar-full-width wide">
+<div id="page" class="hfeed site">
+		<header id="masthead" class="site-header clearfix"><div id="header-text-nav-container" class="clearfix">
+			<div class="inner-wrap">
+				<div id="header-text-nav-wrap" class="clearfix">
+					<div id="header-left-section">
+												<div id="header-text" class="">
+															<h3 id="site-title">
+									<a href="https://iansommerville.com/software-engineering-book/static/" title="Software Engineering 10th edition" rel="home">Software Engineering 10th edition</a>
+								</h3>
+															<p id="site-description">Web sections</p>
+													</div>
+					</div>
+			</div>
+
+	</div>
+
+		
+	</header><div id="main" class="clearfix">
+		<div class="inner-wrap clearfix">
+
+
+	<div id="primary">
+		<div id="content" class="clearfix">
+			
+
+<article id="post-403" class="post-403 page type-page status-publish hentry"><header class="entry-header"><h1 class="entry-title">
+				COCOMO cost drivers			</h1>
+			</header><div class="entry-content clearfix">
+		<p>The initial estimates made in the <a href="http://sunset.usc.edu/csse/research/COCOMOII/cocomo_main.html">COCOMO II model</a> are adjusted using a set of attributes (project cost drivers) that reflect:</p>
+<p>1.Product characteristics such as the required system reliability and product complexity.</p>
+<p>2.Computer characteristics such as execution time or memory constraints. These are constraints imposed on the software by the hardware platform.</p>
+<p>3.Personnel characteristics such as programming language skills that take the experience and capabilities of the people working on the project into account.</p>
+<p>4.Project characteristics of the software development project such as the IDE that is available and the development schedule.</p>
+<p>The following table shows all 17 of the project cost drivers that may be taken into consideration.</p>
+<table cellspacing="0" cellpadding="0"><tbody><tr><td valign="top" width="77"><strong>Attribute</strong></td>
+<td valign="top" width="114"><strong>Type</strong></td>
+<td valign="top" width="274"><strong>Description</strong></td>
+</tr><tr><td valign="top" width="77">RELY</td>
+<td valign="top" width="114">Product</td>
+<td valign="top" width="274">Required system reliability</td>
+</tr><tr><td valign="top" width="77">CPLX</td>
+<td valign="top" width="114">Product</td>
+<td valign="top" width="274">Complexity of system modules</td>
+</tr><tr><td valign="top" width="77">DOCU</td>
+<td valign="top" width="114">Product</td>
+<td valign="top" width="274">Extent of documentation required</td>
+</tr><tr><td valign="top" width="77">DATA</td>
+<td valign="top" width="114">Product</td>
+<td valign="top" width="274">Size of database used</td>
+</tr><tr><td valign="top" width="77">RUSE</td>
+<td valign="top" width="114">Product</td>
+<td valign="top" width="274">Required percentage of reusable components</td>
+</tr><tr><td valign="top" width="77">TIME</td>
+<td valign="top" width="114">Computer</td>
+<td valign="top" width="274">Execution time constraint</td>
+</tr><tr><td valign="top" width="77">PVOL</td>
+<td valign="top" width="114">Computer</td>
+<td valign="top" width="274">Volatility of development platform</td>
+</tr><tr><td valign="top" width="77">STOR</td>
+<td valign="top" width="114">Computer</td>
+<td valign="top" width="274">Memory constraints</td>
+</tr><tr><td valign="top" width="77">ACAP</td>
+<td valign="top" width="114">Personnel</td>
+<td valign="top" width="274">Capability of project analysts</td>
+</tr><tr><td valign="top" width="77">PCON</td>
+<td valign="top" width="114">Personnel</td>
+<td valign="top" width="274">Personnel continuity</td>
+</tr><tr><td valign="top" width="77">PCAP</td>
+<td valign="top" width="114">Personnel</td>
+<td valign="top" width="274">Programmer capability</td>
+</tr><tr><td valign="top" width="77">PEXP</td>
+<td valign="top" width="114">Personnel</td>
+<td valign="top" width="274">Programmer experience in project domain</td>
+</tr><tr><td valign="top" width="77">AEXP</td>
+<td valign="top" width="114">Personnel</td>
+<td valign="top" width="274">Analyst experience in project domain</td>
+</tr><tr><td valign="top" width="77">LTEX</td>
+<td valign="top" width="114">Personnel</td>
+<td valign="top" width="274">Language and tool experience</td>
+</tr><tr><td valign="top" width="77">TOOL</td>
+<td valign="top" width="114">Project</td>
+<td valign="top" width="274">Use of software tools</td>
+</tr><tr><td valign="top" width="77">SCED</td>
+<td valign="top" width="114">Project</td>
+<td valign="top" width="274">Development schedule compression</td>
+</tr><tr><td valign="top" width="77">SITE</td>
+<td valign="top" width="114">Project</td>
+<td valign="top" width="274">Extent of multisite working and quality of inter-site communications</td>
+</tr></tbody></table><p><a href="http://www.codeproject.com/KB/architecture/cocomo2.aspx">Example of use of the COCOMO 2 model</a></p>
+			</div>
+
+	</article>
+	
+				<footer id="colophon" class="clearfix"><div class="footer-socket-wrapper clearfix">
+				<div class="inner-wrap">
+					<div class="footer-socket-area">
+						<div class="copyright">Copyright © 2019&nbsp<a href="https://iansommerville.com/software-engineering-book/static/" title="Software Engineering 10th edition"><span>Software Engineering 10th edition</span></a>. </div>					</div>
+				</div>
+			</div>
+		</footer><a href="#masthead" id="scroll-up"><i class="fa fa-chevron-up"></i></a>
+	</div>
+		<div style="display:none">
+	</div>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en-GB"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Web section – Software Engineering 10th edition</title><link rel="dns-prefetch" href="//s0.wp.com"><link rel="dns-prefetch" href="//secure.gravatar.com"><link rel="dns-prefetch" href="//fonts.googleapis.com"><link rel="dns-prefetch" href="//s.w.org"><link rel="stylesheet" id="wp-block-library-css" href="https://c0.wp.com/c/5.2.4/wp-includes/css/dist/block-library/style.min.css" type="text/css" media="all"><link rel="stylesheet" id="chld_thm_cfg_parent-css" href="https://iansommerville.com/software-engineering-book/static/wp-content/themes/freedom/style.css" type="text/css" media="all"><link rel="stylesheet" id="freedom_style-css" href="https://iansommerville.com/software-engineering-book/static/wp-content/themes/freedom-child1/style.css" type="text/css" media="all"><link rel="stylesheet" id="freedom_googlefonts-css" href="http://fonts.googleapis.com/css?family=Fira+Sans%7CVollkorn&ver=5.2.4" type="text/css" media="all"><link rel="stylesheet" id="freedom-fontawesome-css" href="https://iansommerville.com/software-engineering-book/static/wp-content/themes/freedom/fontawesome/css/font-awesome.css" type="text/css" media="all"><link rel="stylesheet" id="easy_table_style-css" href="https://iansommerville.com/software-engineering-book/static/wp-content/plugins/easy-table/themes/default/style.css" type="text/css" media="all"><link rel="stylesheet" id="chld_thm_cfg_separate-css" href="https://iansommerville.com/software-engineering-book/static/wp-content/themes/freedom-child1/ctc-style.css" type="text/css" media="all"><link rel="stylesheet" id="jetpack_css-css" href="https://c0.wp.com/p/jetpack/7.8/css/jetpack.css" type="text/css" media="all"><script type="text/javascript" src="https://c0.wp.com/c/5.2.4/wp-includes/js/jquery/jquery.js"></script><script type="text/javascript" src="https://c0.wp.com/c/5.2.4/wp-includes/js/jquery/jquery-migrate.min.js"></script><script type="text/javascript" src="https://iansommerville.com/software-engineering-book/static/wp-content/themes/freedom/js/freedom-custom.js"></script><link rel="dns-prefetch" href="//v0.wordpress.com"><link rel="dns-prefetch" href="//c0.wp.com"><style type="text/css">img#wpstats{display:none}</style><style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style><style type="text/css">
+				/* If html does not have either class, do not show lazy loaded images. */
+				html:not( .jetpack-lazy-images-js-enabled ):not( .js ) .jetpack-lazy-image {
+					display: none;
+				}
+			</style><script>
+				document.documentElement.classList.add(
+					'jetpack-lazy-images-js-enabled'
+				);
+			</script><meta property="og:type" content="article"><meta property="og:title" content="Event-driven control"><meta property="og:url" content="https://iansommerville.com/software-engineering-book/static/web/archpatterns/event-driven-control/"><meta property="og:description" content="In centralized control models, control decisions are usually determined by the values of some system state variables. By contrast, event-driven control models are driven by externally generated eve…"><meta property="article:published_time" content="2014-10-07T13:01:04+00:00"><meta property="article:modified_time" content="2019-02-07T09:11:52+00:00"><meta property="og:site_name" content="Software Engineering 10th edition"><meta property="og:image" content="https://s0.wp.com/i/blank.jpg"><meta property="og:locale" content="en_GB"><meta name="twitter:text:title" content="Event-driven control"><meta name="twitter:card" content="summary"><style type="text/css" id="wp-custom-css">
+				img.myimg {
+	display: block;
+  margin-left: auto;
+  margin-right: auto; 
+	margin-top: 35px;
+	padding: 5px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+}
+img.horiz {
+	width: 680px;
+}
+
+img.vert {
+	height: 680px;
+}
+
+figcaption.mycap {
+  margin-left: 150px;
+  margin-right: 150px; 
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif; 
+	font-size: 19px;
+	color: #808080;   /* Mid grey */
+	font-weight: normal;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #000000;  /* black */
+}
+
+figcaption.noborder {
+	margin-bottom: 0px;
+	border-bottom: 0px solid #000000;  /* black */
+}
+
+figcaption.nospace{
+	margin-top: 0px
+}
+
+figcaption.para {
+	text-align:justify;
+}			</style></head><body class="page-template-default page page-id-697 page-child parent-pageid-282 no-sidebar-full-width wide">
+<div id="page" class="hfeed site">
+		<header id="masthead" class="site-header clearfix"><div id="header-text-nav-container" class="clearfix">
+			<div class="inner-wrap">
+				<div id="header-text-nav-wrap" class="clearfix">
+					<div id="header-left-section">
+												<div id="header-text" class="">
+															<h3 id="site-title">
+									<a href="https://iansommerville.com/software-engineering-book/static/" title="Software Engineering 10th edition" rel="home">Software Engineering 10th edition</a>
+								</h3>
+															<p id="site-description">Web sections</p>
+													</div>
+					</div>
+			</div>
+
+	</div>
+
+		
+	</header><div id="main" class="clearfix">
+		<div class="inner-wrap clearfix">
+
+
+	<div id="primary">
+		<div id="content" class="clearfix">
+			
+
+<article id="post-328" class="post-328 page type-page status-publish hentry"><header class="entry-header"><h1 class="entry-title">
+				Error prone constructs			</h1>
+			</header><div class="entry-content clearfix">
+		<p>Some programming language constructs and programming techniques are inherently error-prone and so should be avoided or, at least, used as little as possible. Potentially error-prone constructs include:</p>
+<ol><li><em>Unconditional branch (goto) statements</em> The dangers of goto statements were recognized as long ago as 1968 (Dijkstra, 1968) and, as a consequence, these have been excluded from modern programming languages. However, they are still allowed in languages such as C. The use of goto statements leads to ‘spaghetti code’ that is tangled, difficult to understand and debug.</li>
+<li><em>Floating-point numbers</em> The representation of floating point numbers in a fixed length memory word is inherently imprecise. This is a particular problem when numbers are compared because representation imprecision may lead to invalid comparisons. For example, 3.00000000 may sometimes be represented as 2.99999999 and sometimes as 3.00000001. A comparison would show these to be unequal. Fixed-point numbers where a number is represented to a given number of decimal places are safer because exact comparisons are possible.</li>
+<li><em>Pointers </em>Programming languages such as C and C++ support low-level constructs called pointers, which hold addresses that refer directly to areas of the machine memory (they point to a memory location). Errors in the use of pointers can be devastating, if they are set incorrectly and so point to the wrong area of memory. They also make bound checking of arrays and other structures harder to implement.</li>
+<li><em>Dynamic memory allocation</em> Program memory may be allocated at run-time rather than at compile-time. The danger with this is that the memory may not be properly de-allocated, so eventually the system runs out of available memory. This can be a very difficult error to detect because the system may run successfully for a long time before the problem occurs.</li>
+<li><em>Parallelism</em> When processes are executing concurrently, there can be subtle timing dependencies between them. Timing problems cannot usually be detected by program inspection and the peculiar combination of circumstances that cause a timing problem may not occur during system testing. Parallelism may be unavoidable, but its use should be carefully controlled to minimize inter-process dependencies.</li>
+<li><em>Recursion </em>When a procedure or method calls itself or calls another procedure, which then calls the original calling procedure, this is ‘recursion’. The use of recursion can result in concise programs but it can be difficult to follow the logic of recursive programs. Programming errors are therefore more difficult to detect. Recursion errors may result in the allocation of all the system’s memory as temporary stack variables are created.</li>
+<li><em>Interrupts</em> These are a means of forcing control to transfer to a section of code irrespective of the code currently executing. The dangers of this are obvious; the interrupt may cause a critical operation to be terminated.</li>
+<li><em>Inheritance </em>The problem with inheritance in object-oriented programming is that the code associated with an object is not all in one place. This makes it more difficult to understand the behaviour of the object. Hence, it is more likely that programming errors will be missed. Furthermore, inheritance when combined with dynamic binding can cause timing problems at run-time. Different instances of a method may be bound to a call, depending on the parameter types. Consequently, different amounts of time will be spent searching for the correct method instance.</li>
+<li><em>Aliasing</em> This occurs when more than one name is used to refer to the same entity in a program. For example, if two pointers with different names point to the same memory location. It is easy for program readers to miss statements that change the entity when they have several names to consider.</li>
+<li><em>Unbounded arrays </em>In languages like C, arrays are simply ways of accessing memory and you can make assignments beyond the end of an array. The run-time system does not check that assignments actually refer to elements in the array. Buffer overflow, where an attacker deliberately constructs a program to write memory beyond the end of a buffer that is implemented as an array, is a known security vulnerability.</li>
+<li><em>Default input processing </em>Some systems provide a default for input processing irrespective of the input that is presented to the system. This is a security loophole that an attacker may exploit by presenting the program with unexpected inputs that are not rejected by the system.</li>
+</ol></div>
+
+	</article>
+				<footer id="colophon" class="clearfix"><div class="footer-socket-wrapper clearfix">
+				<div class="inner-wrap">
+					<div class="footer-socket-area">
+						<div class="copyright">Copyright © 2019&nbsp<a href="https://iansommerville.com/software-engineering-book/static/" title="Software Engineering 10th edition"><span>Software Engineering 10th edition</span></a>. </div>					</div>
+				</div>
+			</div>
+		</footer><a href="#masthead" id="scroll-up"><i class="fa fa-chevron-up"></i></a>
+	</div>
+		<div style="display:none">
+	</div>

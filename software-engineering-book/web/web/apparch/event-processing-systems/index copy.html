@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en-GB"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Event processing systems – Software Engineering 10th edition</title><link rel="dns-prefetch" href="//s0.wp.com"><link rel="dns-prefetch" href="//secure.gravatar.com"><link rel="dns-prefetch" href="//fonts.googleapis.com"><link rel="dns-prefetch" href="//s.w.org"><link rel="stylesheet" id="wp-block-library-css" href="https://c0.wp.com/c/5.2.4/wp-includes/css/dist/block-library/style.min.css" type="text/css" media="all"><link rel="stylesheet" id="chld_thm_cfg_parent-css" href="https://iansommerville.com/software-engineering-book/static/wp-content/themes/freedom/style.css" type="text/css" media="all"><link rel="stylesheet" id="freedom_style-css" href="https://iansommerville.com/software-engineering-book/static/wp-content/themes/freedom-child1/style.css" type="text/css" media="all"><link rel="stylesheet" id="freedom_googlefonts-css" href="http://fonts.googleapis.com/css?family=Fira+Sans%7CVollkorn&ver=5.2.4" type="text/css" media="all"><link rel="stylesheet" id="freedom-fontawesome-css" href="https://iansommerville.com/software-engineering-book/static/wp-content/themes/freedom/fontawesome/css/font-awesome.css" type="text/css" media="all"><link rel="stylesheet" id="easy_table_style-css" href="https://iansommerville.com/software-engineering-book/static/wp-content/plugins/easy-table/themes/default/style.css" type="text/css" media="all"><link rel="stylesheet" id="chld_thm_cfg_separate-css" href="https://iansommerville.com/software-engineering-book/static/wp-content/themes/freedom-child1/ctc-style.css" type="text/css" media="all"><link rel="stylesheet" id="jetpack_css-css" href="https://c0.wp.com/p/jetpack/7.8/css/jetpack.css" type="text/css" media="all"><script type="text/javascript" src="https://c0.wp.com/c/5.2.4/wp-includes/js/jquery/jquery.js"></script><script type="text/javascript" src="https://c0.wp.com/c/5.2.4/wp-includes/js/jquery/jquery-migrate.min.js"></script><script type="text/javascript" src="https://iansommerville.com/software-engineering-book/static/wp-content/themes/freedom/js/freedom-custom.js"></script><link rel="dns-prefetch" href="//v0.wordpress.com"><link rel="dns-prefetch" href="//c0.wp.com"><style type="text/css">img#wpstats{display:none}</style><style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style><style type="text/css">
+				/* If html does not have either class, do not show lazy loaded images. */
+				html:not( .jetpack-lazy-images-js-enabled ):not( .js ) .jetpack-lazy-image {
+					display: none;
+				}
+			</style><script>
+				document.documentElement.classList.add(
+					'jetpack-lazy-images-js-enabled'
+				);
+			</script><meta property="og:type" content="article"><meta property="og:title" content="Event processing systems"><meta property="og:url" content="https://iansommerville.com/software-engineering-book/static/web/apparch/event-processing-systems/"><meta property="og:description" content="Event processing systems respond to events in the system’s environment or user interface. The key characteristic of event processing systems is that the timing of events is unpredictable and the sy…"><meta property="article:published_time" content="2014-10-07T13:12:04+00:00"><meta property="article:modified_time" content="2019-02-07T09:11:18+00:00"><meta property="og:site_name" content="Software Engineering 10th edition"><meta property="og:image" content="https://s0.wp.com/i/blank.jpg"><meta property="og:locale" content="en_GB"><meta name="twitter:text:title" content="Event processing systems"><meta name="twitter:card" content="summary"><style type="text/css" id="wp-custom-css">
+				img.myimg {
+	display: block;
+  margin-left: auto;
+  margin-right: auto; 
+	margin-top: 35px;
+	padding: 5px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+}
+img.horiz {
+	width: 680px;
+}
+
+img.vert {
+	height: 680px;
+}
+
+figcaption.mycap {
+  margin-left: 150px;
+  margin-right: 150px; 
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif; 
+	font-size: 19px;
+	color: #808080;   /* Mid grey */
+	font-weight: normal;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #000000;  /* black */
+}
+
+figcaption.noborder {
+	margin-bottom: 0px;
+	border-bottom: 0px solid #000000;  /* black */
+}
+
+figcaption.nospace{
+	margin-top: 0px
+}
+
+figcaption.para {
+	text-align:justify;
+}			</style></head><body class="page-template-default page page-id-708 page-child parent-pageid-284 no-sidebar-full-width wide">
+<div id="page" class="hfeed site">
+		<header id="masthead" class="site-header clearfix"><div id="header-text-nav-container" class="clearfix">
+			<div class="inner-wrap">
+				<div id="header-text-nav-wrap" class="clearfix">
+					<div id="header-left-section">
+												<div id="header-text" class="">
+															<h3 id="site-title">
+									<a href="https://iansommerville.com/software-engineering-book/static/" title="Software Engineering 10th edition" rel="home">Software Engineering 10th edition</a>
+								</h3>
+															<p id="site-description">Supplementary material for my software engineering textbook</p>
+													</div>
+					</div>
+					<div id="header-right-section">
+													<div id="header-right-sidebar" class="clearfix">
+								<aside id="search-4" class="widget widget_search"><form action="https://iansommerville.com/software-engineering-book/static/" id="search-form" class="searchform clearfix" method="get">
+	<input type="text" placeholder="Search" class="s field" name="s"><input type="submit" value="Search" class="search-submit submit" name="submit"></form></aside></div>
+												</div>
+				</div>
+			</div>
+
+			
+			<nav id="site-navigation" class="main-navigation clearfix" role="navigation"><div class="inner-wrap clearfix">
+					<p class="menu-toggle">Menu</p>
+					<div class="menu-primary-container"><ul id="menu-top-navigation" class="menu"><li id="menu-item-1098" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1098"><a href="https://iansommerville.com/software-engineering-book/static/about/">About the book/me</a></li>
+<li id="menu-item-1070" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1070"><a href="https://iansommerville.com/software-engineering-book/static/case-studies/">Case studies</a>
+<ul class="sub-menu"><li id="menu-item-1096" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1096"><a href="https://iansommerville.com/software-engineering-book/static/case-studies/airbus-340/">The Airbus 340 flight control system</a></li>
+	<li id="menu-item-1095" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1095"><a href="https://iansommerville.com/software-engineering-book/static/case-studies/ariane5/">The Ariane 5 launch accident</a></li>
+	<li id="menu-item-1092" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1092"><a href="https://iansommerville.com/software-engineering-book/static/case-studies/a-personal-insulin-pump/">An embedded control system for a personal insulin pump</a></li>
+	<li id="menu-item-1093" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1093"><a href="https://iansommerville.com/software-engineering-book/static/case-studies/the-ilearn-digital-learning-environment/">The iLearn digital learning environment</a></li>
+	<li id="menu-item-1091" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1091"><a href="https://iansommerville.com/software-engineering-book/static/case-studies/the-mentcare-system/">The Mentcare system</a></li>
+	<li id="menu-item-1094" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1094"><a href="https://iansommerville.com/software-engineering-book/static/case-studies/wilderness-weather-station/">Wilderness weather station</a></li>
+</ul></li>
+<li id="menu-item-1074" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1074"><a href="https://iansommerville.com/software-engineering-book/static/instructors-guide/">Instructors Guide</a></li>
+<li id="menu-item-1071" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1071"><a href="https://iansommerville.com/software-engineering-book/static/slides/">Slides</a></li>
+<li id="menu-item-1072" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1072"><a href="https://iansommerville.com/software-engineering-book/static/videos/">Videos</a>
+<ul class="sub-menu"><li id="menu-item-1088" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1088"><a href="https://iansommerville.com/software-engineering-book/static/videos/software-engineering/">Software engineering</a></li>
+	<li id="menu-item-1087" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1087"><a href="https://iansommerville.com/software-engineering-book/static/videos/agile-methods/">Agile methods</a></li>
+	<li id="menu-item-1086" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1086"><a href="https://iansommerville.com/software-engineering-book/static/videos/requirements-and-design/">Requirements and design</a></li>
+	<li id="menu-item-1082" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1082"><a href="https://iansommerville.com/software-engineering-book/static/videos/implementation-and-evolution/">Implementation and evolution</a></li>
+	<li id="menu-item-1089" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1089"><a href="https://iansommerville.com/software-engineering-book/static/videos/critical-systems/">Critical systems</a></li>
+	<li id="menu-item-1090" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1090"><a href="https://iansommerville.com/software-engineering-book/static/videos/reliability-and-safety/">Reliability and safety</a></li>
+	<li id="menu-item-1081" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1081"><a href="https://iansommerville.com/software-engineering-book/static/videos/security-and-resilience/">Security and resilience</a></li>
+	<li id="menu-item-1085" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1085"><a href="https://iansommerville.com/software-engineering-book/static/videos/software-reuse/">Software reuse</a></li>
+	<li id="menu-item-1084" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1084"><a href="https://iansommerville.com/software-engineering-book/static/videos/systems-engineering/">Systems engineering</a></li>
+	<li id="menu-item-1083" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1083"><a href="https://iansommerville.com/software-engineering-book/static/videos/software-management/">Software management</a></li>
+</ul></li>
+<li id="menu-item-1073" class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor menu-item-has-children menu-item-1073"><a href="https://iansommerville.com/software-engineering-book/static/web/">Downloads</a>
+<ul class="sub-menu"><li id="menu-item-1097" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1097"><a target="_blank" rel="noopener noreferrer" href="https://www.dropbox.com/s/9kd1skyiczis29b/Contents.pdf?dl=0#new_tab">Contents</a></li>
+	<li id="menu-item-1078" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1078"><a href="https://iansommerville.com/software-engineering-book/static/web/sample-chapters/">Sample chapters</a></li>
+	<li id="menu-item-1079" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1079"><a href="https://iansommerville.com/software-engineering-book/static/web/web-chapters/">Web chapters</a></li>
+	<li id="menu-item-1080" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1080"><a href="https://iansommerville.com/software-engineering-book/static/web/web-sections/">Web sections</a></li>
+</ul></li>
+<li id="menu-item-10" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-has-children menu-item-10"><a href="http://PLACEHOLDER.wpsho/">My websites</a>
+<ul class="sub-menu"><li id="menu-item-11" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11"><a href="https://iansommerville.com">Images and Opinions</a></li>
+	<li id="menu-item-13" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13"><a href="https://iansommerville.com/systems-software-and-technology">Systems, software and technology</a></li>
+	<li id="menu-item-1163" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1163"><a href="https://iansommerville.com/engineering-software-products">Engineering Software Products</a></li>
+</ul></li>
+<li id="menu-item-14" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14"><a href="https://iansommerville.com/privacy-policy">Privacy policy</a></li>
+</ul></div>				</div>
+			</nav></div>
+
+		
+	</header><div id="main" class="clearfix">
+		<div class="inner-wrap clearfix">
+
+
+	<div id="primary">
+		<div id="content" class="clearfix">
+			
+				
+<article id="post-708" class="post-708 page type-page status-publish hentry"><header class="entry-header"><h1 class="entry-title">
+				Event processing systems			</h1>
+			</header><div class="entry-content clearfix">
+		<p>Event processing systems respond to events in the system’s environment or user interface. The key characteristic of event processing systems is that the timing of events is unpredictable and the system must be able to cope with these events when they occur.</p>
+<p>We all use such event-based systems like this on our own computers—word processors, presentation systems and games are all driven by events from the user interface. The system detects and interprets events. User interface events represent implicit commands to the system, which takes some action to obey that command. For example, if you are using a word processor and you double-click on a word, the double-click event means ‘select that word’.</p>
+<p>Real-time systems, which take action in ‘real time’ in response to some external stimulus, are also event-based processing systems. However, for real-time systems, events are not usually user interface events but events associated with servers or actuators in the system. Because of the need for real-time response to unpredictable events, these real-time systems are normally organised as a set of cooperating processes. I cover generic architectures for real-time systems in Chapter 21.</p>
+<p>I focus here on the generic architecture of editing systems. Editing systems are programs that run on PCs or workstations that allow users to edit documents such as text documents, diagrams or images. Some editors focus on editing a single type of document, such as images from a digital camera or scanner. Others, including most word processors, are multi-editors and include support for editing different types including text and diagrams. You can even think of a spreadsheet as an editing system where you edit boxes on the sheet. Of course, spreadsheets have additional functionality to carry out computations.</p>
+<p>Editing systems have a number of characteristics that distinguish them from other types of system and that influence their architectural design:</p>
+<ol><li>Editing systems are mostly single-user systems. They therefore don’t have to deal with the problems of multiple concurrent access to data and have simpler data management than transaction-based systems. Even where data are shared, transaction management is not usually used because transactions take a long time and alternative methods of maintaining data integrity are used.</li>
+<li>They have to provide rapid feedback on user actions such as ‘select’ and ‘delete’. This means they have to operate on representations of data that is held in computer memory rather than on disk. Because the data is in volatile memory, it can be lost if there is a system fault, so editing systems should make some provision for error recovery.</li>
+<li>Editing sessions are normally much longer than sessions involving ordering goods, or making some other transaction. This again means that there is a greater risk of loss if problems arise. Therefore, many editing systems include recovery facilities that automatically save work in progress and recover this for the user in the event of a system failure.</li>
+</ol><p>A generic architecture for an editing system is shown below. The objects in the system are active objects that can operate concurrently and autonomously. Essentially, screen events are processed and interpreted as commands. This updates a data structure, which is then redisplayed on the screen.</p>
+<figure><img class="myimg vert jetpack-lazy-image" src="https://www.dropbox.com/s/yozsq0vdpg1qd57/13.10%20EventProcSys.jpg?raw=1" alt="Image" data-lazy-src="https://www.dropbox.com/s/yozsq0vdpg1qd57/13.10%20EventProcSys.jpg?raw=1&is-pending-load=1" srcset="data:image/gif;base64 ,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7 "><noscript><img class="myimg vert" src="https://www.dropbox.com/s/yozsq0vdpg1qd57/13.10%20EventProcSys.jpg?raw=1" alt="Image"></noscript><figcaption class="mycap">
+An architectural model of an editing system<br></figcaption></figure><p>The responsibilities of the architectural components shown in the above diagram are:</p>
+<ol><li><em>Screen</em> This object monitors the screen memory segment and detects events that occur. These events are then passed to the event processing object along with their screen coordinates.</li>
+<li><em>Event</em> This object is triggered by an event arriving from Screen. It uses knowledge of what is displayed to interpret this event and to translate this into the appropriate editing command. This command is then passed to the object responsible for command interpretation. For very common events, such as mouse clicks or key presses, the event object can communicate directly with the data structure. This allows faster updates of that structure.</li>
+<li><em>Command</em> This object processes a command from the event object and calls the appropriate method in the Editor data object to execute the command.</li>
+<li><em>Editor data</em> When the appropriate command method in Editor data object is called, it updates the data structure and calls the Update method in Display to display the modified data.</li>
+<li><em>Ancillary data</em> As well as the data structure itself, editors manage other data such as styles and preferences. In this simple architectural model, I have bundled this together under Ancillary data. Some editor commands, such as a command to initiate a spelling check, are implemented by a method in this object.</li>
+<li><em>File system</em> This object handles all opening and saving of files. These can be either editor data or ancillary data files. To avoid data loss, many editors have auto-save facilities that save the data structure automatically. This can then be retrieved in the event of system failure.</li>
+<li><em>Display</em> This object keeps track of the organisation of the screen display. It calls the Refresh method in Screen when the display has been changed.</li>
+</ol><p>Because of the need for a rapid response to user commands, editing systems do not have a central controller that calls the components to take action. Rather, the critical components in the system execute concurrently and can communicate directly (e.g., the event processor can communicate directly with the editor data structure) so that faster performance can be achieved.</p>
+<p> </p>
+			</div>
+
+	</article></div>
+	</div>
+
+
+
+
+		</div>
+	</div>
+			<footer id="colophon" class="clearfix"><div class="footer-socket-wrapper clearfix">
+				<div class="inner-wrap">
+					<div class="footer-socket-area">
+						<div class="copyright">Copyright © 2019&nbsp<a href="https://iansommerville.com/software-engineering-book/static/" title="Software Engineering 10th edition"><span>Software Engineering 10th edition</span></a>. Powered by <a href="http://wordpress.org" target="_blank" title="WordPress"><span>WordPress</span></a> and <a href="https://themegrill.com/themes/freedom" target="_blank" title="ThemeGrill"><span>ThemeGrill</span></a>.</div>					</div>
+				</div>
+			</div>
+		</footer><a href="#masthead" id="scroll-up"><i class="fa fa-chevron-up"></i></a>
+	</div>
+		<div style="display:none">
+	</div>
+<script type="text/javascript" src="https://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201942"></script><script type="text/javascript" src="https://secure.gravatar.com/js/gprofiles.js?ver=2019Octaa"></script><script type="text/javascript">
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script><script type="text/javascript" src="https://c0.wp.com/p/jetpack/7.8/modules/wpgroho.js"></script><script type="text/javascript" src="https://iansommerville.com/software-engineering-book/static/wp-content/themes/freedom/js/navigation.js"></script><script type="text/javascript" src="https://iansommerville.com/software-engineering-book/static/wp-content/plugins/page-links-to/js/new-tab.min.js"></script><script type="text/javascript" src="https://c0.wp.com/p/jetpack/7.8/_inc/build/lazy-images/js/lazy-images.min.js"></script><script type="text/javascript" src="https://stats.wp.com/e-201942.js" async="async" defer></script><script type="text/javascript">
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:7.8',blog:'117059245',post:'708',tz:'1',srv:'iansommerville.com'} ]);
+	_stq.push([ 'clickTrackerInit', '117059245', '708' ]);
+</script></body></html>

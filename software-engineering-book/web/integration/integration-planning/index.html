@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en-GB"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Web section – Software Engineering 10th edition</title><link rel="dns-prefetch" href="//s0.wp.com"><link rel="dns-prefetch" href="//secure.gravatar.com"><link rel="dns-prefetch" href="//fonts.googleapis.com"><link rel="dns-prefetch" href="//s.w.org"><link rel="stylesheet" id="wp-block-library-css" href="https://c0.wp.com/c/5.2.4/wp-includes/css/dist/block-library/style.min.css" type="text/css" media="all"><link rel="stylesheet" id="chld_thm_cfg_parent-css" href="https://iansommerville.com/software-engineering-book/static/wp-content/themes/freedom/style.css" type="text/css" media="all"><link rel="stylesheet" id="freedom_style-css" href="https://iansommerville.com/software-engineering-book/static/wp-content/themes/freedom-child1/style.css" type="text/css" media="all"><link rel="stylesheet" id="freedom_googlefonts-css" href="http://fonts.googleapis.com/css?family=Fira+Sans%7CVollkorn&ver=5.2.4" type="text/css" media="all"><link rel="stylesheet" id="freedom-fontawesome-css" href="https://iansommerville.com/software-engineering-book/static/wp-content/themes/freedom/fontawesome/css/font-awesome.css" type="text/css" media="all"><link rel="stylesheet" id="easy_table_style-css" href="https://iansommerville.com/software-engineering-book/static/wp-content/plugins/easy-table/themes/default/style.css" type="text/css" media="all"><link rel="stylesheet" id="chld_thm_cfg_separate-css" href="https://iansommerville.com/software-engineering-book/static/wp-content/themes/freedom-child1/ctc-style.css" type="text/css" media="all"><link rel="stylesheet" id="jetpack_css-css" href="https://c0.wp.com/p/jetpack/7.8/css/jetpack.css" type="text/css" media="all"><script type="text/javascript" src="https://c0.wp.com/c/5.2.4/wp-includes/js/jquery/jquery.js"></script><script type="text/javascript" src="https://c0.wp.com/c/5.2.4/wp-includes/js/jquery/jquery-migrate.min.js"></script><script type="text/javascript" src="https://iansommerville.com/software-engineering-book/static/wp-content/themes/freedom/js/freedom-custom.js"></script><link rel="dns-prefetch" href="//v0.wordpress.com"><link rel="dns-prefetch" href="//c0.wp.com"><style type="text/css">img#wpstats{display:none}</style><style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style><style type="text/css">
+				/* If html does not have either class, do not show lazy loaded images. */
+				html:not( .jetpack-lazy-images-js-enabled ):not( .js ) .jetpack-lazy-image {
+					display: none;
+				}
+			</style><script>
+				document.documentElement.classList.add(
+					'jetpack-lazy-images-js-enabled'
+				);
+			</script><meta property="og:type" content="article"><meta property="og:title" content="Event-driven control"><meta property="og:url" content="https://iansommerville.com/software-engineering-book/static/web/archpatterns/event-driven-control/"><meta property="og:description" content="In centralized control models, control decisions are usually determined by the values of some system state variables. By contrast, event-driven control models are driven by externally generated eve…"><meta property="article:published_time" content="2014-10-07T13:01:04+00:00"><meta property="article:modified_time" content="2019-02-07T09:11:52+00:00"><meta property="og:site_name" content="Software Engineering 10th edition"><meta property="og:image" content="https://s0.wp.com/i/blank.jpg"><meta property="og:locale" content="en_GB"><meta name="twitter:text:title" content="Event-driven control"><meta name="twitter:card" content="summary"><style type="text/css" id="wp-custom-css">
+				img.myimg {
+	display: block;
+  margin-left: auto;
+  margin-right: auto; 
+	margin-top: 35px;
+	padding: 5px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+}
+img.horiz {
+	width: 680px;
+}
+
+img.vert {
+	height: 680px;
+}
+
+figcaption.mycap {
+  margin-left: 150px;
+  margin-right: 150px; 
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif; 
+	font-size: 19px;
+	color: #808080;   /* Mid grey */
+	font-weight: normal;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #000000;  /* black */
+}
+
+figcaption.noborder {
+	margin-bottom: 0px;
+	border-bottom: 0px solid #000000;  /* black */
+}
+
+figcaption.nospace{
+	margin-top: 0px
+}
+
+figcaption.para {
+	text-align:justify;
+}			</style></head><body class="page-template-default page page-id-697 page-child parent-pageid-282 no-sidebar-full-width wide">
+<div id="page" class="hfeed site">
+		<header id="masthead" class="site-header clearfix"><div id="header-text-nav-container" class="clearfix">
+			<div class="inner-wrap">
+				<div id="header-text-nav-wrap" class="clearfix">
+					<div id="header-left-section">
+												<div id="header-text" class="">
+															<h3 id="site-title">
+									<a href="https://iansommerville.com/software-engineering-book/static/" title="Software Engineering 10th edition" rel="home">Software Engineering 10th edition</a>
+								</h3>
+															<p id="site-description">Web sections</p>
+													</div>
+					</div>
+			</div>
+
+	</div>
+
+		
+	</header><div id="main" class="clearfix">
+		<div class="inner-wrap clearfix">
+
+
+	<div id="primary">
+		<div id="content" class="clearfix">
+			
+
+
+<article id="post-772" class="post-772 page type-page status-publish hentry"><header class="entry-header"><h1 class="entry-title">
+				Integration planning			</h1>
+			</header><div class="entry-content clearfix">
+		<p>When planning integration, you have to decide the order of integration of components. In an agile process, the customer is involved in the development process and decides which functionality should be included in each system increment. Therefore, system integration is driven by customer priorities. In other approaches to development when off-the-shelf components and specially developed components are integrated, the customer may not be involved and the integration team decides on the integration priorities.</p>
+<p>In such a situation, you should normally start by integrating component that provide common services to other components. Often these will be external components or COTS. You should then integrate those components that implement the most frequently used system features. This means that the components that are most used receive the most testing. For example, in the Mentcare system, you should start by integrating the basic features to create, view and update a simple patient record. You should then add the functionality to authenticate users then progressively add the components that implement other system features, such as appointment management and report generation.</p>
+<p>Of course, reality is rarely as simple as this model suggests. The implementation of system features may be spread across a number of components. To test a new feature, you may have to integrate several components at the same time. The testing may reveal errors in the interactions between these individual components and other parts of the system. Repairing errors may be difficult because a group of components that implement the system feature may have to be changed. Furthermore, integrating and testing a new component can change the pattern of already tested component interactions. Errors may be revealed that were not exposed in the tests of the simpler configuration.</p>
+<p>These problems mean that when a new increment is integrated, you should rerun the tests for previous increments as well as the new tests that are required to verify the new system functionality. Rerunning an existing set of tests is called regression testing. If regression testing exposes problems, then you have to check whether these are problems in the previous increment that the new increment has exposed or whether these are due to the added increment of functionality. I say more about regression testing in the next section, which covers test-first development.</p>
+			</div>
+
+	</article>
+	
+				<footer id="colophon" class="clearfix"><div class="footer-socket-wrapper clearfix">
+				<div class="inner-wrap">
+					<div class="footer-socket-area">
+						<div class="copyright">Copyright © 2019&nbsp<a href="https://iansommerville.com/software-engineering-book/static/" title="Software Engineering 10th edition"><span>Software Engineering 10th edition</span></a>. </div>					</div>
+				</div>
+			</div>
+		</footer><a href="#masthead" id="scroll-up"><i class="fa fa-chevron-up"></i></a>
+	</div>
+		<div style="display:none">
+	</div>

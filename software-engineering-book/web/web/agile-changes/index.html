@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+<html lang="en-GB"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Web section – Software Engineering 10th edition</title><link rel="dns-prefetch" href="//s0.wp.com"><link rel="dns-prefetch" href="//secure.gravatar.com"><link rel="dns-prefetch" href="//fonts.googleapis.com"><link rel="dns-prefetch" href="//s.w.org"><link rel="stylesheet" id="wp-block-library-css" href="https://c0.wp.com/c/5.2.4/wp-includes/css/dist/block-library/style.min.css" type="text/css" media="all"><link rel="stylesheet" id="chld_thm_cfg_parent-css" href="https://iansommerville.com/software-engineering-book/static/wp-content/themes/freedom/style.css" type="text/css" media="all"><link rel="stylesheet" id="freedom_style-css" href="https://iansommerville.com/software-engineering-book/static/wp-content/themes/freedom-child1/style.css" type="text/css" media="all"><link rel="stylesheet" id="freedom_googlefonts-css" href="http://fonts.googleapis.com/css?family=Fira+Sans%7CVollkorn&ver=5.2.4" type="text/css" media="all"><link rel="stylesheet" id="freedom-fontawesome-css" href="https://iansommerville.com/software-engineering-book/static/wp-content/themes/freedom/fontawesome/css/font-awesome.css" type="text/css" media="all"><link rel="stylesheet" id="easy_table_style-css" href="https://iansommerville.com/software-engineering-book/static/wp-content/plugins/easy-table/themes/default/style.css" type="text/css" media="all"><link rel="stylesheet" id="chld_thm_cfg_separate-css" href="https://iansommerville.com/software-engineering-book/static/wp-content/themes/freedom-child1/ctc-style.css" type="text/css" media="all"><link rel="stylesheet" id="jetpack_css-css" href="https://c0.wp.com/p/jetpack/7.8/css/jetpack.css" type="text/css" media="all"><script type="text/javascript" src="https://c0.wp.com/c/5.2.4/wp-includes/js/jquery/jquery.js"></script><script type="text/javascript" src="https://c0.wp.com/c/5.2.4/wp-includes/js/jquery/jquery-migrate.min.js"></script><script type="text/javascript" src="https://iansommerville.com/software-engineering-book/static/wp-content/themes/freedom/js/freedom-custom.js"></script><link rel="dns-prefetch" href="//v0.wordpress.com"><link rel="dns-prefetch" href="//c0.wp.com"><style type="text/css">img#wpstats{display:none}</style><style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style><style type="text/css">
+				/* If html does not have either class, do not show lazy loaded images. */
+				html:not( .jetpack-lazy-images-js-enabled ):not( .js ) .jetpack-lazy-image {
+					display: none;
+				}
+			</style><script>
+				document.documentElement.classList.add(
+					'jetpack-lazy-images-js-enabled'
+				);
+			</script><meta property="og:type" content="article"><meta property="og:title" content="Event-driven control"><meta property="og:url" content="https://iansommerville.com/software-engineering-book/static/web/archpatterns/event-driven-control/"><meta property="og:description" content="In centralized control models, control decisions are usually determined by the values of some system state variables. By contrast, event-driven control models are driven by externally generated eve…"><meta property="article:published_time" content="2014-10-07T13:01:04+00:00"><meta property="article:modified_time" content="2019-02-07T09:11:52+00:00"><meta property="og:site_name" content="Software Engineering 10th edition"><meta property="og:image" content="https://s0.wp.com/i/blank.jpg"><meta property="og:locale" content="en_GB"><meta name="twitter:text:title" content="Event-driven control"><meta name="twitter:card" content="summary"><style type="text/css" id="wp-custom-css">
+				img.myimg {
+	display: block;
+  margin-left: auto;
+  margin-right: auto; 
+	margin-top: 35px;
+	padding: 5px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+}
+img.horiz {
+	width: 680px;
+}
+
+img.vert {
+	height: 680px;
+}
+
+figcaption.mycap {
+  margin-left: 150px;
+  margin-right: 150px; 
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif; 
+	font-size: 19px;
+	color: #808080;   /* Mid grey */
+	font-weight: normal;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #000000;  /* black */
+}
+
+figcaption.noborder {
+	margin-bottom: 0px;
+	border-bottom: 0px solid #000000;  /* black */
+}
+
+figcaption.nospace{
+	margin-top: 0px
+}
+
+figcaption.para {
+	text-align:justify;
+}			</style></head><body class="page-template-default page page-id-697 page-child parent-pageid-282 no-sidebar-full-width wide">
+<div id="page" class="hfeed site">
+		<header id="masthead" class="site-header clearfix"><div id="header-text-nav-container" class="clearfix">
+			<div class="inner-wrap">
+				<div id="header-text-nav-wrap" class="clearfix">
+					<div id="header-left-section">
+												<div id="header-text" class="">
+															<h3 id="site-title">
+									<a href="https://iansommerville.com/software-engineering-book/static/" title="Software Engineering 10th edition" rel="home">Software Engineering 10th edition</a>
+								</h3>
+															<p id="site-description">Web sections</p>
+													</div>
+					</div>
+			</div>
+
+	</div>
+
+		
+	</header><div id="main" class="clearfix">
+		<div class="inner-wrap clearfix">
+
+
+	<div id="primary">
+		<div id="content" class="clearfix">
+			
+
+
+<article id="post-405" class="post-405 page type-page status-publish hentry"><header class="entry-header"><h1 class="entry-title">
+				Agile changes			</h1>
+			</header><div class="entry-content clearfix">
+		<p>The <a href="http://en.wikipedia.org/wiki/Change_management_(engineering)">change management process </a>used in large projects is often a bureaucratic process that inevitably delays the implementation of changes in a system. Agile methods try to side-step much of this bureaucracy by involving customer representatives closely with the development team and by making it the responsibility of the customer representative to prioritize changes that should be made to the system. Of course, the team have to make estimates of the costs of these changes so that the customer understands the implications of these decisions.</p>
+<p>This system can work well during the development process if the customer representative involved in the team has a good understanding of the requirements of different stakeholders in the process. It is more of a problem if there are several changes to be made with different stakeholders assigning different priorities to these changes. In those circumstances, it is hard for the customer team member to make decisions on these as they will inevitably be influenced by political and organizational issues as well as technical requirements.</p>
+<p>After a system has been deployed, it is not really clear to me if an <a href="http://www.agilemodeling.com/essays/changeManagement.htm">agile approach to change management </a>can be used and I have not seen any reports of agile ‘maintenance’ projects that have discussed this issue. There are really two problems at this stage:</p>
+<ol><li><em>Maintaining continuity</em>. Because agile approaches rely on informal communications, with limited formal documentation, they are most effective when the same people are involved in the process. However, once a system has gone into use, it may be very difficult to justify having the same customer representative involved as has been involved in development. This means that new customers with different ideas may be involved at different stages, so sending mixed messages to the development team.</li>
+<li><em>Change assessment and costing. </em>This is closely related to the above point but reflects issues of maintaining continuity in the development team rather than maintaining customer continuity. Essentially, much of the information about the system requirements and rationale is in the development team’s head rather than in formal system documentation. New people who come into the team during maintenance and support may find it very difficult to understand exactly what has and has not been included in the system and may find it very difficult to assess the consequences of making changes, especially if these affect the overall system architecture.</li>
+</ol><p>Overall, the whole area of agile maintenance and change management is one that is not widely documented. <a href="http://www.agilemodeling.com/essays/changeManagement.htm">Ambler</a> discusses requirements change management but this seems to be concerned with change management during development rather than after deployment.</p>
+			</div>
+
+	</article>
+	
+				<footer id="colophon" class="clearfix"><div class="footer-socket-wrapper clearfix">
+				<div class="inner-wrap">
+					<div class="footer-socket-area">
+						<div class="copyright">Copyright © 2019&nbsp<a href="https://iansommerville.com/software-engineering-book/static/" title="Software Engineering 10th edition"><span>Software Engineering 10th edition</span></a>. </div>					</div>
+				</div>
+			</div>
+		</footer><a href="#masthead" id="scroll-up"><i class="fa fa-chevron-up"></i></a>
+	</div>
+		<div style="display:none">
+	</div>

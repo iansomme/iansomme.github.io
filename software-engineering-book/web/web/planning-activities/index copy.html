@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en-GB"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Planning activities – Software Engineering 10th edition</title><link rel="dns-prefetch" href="//s0.wp.com"><link rel="dns-prefetch" href="//secure.gravatar.com"><link rel="dns-prefetch" href="//fonts.googleapis.com"><link rel="dns-prefetch" href="//s.w.org"><link rel="stylesheet" id="wp-block-library-css" href="https://c0.wp.com/c/5.2.4/wp-includes/css/dist/block-library/style.min.css" type="text/css" media="all"><link rel="stylesheet" id="chld_thm_cfg_parent-css" href="https://iansommerville.com/software-engineering-book/static/wp-content/themes/freedom/style.css" type="text/css" media="all"><link rel="stylesheet" id="freedom_style-css" href="https://iansommerville.com/software-engineering-book/static/wp-content/themes/freedom-child1/style.css" type="text/css" media="all"><link rel="stylesheet" id="freedom_googlefonts-css" href="http://fonts.googleapis.com/css?family=Fira+Sans%7CVollkorn&ver=5.2.4" type="text/css" media="all"><link rel="stylesheet" id="freedom-fontawesome-css" href="https://iansommerville.com/software-engineering-book/static/wp-content/themes/freedom/fontawesome/css/font-awesome.css" type="text/css" media="all"><link rel="stylesheet" id="easy_table_style-css" href="https://iansommerville.com/software-engineering-book/static/wp-content/plugins/easy-table/themes/default/style.css" type="text/css" media="all"><link rel="stylesheet" id="chld_thm_cfg_separate-css" href="https://iansommerville.com/software-engineering-book/static/wp-content/themes/freedom-child1/ctc-style.css" type="text/css" media="all"><link rel="stylesheet" id="jetpack_css-css" href="https://c0.wp.com/p/jetpack/7.8/css/jetpack.css" type="text/css" media="all"><script type="text/javascript" src="https://c0.wp.com/c/5.2.4/wp-includes/js/jquery/jquery.js"></script><script type="text/javascript" src="https://c0.wp.com/c/5.2.4/wp-includes/js/jquery/jquery-migrate.min.js"></script><script type="text/javascript" src="https://iansommerville.com/software-engineering-book/static/wp-content/themes/freedom/js/freedom-custom.js"></script><link rel="dns-prefetch" href="//v0.wordpress.com"><link rel="dns-prefetch" href="//c0.wp.com"><style type="text/css">img#wpstats{display:none}</style><style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style><style type="text/css">
+				/* If html does not have either class, do not show lazy loaded images. */
+				html:not( .jetpack-lazy-images-js-enabled ):not( .js ) .jetpack-lazy-image {
+					display: none;
+				}
+			</style><script>
+				document.documentElement.classList.add(
+					'jetpack-lazy-images-js-enabled'
+				);
+			</script><meta property="og:type" content="article"><meta property="og:title" content="Planning activities"><meta property="og:url" content="https://iansommerville.com/software-engineering-book/static/web/planning-activities/"><meta property="og:description" content="Activity charts are a schedule representation that highlights the dependencies between project activities or tasks (Figure 1). The activity chart shows which activities can be carried out in parall…"><meta property="article:published_time" content="2014-09-11T13:42:18+00:00"><meta property="article:modified_time" content="2019-02-07T09:12:21+00:00"><meta property="og:site_name" content="Software Engineering 10th edition"><meta property="og:image" content="https://s0.wp.com/i/blank.jpg"><meta property="og:locale" content="en_GB"><meta name="twitter:text:title" content="Planning activities"><meta name="twitter:card" content="summary"><style type="text/css" id="wp-custom-css">
+				img.myimg {
+	display: block;
+  margin-left: auto;
+  margin-right: auto; 
+	margin-top: 35px;
+	padding: 5px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+}
+img.horiz {
+	width: 680px;
+}
+
+img.vert {
+	height: 680px;
+}
+
+figcaption.mycap {
+  margin-left: 150px;
+  margin-right: 150px; 
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif; 
+	font-size: 19px;
+	color: #808080;   /* Mid grey */
+	font-weight: normal;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #000000;  /* black */
+}
+
+figcaption.noborder {
+	margin-bottom: 0px;
+	border-bottom: 0px solid #000000;  /* black */
+}
+
+figcaption.nospace{
+	margin-top: 0px
+}
+
+figcaption.para {
+	text-align:justify;
+}			</style></head><body class="page-template-default page page-id-393 page-child parent-pageid-46 no-sidebar-full-width wide">
+<div id="page" class="hfeed site">
+		<header id="masthead" class="site-header clearfix"><div id="header-text-nav-container" class="clearfix">
+			<div class="inner-wrap">
+				<div id="header-text-nav-wrap" class="clearfix">
+					<div id="header-left-section">
+												<div id="header-text" class="">
+															<h3 id="site-title">
+									<a href="https://iansommerville.com/software-engineering-book/static/" title="Software Engineering 10th edition" rel="home">Software Engineering 10th edition</a>
+								</h3>
+															<p id="site-description">Supplementary material for my software engineering textbook</p>
+													</div>
+					</div>
+					<div id="header-right-section">
+													<div id="header-right-sidebar" class="clearfix">
+								<aside id="search-4" class="widget widget_search"><form action="https://iansommerville.com/software-engineering-book/static/" id="search-form" class="searchform clearfix" method="get">
+	<input type="text" placeholder="Search" class="s field" name="s"><input type="submit" value="Search" class="search-submit submit" name="submit"></form></aside></div>
+												</div>
+				</div>
+			</div>
+
+			
+			<nav id="site-navigation" class="main-navigation clearfix" role="navigation"><div class="inner-wrap clearfix">
+					<p class="menu-toggle">Menu</p>
+					<div class="menu-primary-container"><ul id="menu-top-navigation" class="menu"><li id="menu-item-1098" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1098"><a href="https://iansommerville.com/software-engineering-book/static/about/">About the book/me</a></li>
+<li id="menu-item-1070" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1070"><a href="https://iansommerville.com/software-engineering-book/static/case-studies/">Case studies</a>
+<ul class="sub-menu"><li id="menu-item-1096" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1096"><a href="https://iansommerville.com/software-engineering-book/static/case-studies/airbus-340/">The Airbus 340 flight control system</a></li>
+	<li id="menu-item-1095" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1095"><a href="https://iansommerville.com/software-engineering-book/static/case-studies/ariane5/">The Ariane 5 launch accident</a></li>
+	<li id="menu-item-1092" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1092"><a href="https://iansommerville.com/software-engineering-book/static/case-studies/a-personal-insulin-pump/">An embedded control system for a personal insulin pump</a></li>
+	<li id="menu-item-1093" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1093"><a href="https://iansommerville.com/software-engineering-book/static/case-studies/the-ilearn-digital-learning-environment/">The iLearn digital learning environment</a></li>
+	<li id="menu-item-1091" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1091"><a href="https://iansommerville.com/software-engineering-book/static/case-studies/the-mentcare-system/">The Mentcare system</a></li>
+	<li id="menu-item-1094" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1094"><a href="https://iansommerville.com/software-engineering-book/static/case-studies/wilderness-weather-station/">Wilderness weather station</a></li>
+</ul></li>
+<li id="menu-item-1074" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1074"><a href="https://iansommerville.com/software-engineering-book/static/instructors-guide/">Instructors Guide</a></li>
+<li id="menu-item-1071" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1071"><a href="https://iansommerville.com/software-engineering-book/static/slides/">Slides</a></li>
+<li id="menu-item-1072" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1072"><a href="https://iansommerville.com/software-engineering-book/static/videos/">Videos</a>
+<ul class="sub-menu"><li id="menu-item-1088" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1088"><a href="https://iansommerville.com/software-engineering-book/static/videos/software-engineering/">Software engineering</a></li>
+	<li id="menu-item-1087" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1087"><a href="https://iansommerville.com/software-engineering-book/static/videos/agile-methods/">Agile methods</a></li>
+	<li id="menu-item-1086" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1086"><a href="https://iansommerville.com/software-engineering-book/static/videos/requirements-and-design/">Requirements and design</a></li>
+	<li id="menu-item-1082" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1082"><a href="https://iansommerville.com/software-engineering-book/static/videos/implementation-and-evolution/">Implementation and evolution</a></li>
+	<li id="menu-item-1089" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1089"><a href="https://iansommerville.com/software-engineering-book/static/videos/critical-systems/">Critical systems</a></li>
+	<li id="menu-item-1090" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1090"><a href="https://iansommerville.com/software-engineering-book/static/videos/reliability-and-safety/">Reliability and safety</a></li>
+	<li id="menu-item-1081" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1081"><a href="https://iansommerville.com/software-engineering-book/static/videos/security-and-resilience/">Security and resilience</a></li>
+	<li id="menu-item-1085" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1085"><a href="https://iansommerville.com/software-engineering-book/static/videos/software-reuse/">Software reuse</a></li>
+	<li id="menu-item-1084" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1084"><a href="https://iansommerville.com/software-engineering-book/static/videos/systems-engineering/">Systems engineering</a></li>
+	<li id="menu-item-1083" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1083"><a href="https://iansommerville.com/software-engineering-book/static/videos/software-management/">Software management</a></li>
+</ul></li>
+<li id="menu-item-1073" class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor menu-item-has-children menu-item-1073"><a href="https://iansommerville.com/software-engineering-book/static/web/">Downloads</a>
+<ul class="sub-menu"><li id="menu-item-1097" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1097"><a target="_blank" rel="noopener noreferrer" href="https://www.dropbox.com/s/9kd1skyiczis29b/Contents.pdf?dl=0#new_tab">Contents</a></li>
+	<li id="menu-item-1078" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1078"><a href="https://iansommerville.com/software-engineering-book/static/web/sample-chapters/">Sample chapters</a></li>
+	<li id="menu-item-1079" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1079"><a href="https://iansommerville.com/software-engineering-book/static/web/web-chapters/">Web chapters</a></li>
+	<li id="menu-item-1080" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1080"><a href="https://iansommerville.com/software-engineering-book/static/web/web-sections/">Web sections</a></li>
+</ul></li>
+<li id="menu-item-10" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-has-children menu-item-10"><a href="http://PLACEHOLDER.wpsho/">My websites</a>
+<ul class="sub-menu"><li id="menu-item-11" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11"><a href="https://iansommerville.com">Images and Opinions</a></li>
+	<li id="menu-item-13" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13"><a href="https://iansommerville.com/systems-software-and-technology">Systems, software and technology</a></li>
+	<li id="menu-item-1163" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1163"><a href="https://iansommerville.com/engineering-software-products">Engineering Software Products</a></li>
+</ul></li>
+<li id="menu-item-14" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14"><a href="https://iansommerville.com/privacy-policy">Privacy policy</a></li>
+</ul></div>				</div>
+			</nav></div>
+
+		
+	</header><div id="main" class="clearfix">
+		<div class="inner-wrap clearfix">
+
+
+	<div id="primary">
+		<div id="content" class="clearfix">
+			
+				
+<article id="post-393" class="post-393 page type-page status-publish hentry"><header class="entry-header"><h1 class="entry-title">
+				Planning activities			</h1>
+			</header><div class="entry-content clearfix">
+		<p>Activity charts are a schedule representation that highlights the dependencies between project activities or tasks (Figure 1). The activity chart shows which activities can be carried out in parallel and which must be executed in sequence because of a dependency on an earlier activity.</p>
+<p>Activities are represented as rectangles; milestones are shown with rounded corners.  The tasks (rectangles) are annotated with the expected duration of the task in working days e.g. T3 is planned to complete in 15 working days. The milestones (rounded rectangles) are annotated with the date by which they are expected to be reached.</p>
+<p>Each milestone is annotated by the date at which that milestone is expected to be reached. Dates in this diagram show the start date of the activity and are written in British style, where the day precedes the month. Remember that the dates are WORKING days, which I assume are Monday to Friday, with weekend excluded. Typically, a task starts on a Monday morning and finishes on a Friday evening.</p>
+<p>Therefore, the date of completion is not simply found by adding the number of days to the starting date. Weekends have to be taken into account for tasks lasting more than 5 working days.</p>
+<figure><img class="myimg horiz jetpack-lazy-image" src="https://www.dropbox.com/s/80wkxm1nr85u4w5/23%20Activity%20chart.jpg?raw=1" alt="Image" data-lazy-src="https://www.dropbox.com/s/80wkxm1nr85u4w5/23%20Activity%20chart.jpg?raw=1&is-pending-load=1" srcset="data:image/gif;base64 ,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7 "><noscript><img class="myimg horiz" src="https://www.dropbox.com/s/80wkxm1nr85u4w5/23%20Activity%20chart.jpg?raw=1" alt="Image"></noscript><figcaption class="mycap">
+Figure 1: An example of an activity chart<br></figcaption></figure><p style="text-align: left" align="center">Milestones may be annotated with more than one date. The date in black is the date at which the longest duration of tasks take e.g. milestone M4 is reached after T1 and T3 have completed on 8/8/14. However, milestone M4 also depends on the completion of T6, after T1 has finished. This is a shorter duration task (5 days) than T3, so the date shown in red is the planned date of completion of that task.</p>
+<p style="text-align: left" align="center">In practice, this means that task T6 could be delayed without affecting the overall schedule of the project, so long as it had completed by 8/8/14.</p>
+<p>Before progress can be made from one milestone to another, all paths leading to it must be complete. For example, when activities T3 and T6 are finished and milestone M4 reached, then activity T9 can start.</p>
+<h2>Critical paths</h2>
+<p>The minimum time required to finish the project can be estimated by considering the longest path in the activity graph (the critical path). In this case, it is 12 weeks of elapsed time or 60 working days. The critical path is the sequence of dependent activities that defines the time required to complete the project.</p>
+<p>In the activity chart for the project shown in Figure 1, the critical path is shown as a sequence of emboldened boxes (around the outside of the diagran, going clockwise).</p>
+<p>The overall schedule of the project depends on the critical path. Any slippage in the completion in any critical activity causes project delays because the following activities cannot start until the delayed activity has been completed.</p>
+<p>However, delays in activities that do not lie on the critical path do not necessarily cause an overall schedule slippage. So long as these delays do not extend these activities so much that the total time for that activity and future dependent activities does not exceed the critical path, the project schedule will not be affected. For example, if T8 is delayed by two weeks, it will not affect the final completion date of the project because it does not lie on the critical path. Most project management tools compute the allowed delays, as shown in the project bar chart.</p>
+<p>Managers also use activity charts when allocating project work. They can provide insights into activity dependencies that are not intuitively obvious. It may be possible to modify the system design so that the critical path is shortened. The project schedule may be shortened because of the reduced amount of time spent waiting for activities to finish.</p>
+			</div>
+
+	</article></div>
+	</div>
+
+
+
+
+		</div>
+	</div>
+			<footer id="colophon" class="clearfix"><div class="footer-socket-wrapper clearfix">
+				<div class="inner-wrap">
+					<div class="footer-socket-area">
+						<div class="copyright">Copyright © 2019&nbsp<a href="https://iansommerville.com/software-engineering-book/static/" title="Software Engineering 10th edition"><span>Software Engineering 10th edition</span></a>. Powered by <a href="http://wordpress.org" target="_blank" title="WordPress"><span>WordPress</span></a> and <a href="https://themegrill.com/themes/freedom" target="_blank" title="ThemeGrill"><span>ThemeGrill</span></a>.</div>					</div>
+				</div>
+			</div>
+		</footer><a href="#masthead" id="scroll-up"><i class="fa fa-chevron-up"></i></a>
+	</div>
+		<div style="display:none">
+	</div>
+<script type="text/javascript" src="https://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201942"></script><script type="text/javascript" src="https://secure.gravatar.com/js/gprofiles.js?ver=2019Octaa"></script><script type="text/javascript">
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script><script type="text/javascript" src="https://c0.wp.com/p/jetpack/7.8/modules/wpgroho.js"></script><script type="text/javascript" src="https://iansommerville.com/software-engineering-book/static/wp-content/themes/freedom/js/navigation.js"></script><script type="text/javascript" src="https://iansommerville.com/software-engineering-book/static/wp-content/plugins/page-links-to/js/new-tab.min.js"></script><script type="text/javascript" src="https://c0.wp.com/p/jetpack/7.8/_inc/build/lazy-images/js/lazy-images.min.js"></script><script type="text/javascript" src="https://stats.wp.com/e-201942.js" async="async" defer></script><script type="text/javascript">
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:7.8',blog:'117059245',post:'393',tz:'1',srv:'iansommerville.com'} ]);
+	_stq.push([ 'clickTrackerInit', '117059245', '393' ]);
+</script></body></html>

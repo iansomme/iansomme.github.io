@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en-GB"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Event-driven control – Software Engineering 10th edition</title><link rel="dns-prefetch" href="//s0.wp.com"><link rel="dns-prefetch" href="//secure.gravatar.com"><link rel="dns-prefetch" href="//fonts.googleapis.com"><link rel="dns-prefetch" href="//s.w.org"><link rel="stylesheet" id="wp-block-library-css" href="https://c0.wp.com/c/5.2.4/wp-includes/css/dist/block-library/style.min.css" type="text/css" media="all"><link rel="stylesheet" id="chld_thm_cfg_parent-css" href="https://iansommerville.com/software-engineering-book/static/wp-content/themes/freedom/style.css" type="text/css" media="all"><link rel="stylesheet" id="freedom_style-css" href="https://iansommerville.com/software-engineering-book/static/wp-content/themes/freedom-child1/style.css" type="text/css" media="all"><link rel="stylesheet" id="freedom_googlefonts-css" href="http://fonts.googleapis.com/css?family=Fira+Sans%7CVollkorn&ver=5.2.4" type="text/css" media="all"><link rel="stylesheet" id="freedom-fontawesome-css" href="https://iansommerville.com/software-engineering-book/static/wp-content/themes/freedom/fontawesome/css/font-awesome.css" type="text/css" media="all"><link rel="stylesheet" id="easy_table_style-css" href="https://iansommerville.com/software-engineering-book/static/wp-content/plugins/easy-table/themes/default/style.css" type="text/css" media="all"><link rel="stylesheet" id="chld_thm_cfg_separate-css" href="https://iansommerville.com/software-engineering-book/static/wp-content/themes/freedom-child1/ctc-style.css" type="text/css" media="all"><link rel="stylesheet" id="jetpack_css-css" href="https://c0.wp.com/p/jetpack/7.8/css/jetpack.css" type="text/css" media="all"><script type="text/javascript" src="https://c0.wp.com/c/5.2.4/wp-includes/js/jquery/jquery.js"></script><script type="text/javascript" src="https://c0.wp.com/c/5.2.4/wp-includes/js/jquery/jquery-migrate.min.js"></script><script type="text/javascript" src="https://iansommerville.com/software-engineering-book/static/wp-content/themes/freedom/js/freedom-custom.js"></script><link rel="dns-prefetch" href="//v0.wordpress.com"><link rel="dns-prefetch" href="//c0.wp.com"><style type="text/css">img#wpstats{display:none}</style><style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style><style type="text/css">
+				/* If html does not have either class, do not show lazy loaded images. */
+				html:not( .jetpack-lazy-images-js-enabled ):not( .js ) .jetpack-lazy-image {
+					display: none;
+				}
+			</style><script>
+				document.documentElement.classList.add(
+					'jetpack-lazy-images-js-enabled'
+				);
+			</script><meta property="og:type" content="article"><meta property="og:title" content="Event-driven control"><meta property="og:url" content="https://iansommerville.com/software-engineering-book/static/web/archpatterns/event-driven-control/"><meta property="og:description" content="In centralized control models, control decisions are usually determined by the values of some system state variables. By contrast, event-driven control models are driven by externally generated eve…"><meta property="article:published_time" content="2014-10-07T13:01:04+00:00"><meta property="article:modified_time" content="2019-02-07T09:11:52+00:00"><meta property="og:site_name" content="Software Engineering 10th edition"><meta property="og:image" content="https://s0.wp.com/i/blank.jpg"><meta property="og:locale" content="en_GB"><meta name="twitter:text:title" content="Event-driven control"><meta name="twitter:card" content="summary"><style type="text/css" id="wp-custom-css">
+				img.myimg {
+	display: block;
+  margin-left: auto;
+  margin-right: auto; 
+	margin-top: 35px;
+	padding: 5px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+}
+img.horiz {
+	width: 680px;
+}
+
+img.vert {
+	height: 680px;
+}
+
+figcaption.mycap {
+  margin-left: 150px;
+  margin-right: 150px; 
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif; 
+	font-size: 19px;
+	color: #808080;   /* Mid grey */
+	font-weight: normal;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #000000;  /* black */
+}
+
+figcaption.noborder {
+	margin-bottom: 0px;
+	border-bottom: 0px solid #000000;  /* black */
+}
+
+figcaption.nospace{
+	margin-top: 0px
+}
+
+figcaption.para {
+	text-align:justify;
+}			</style></head><body class="page-template-default page page-id-697 page-child parent-pageid-282 no-sidebar-full-width wide">
+<div id="page" class="hfeed site">
+		<header id="masthead" class="site-header clearfix"><div id="header-text-nav-container" class="clearfix">
+			<div class="inner-wrap">
+				<div id="header-text-nav-wrap" class="clearfix">
+					<div id="header-left-section">
+												<div id="header-text" class="">
+															<h3 id="site-title">
+									<a href="https://iansommerville.com/software-engineering-book/static/" title="Software Engineering 10th edition" rel="home">Software Engineering 10th edition</a>
+								</h3>
+															<p id="site-description">Web sections</p>
+													</div>
+					</div>
+			</div>
+
+	</div>
+
+		
+	</header><div id="main" class="clearfix">
+		<div class="inner-wrap clearfix">
+
+
+	<div id="primary">
+		<div id="content" class="clearfix">
+			
+				
+<article id="post-697" class="post-697 page type-page status-publish hentry"><header class="entry-header"><h1 class="entry-title">
+				Event-driven control			</h1>
+			</header><div class="entry-content clearfix">
+		<p>In centralized control models, control decisions are usually determined by the values of some system state variables. By contrast, event-driven control models are driven by externally generated events. The term event in this context does not just mean a binary signal. It may be a signal that can take a range of values or a command input from a menu. The distinction between an event and a simple input is that the timing of the event is outside the control of the process that handles that event.</p>
+<p>There are many types of event-driven systems. These include many editors where user interface events signify editing commands, rule-based production systems as used in AI where a condition becoming true causes an action to be triggered, and active objects where changing a value of an object’s attribute triggers some actions. Garlan et al. (1992) discuss these different types of system.</p>
+<p>In this section, I discuss two event-driven control models:</p>
+<ol><li>Broadcast models In these models, an event is, in principle, broadcast to all components. Any component that has been programmed to handle that event can respond to it.</li>
+<li>Interrupt-driven models These are exclusively used in real-time systems where external interrupts are detected by an interrupt handler. They are then passed to some other component for processing.</li>
+</ol><p>Broadcast models are effective in integrating components distributed across different computers on a network. Interrupt-driven models are used in real-time systems with stringent timing requirements.</p>
+<p>In a broadcast model , components register an interest in specific events. When these events occur, control is transferred to the component that can handle the event. The distinction between this model and the <a href="http://ifs.host.cs.st-andrews.ac.uk/Books/SE9/Web/Architecture/ArchPatterns/CentralControl.html">centralized model</a> is that the control policy is not embedded in the event and message handler. Components decide which events they require, and the event and message handler ensures that these events are sent to them.</p>
+<img class="myimg horiz" src="https://www.dropbox.com/s/fcvk5sbnucapk84/11.9%20EventBroadcast.jpg?raw=1" alt="Image"></noscript><figcaption class="mycap">
+A control model based on selective broadcasting<br></figcaption></figure><p>All events could be broadcast to all components, but this imposes a great deal of processing overhead. More often, the event and message handler maintains a register of components and the events of interest to them. Components generate events indicating, perhaps, that some data is available for processing. The event handler detects the events, consults the event register and passes the event to those components who have declared an interest. In simpler systems, such as PC-based systems driven by user interface events, there are explicit ‘event listener’ components that listen for events from the mouse, the keyboard, etc. and translate these into more specific commands.</p>
+<p>The event handler also usually supports point-to point communication. A component can explicitly send a message to another component. There have been a number of variations of this model, such as the Field environment (Reiss, 1990) and Hewlett-Packard’s Softbench (Fromme, 1993). Both of these have been used to control tool interactions in software engineering environments. Object Request Brokers (ORBs), as used in CORBA, also support this model of control for distributed object communications.</p>
+<p>The advantage of this broadcast approach is that evolution is relatively simple. A new component to handle particular classes of events can be integrated by registering its events with the event handler. Any component can activate any other component without knowing its name or location. The components can be implemented on distributed machines. This distribution is transparent to other components.</p>
+<p>The disadvantage of this model is that components don’t know if or when events will be handled. When a component generates an event it does not know which other components have registered an interest in that event. It is quite possible for different components to register for the same events. This may cause conflicts when the results of handling the event are made available.</p>
+<p>Real-time systems that require externally generated events to be handled very quickly must be event-driven. For example, if a real-time system is used to control the safety systems in a car, it must detect a possible crash and, perhaps, inflate an airbag before the driver’s head hits the steering wheel. To provide this rapid response to events, you have to use interrupt-driven control.</p>
+<p>An interrupt-driven control model is illustrated below. There are a known number of interrupt types with a handler defined for each type. Each type of interrupt is associated with the memory location where its handler’s address is stored. When an interrupt of a particular type is received, a hardware switch causes control to be transferred immediately to its handler. This interrupt handler may then start or stop other processes in response to the event signalled by the interrupt.</p>
+<img class="myimg horiz" src="https://www.dropbox.com/s/zjwex3fucarmr4z/11.10%20InterruptControl.jpg?raw=1" alt="Image"></noscript><figcaption class="mycap">
+An interrupt-driven control model<br></figcaption></figure><p>This model is mostly used in real-time systems where immediate response to some event is necessary. It may be combined with the centralised management model. The central manager handles the normal running of the system with interrupt-based control for emergencies.</p>
+<p>The advantage of this approach is that it allows very fast responses to events to be implemented. Its disadvantages are that it is complex to program and difficult to validate. It may be impossible to replicate patterns of interrupt timing during system testing. It can be difficult to change systems developed using this model if the number of interrupts is limited by the hardware. Once this limit is reached, no other types of events can be handled. You can sometimes get around this limitation by mapping several types of events onto a single interrupt. The handler then works out which event has occurred. However, interrupt mapping may be impractical if a very fast response to individual interrupts is required.</p>
+<h4><strong>References</strong></h4>
+<p><span class="ref">Fromme B. and Walker, J. (1993). An Open Architecture for Tool and Process Integration. <em>Proc</em>.<em>6th Conf. on Software Engineering Environments, </em>Reading, UK, IEEE Press.</span></p>
+<p><span class="ref">Reiss S., P. (1990). Connecting Tools Using Message Passing in the Field Environment. <em>IEEE Software, </em><strong>7</strong>(4), 57—66.</span></p>
+			</div>
+
+	</article></div>
+	</div>
+
+
+
+
+		</div>
+	</div>
+			<footer id="colophon" class="clearfix"><div class="footer-socket-wrapper clearfix">
+				<div class="inner-wrap">
+					<div class="footer-socket-area">
+						<div class="copyright">Copyright © 2019&nbsp<a href="https://iansommerville.com/software-engineering-book/static/" title="Software Engineering 10th edition"><span>Software Engineering 10th edition</span></a>. </div>					</div>
+				</div>
+			</div>
+		</footer><a href="#masthead" id="scroll-up"><i class="fa fa-chevron-up"></i></a>
+	</div>
+		<div style="display:none">
+	</div>
