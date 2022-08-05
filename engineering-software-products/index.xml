@@ -2,58 +2,58 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on Engineering Software Products</title>
-    <link>https://iansomme.github.io/engineering-software-products/</link>
+    <link>https://iansommerville.com/engineering-software-products/</link>
     <description>Recent content in Home on Engineering Software Products</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
     <lastBuildDate>Tue, 19 May 2020 08:24:53 +0100</lastBuildDate>
     
-	<atom:link href="https://iansomme.github.io/engineering-software-products/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://iansommerville.com/engineering-software-products/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Introduction</title>
-      <link>https://iansomme.github.io/engineering-software-products/introduction/</link>
+      <link>https://iansommerville.com/engineering-software-products/introduction/</link>
       <pubDate>Fri, 15 May 2020 14:10:22 +0100</pubDate>
       
-      <guid>https://iansomme.github.io/engineering-software-products/introduction/</guid>
+      <guid>https://iansommerville.com/engineering-software-products/introduction/</guid>
       <description>Since I started writing software in the 1970s, software engineering has changed out of all recognition. In the early days of the discipline, all software was developed in software projects, mostly for governments and large companies. The client specified their requirements, which were often lacking in a number of ways, and the software was developed by a separate company or group. This project oriented approach dominated software engineering for more than 30 years.</description>
     </item>
     
     <item>
       <title>Contents</title>
-      <link>https://iansomme.github.io/engineering-software-products/contents/</link>
+      <link>https://iansommerville.com/engineering-software-products/contents/</link>
       <pubDate>Sun, 17 May 2020 16:48:39 +0100</pubDate>
       
-      <guid>https://iansomme.github.io/engineering-software-products/contents/</guid>
+      <guid>https://iansommerville.com/engineering-software-products/contents/</guid>
       <description>1. Software Products  1.1 The product vision  1.2 Software product management  1.3 Product prototyping  Key points Recommended reading  Website  Exercises  2. Agile Software Engineering 2.1 Agile methods 2.2 Extreme programming 2.3 Scrum Key points  Recommended reading Website Exercises  3. Features, Scenarios and Stories 3.1 Personas 3.2 Scenarios 3.3 User stories 3.4 Feature identification Key points  Recommended reading Website Exercises  4.</description>
     </item>
     
     <item>
       <title>Frequently asked questions</title>
-      <link>https://iansomme.github.io/engineering-software-products/faqs/</link>
+      <link>https://iansommerville.com/engineering-software-products/faqs/</link>
       <pubDate>Fri, 15 May 2020 16:08:04 +0100</pubDate>
       
-      <guid>https://iansomme.github.io/engineering-software-products/faqs/</guid>
+      <guid>https://iansommerville.com/engineering-software-products/faqs/</guid>
       <description>A list of frequently asked questions about the book and its rationale, the target audience and their required background.
 Why did you write this book? Most software engineering texts focus on project-based software engineering where a client develops a specification and the software is developed by another company. However, students mostly have experience of apps and other software products. I wanted to write about product-oriented techniques that are used in developing the kind of software that’s familiar to students.</description>
     </item>
     
     <item>
       <title>Instructor&#39;s Manual</title>
-      <link>https://iansomme.github.io/engineering-software-products/instructors/</link>
+      <link>https://iansommerville.com/engineering-software-products/instructors/</link>
       <pubDate>Sun, 17 May 2020 16:55:29 +0100</pubDate>
       
-      <guid>https://iansomme.github.io/engineering-software-products/instructors/</guid>
+      <guid>https://iansommerville.com/engineering-software-products/instructors/</guid>
       <description>I have created material that may be useful to instructors teaching a course in introductory software engineering. Apart from the solutions to quiz questions and solutions to exercises, you may use this material in courses that you are presenting, distribute it to students, link to it from course web pages or install it on your own server. If you choose to install it on your own server, you must retain the license statement below.</description>
     </item>
     
     <item>
       <title>Supplements</title>
-      <link>https://iansomme.github.io/engineering-software-products/downloads/</link>
+      <link>https://iansommerville.com/engineering-software-products/downloads/</link>
       <pubDate>Sun, 17 May 2020 16:55:10 +0100</pubDate>
       
-      <guid>https://iansomme.github.io/engineering-software-products/downloads/</guid>
+      <guid>https://iansommerville.com/engineering-software-products/downloads/</guid>
       <description>Contents list (PDF) A complete contents list for the book.
 Preface (PDF)
 ZIP file of all presentations (PDF) ZIP file of all presentations (Keynote) ZIP file of all presentations (Powerpoint)
@@ -64,10 +64,10 @@ This is a new appendix, developed for the international edition of the book, tha
     
     <item>
       <title>Software Products</title>
-      <link>https://iansomme.github.io/engineering-software-products/software-products/</link>
+      <link>https://iansommerville.com/engineering-software-products/software-products/</link>
       <pubDate>Tue, 19 May 2020 08:24:53 +0100</pubDate>
       
-      <guid>https://iansomme.github.io/engineering-software-products/software-products/</guid>
+      <guid>https://iansommerville.com/engineering-software-products/software-products/</guid>
       <description>Download all presentations in Keynote or Powerpoint. Play here or download on slideshare 
   &amp;nbsp; Videos What is a software product manager? Greg Prickril.
 Painting a vision for your project. Sherif Mansour.
@@ -81,10 +81,10 @@ What, exactly, is a product manager</description>
     
     <item>
       <title>Agile Software Engineering</title>
-      <link>https://iansomme.github.io/engineering-software-products/agile-software-engineering/</link>
+      <link>https://iansommerville.com/engineering-software-products/agile-software-engineering/</link>
       <pubDate>Tue, 19 May 2020 08:23:46 +0100</pubDate>
       
-      <guid>https://iansomme.github.io/engineering-software-products/agile-software-engineering/</guid>
+      <guid>https://iansommerville.com/engineering-software-products/agile-software-engineering/</guid>
       <description>Download all presentations in Keynote or Powerpoint. Play here or download on slideshare 
   &amp;nbsp; Videos What is agile development. Dave Hecker.
 The strengths and weaknesses of extreme programming. William Matheson
@@ -97,10 +97,10 @@ Links Recommended reading The Scrum Guide
     
     <item>
       <title>Features, Scenarios and Stories</title>
-      <link>https://iansomme.github.io/engineering-software-products/features-scenarios-and-stories/</link>
+      <link>https://iansommerville.com/engineering-software-products/features-scenarios-and-stories/</link>
       <pubDate>Tue, 19 May 2020 08:23:22 +0100</pubDate>
       
-      <guid>https://iansomme.github.io/engineering-software-products/features-scenarios-and-stories/</guid>
+      <guid>https://iansommerville.com/engineering-software-products/features-scenarios-and-stories/</guid>
       <description>Download all presentations in Keynote or Powerpoint. Play here or download on slideshare 
   &amp;nbsp; Videos How to create user personas Robert Smith
 How to create user scenarios Robert Smith
@@ -112,10 +112,10 @@ Links Recommended reading ‘An Introduction to Feature-driven Development’ 
     
     <item>
       <title>Software Architecture</title>
-      <link>https://iansomme.github.io/engineering-software-products/software-architecture/</link>
+      <link>https://iansommerville.com/engineering-software-products/software-architecture/</link>
       <pubDate>Tue, 19 May 2020 08:23:03 +0100</pubDate>
       
-      <guid>https://iansomme.github.io/engineering-software-products/software-architecture/</guid>
+      <guid>https://iansommerville.com/engineering-software-products/software-architecture/</guid>
       <description>Download all presentations in Keynote or Powerpoint. Play here or download on slideshare 
   &amp;nbsp; Videos Making Architecture Matter Martin Fowler.
 Layered Systems - Software Engineering
@@ -130,21 +130,21 @@ Links Recommended reading ‘Software Architecture and Design’ 
     
     <item>
       <title>My sites</title>
-      <link>https://iansomme.github.io/engineering-software-products/mysites/</link>
+      <link>https://iansommerville.com/engineering-software-products/mysites/</link>
       <pubDate>Mon, 18 May 2020 13:08:58 +0100</pubDate>
       
-      <guid>https://iansomme.github.io/engineering-software-products/mysites/</guid>
+      <guid>https://iansommerville.com/engineering-software-products/mysites/</guid>
       <description>As well as this site, I have two other websites.
-Images and Opinions, which is my personal site that includes information about my interests and my professional career.
+Images and Opinions, which is my personal site with information about my interests and my professional career.
 Software Engineering, 10th edition, which is the supporting website for my software engineering textbook, published by Pearson Education in 2015.</description>
     </item>
     
     <item>
       <title>Cloud-based Software</title>
-      <link>https://iansomme.github.io/engineering-software-products/cloud-based-software/</link>
+      <link>https://iansommerville.com/engineering-software-products/cloud-based-software/</link>
       <pubDate>Mon, 18 May 2020 11:54:41 +0100</pubDate>
       
-      <guid>https://iansomme.github.io/engineering-software-products/cloud-based-software/</guid>
+      <guid>https://iansommerville.com/engineering-software-products/cloud-based-software/</guid>
       <description>Download all presentations in Keynote or Powerpoint. Play here or download on slideshare 
   &amp;nbsp; Videos Cloud Computing Architecture Paul Naumann
 Docker Tutorial - What is Docker &amp;amp; Docker Containers, Images, etc? Will Stern.
@@ -156,10 +156,10 @@ Which Cloud Provider is Best for You Google, AWS and Azure comparison. Cloud Aca
     
     <item>
       <title>Microservices Architecture</title>
-      <link>https://iansomme.github.io/engineering-software-products/microservices-architecture/</link>
+      <link>https://iansommerville.com/engineering-software-products/microservices-architecture/</link>
       <pubDate>Mon, 18 May 2020 11:54:17 +0100</pubDate>
       
-      <guid>https://iansomme.github.io/engineering-software-products/microservices-architecture/</guid>
+      <guid>https://iansommerville.com/engineering-software-products/microservices-architecture/</guid>
       <description>Download all presentations in Keynote or Powerpoint. Play here or download on slideshare 
  &amp;nbsp; Videos What are microservices. D.J. Speiss
 Microservices Martin Fowler
@@ -175,10 +175,10 @@ Using a circuit breaker</description>
     
     <item>
       <title>Security and Privacy</title>
-      <link>https://iansomme.github.io/engineering-software-products/security-and-privacy/</link>
+      <link>https://iansommerville.com/engineering-software-products/security-and-privacy/</link>
       <pubDate>Mon, 18 May 2020 11:53:55 +0100</pubDate>
       
-      <guid>https://iansomme.github.io/engineering-software-products/security-and-privacy/</guid>
+      <guid>https://iansommerville.com/engineering-software-products/security-and-privacy/</guid>
       <description>Download all presentations in Keynote or Powerpoint. Play here or download on slideshare 
   &amp;nbsp Videos Hackers and Cyber Attacks
 Authentication vs. Authorization Explained - What is the Difference and How do They Work? Aly Khayrulina.
@@ -191,10 +191,10 @@ Links&amp;nbsp; Recommended reading</description>
     
     <item>
       <title>Reliable Programming</title>
-      <link>https://iansomme.github.io/engineering-software-products/reliable-programming/</link>
+      <link>https://iansommerville.com/engineering-software-products/reliable-programming/</link>
       <pubDate>Mon, 18 May 2020 11:53:30 +0100</pubDate>
       
-      <guid>https://iansomme.github.io/engineering-software-products/reliable-programming/</guid>
+      <guid>https://iansommerville.com/engineering-software-products/reliable-programming/</guid>
       <description>Download all presentations in Keynote or Powerpoint. Play here or download on slideshare. 
   &amp;nbsp;  Videos 10 Tips for Clean Code
 Design patterns
@@ -209,10 +209,10 @@ Links Recommended reading
     
     <item>
       <title>Testing</title>
-      <link>https://iansomme.github.io/engineering-software-products/testing/</link>
+      <link>https://iansommerville.com/engineering-software-products/testing/</link>
       <pubDate>Mon, 18 May 2020 11:10:39 +0100</pubDate>
       
-      <guid>https://iansomme.github.io/engineering-software-products/testing/</guid>
+      <guid>https://iansommerville.com/engineering-software-products/testing/</guid>
       <description>Download all presentations in Keynote or Powerpoint. Play here or download on slideshare 
   &amp;nbsp; Videos A beginners guide to testing. Philip Johnson
 Equivalence partitioning and boundary value analysis
@@ -226,10 +226,10 @@ How to do coding peer reviews with Github</description>
     
     <item>
       <title>DevOps and Code Management</title>
-      <link>https://iansomme.github.io/engineering-software-products/dev-and-code-management/</link>
+      <link>https://iansommerville.com/engineering-software-products/dev-and-code-management/</link>
       <pubDate>Mon, 18 May 2020 11:10:19 +0100</pubDate>
       
-      <guid>https://iansomme.github.io/engineering-software-products/dev-and-code-management/</guid>
+      <guid>https://iansommerville.com/engineering-software-products/dev-and-code-management/</guid>
       <description>Download all presentations in Keynote or Powerpoint. Play here or download on slideshare 
   &amp;nbsp; Videos What is DevOps? | Your Guide to Devops - With Examples Aman Junega.
 Version Control Comparison Harry Eng.
@@ -244,10 +244,10 @@ Links Recommended Reading
     
     <item>
       <title>Note for Adopters</title>
-      <link>https://iansomme.github.io/engineering-software-products/note-for-adopters/</link>
+      <link>https://iansommerville.com/engineering-software-products/note-for-adopters/</link>
       <pubDate>Sat, 16 May 2020 16:11:57 +0100</pubDate>
       
-      <guid>https://iansomme.github.io/engineering-software-products/note-for-adopters/</guid>
+      <guid>https://iansommerville.com/engineering-software-products/note-for-adopters/</guid>
       <description>Software engineering has changed and it&amp;rsquo;s time to change what we teach to students in introductory SE courses.
 My books on software engineering reflected my background and experience in the development of large, complex, custom software systems. But most software is now developed as software products and these are not developed using the same processes as custom systems. We need to revise our courses to reflect this reality.
 My thinking about software engineering teaching changed radically after spending time with students working on startup companies.</description>
@@ -255,10 +255,10 @@ My thinking about software engineering teaching changed radically after spending
     
     <item>
       <title>Errata</title>
-      <link>https://iansomme.github.io/engineering-software-products/errata/</link>
+      <link>https://iansommerville.com/engineering-software-products/errata/</link>
       <pubDate>Sat, 16 May 2020 16:09:30 +0100</pubDate>
       
-      <guid>https://iansomme.github.io/engineering-software-products/errata/</guid>
+      <guid>https://iansommerville.com/engineering-software-products/errata/</guid>
       <description>There have been relatively few reports of errors in the book. Thanks to Dmitry Moiseev for spotting these.
 In some editions of the book (I presume the Global edition) there is an error on the very last line of section 4.5.3 where &amp;lsquo;Alternatively&amp;rsquo; has been misspelled. This is not the case for the 2020 edition, printed in the US.
 On page 236 of the 2020 edition, Table 8.2 has a duplicate entry for the Facade pattern.</description>
@@ -266,10 +266,10 @@ On page 236 of the 2020 edition, Table 8.2 has a duplicate entry for the Facade 
     
     <item>
       <title>Contact</title>
-      <link>https://iansomme.github.io/engineering-software-products/contact/</link>
+      <link>https://iansommerville.com/engineering-software-products/contact/</link>
       <pubDate>Thu, 22 Feb 2018 17:01:34 +0700</pubDate>
       
-      <guid>https://iansomme.github.io/engineering-software-products/contact/</guid>
+      <guid>https://iansommerville.com/engineering-software-products/contact/</guid>
       <description></description>
     </item>
     

@@ -185,8 +185,9 @@ Some of my videos cover material (such as SCADA control systems) that is not cov
       <pubDate>Fri, 22 May 2020 12:35:35 +0100</pubDate>
       
       <guid>https://iansomme.github.io/software-engineering-book/downloads/</guid>
-      <description>I have designed by textbook to be a hybrid print-web book and the supplements here provide additional information over and above what is included in the printed text. Web material falls into three categories:
- Sample chapters from the 10th edition Web chapters Web sections  Sample chapters  Ch 1 Introduction  Ch 12 Safety Engineering  Ch 20 Systems of systems Sample chapters are NOT licensed under a creative commons license but are (c) Ian Sommerville and Pearson Education.</description>
+      <description>I have designed my textbook to be a hybrid print-web book and the supplements here provide additional information over and above what is included in the printed text.
+Sample chapters Sample chapters are complete chapters from the book that you can download to get an impression of the book&amp;rsquo;s contents.
+[Chapter 1 Introduction](href=&amp;quot;https://www.dropbox.com/s/b8u3j74fkigb5vd/Ch01%20Introduction.pdf?dl=0&amp;quot; target=&amp;quot;_blank&amp;quot;) [Ch 12 Safety Engineering](https://www.dropbox.com/s/9vvgmn7x6w6uit4/Ch%2012%20Safety%20Engineering.pdf?dl=0&amp;quot; target=&amp;quot;_blank&amp;quot;) [Systems of systems](https://www.dropbox.com/s/xo80lb1rvwtzd1e/Ch%2020%20Systems%20of%20systems.pdf?dl=0&amp;quot; target=&amp;quot;_blank)  Web chapters Web chapters are chapters that have been included in previous editions.</description>
     </item>
     
     <item>
@@ -230,6 +231,16 @@ Chapter 2, page 31, 6. The word ‘Professional’ should be deleted.
 Chapter 6: page 158, Line 11. Replace questions 4 to 6 with &amp;lsquo;on architectural style, system structuring and control strategy&amp;rsquo;.
 Chapter 8, page 222, line 4. ‘eight’ should be replaced by ‘ten’
 Chapter 11, page 310. line 15, &amp;lsquo;reliability&amp;rsquo; (last word in line) should be replaced by &amp;lsquo;POFOD&amp;rsquo;</description>
+    </item>
+    
+    <item>
+      <title>Home</title>
+      <link>https://iansomme.github.io/software-engineering-book/</link>
+      <pubDate>Thu, 21 May 2020 23:16:26 +0100</pubDate>
+      
+      <guid>https://iansomme.github.io/software-engineering-book/</guid>
+      <description>Software Engineering, Tenth Edition A comprehensive textbook on software engineering The tenth edition of my Software Engineering textbook was published in April 2015. The book is organized into four parts and focuses on the methods, tools and techniques used in the development of software systems. This edition is oriented towards systems engineering with new chapters on systems engineering, resilience engineering and systems of systems.
+&amp;lsquo;Software Engineering&amp;rsquo; has been designed to support both introductory and advanced courses in software engineering.</description>
     </item>
     
   </channel>
