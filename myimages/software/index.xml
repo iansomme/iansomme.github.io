@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Software on Images and Opinions</title>
+    <link>https://iansommerville.com/myimages/software/</link>
+    <description>Recent content in Software on Images and Opinions</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <lastBuildDate>Thu, 30 Mar 2023 20:44:12 +0100</lastBuildDate>
+    
+	<atom:link href="https://iansommerville.com/myimages/software/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Getting started with Adobe Portfolio</title>
+      <link>https://iansommerville.com/myimages/software/portfolio/</link>
+      <pubDate>Thu, 17 Mar 2022 17:35:58 +0000</pubDate>
+      
+      <guid>https://iansommerville.com/myimages/software/portfolio/</guid>
+      <description>Adobe Portfolio is a web builder that is part of the Adobe Creative Cloud ecosystem. It is specifically designed to showcase images with the target market being photographers and designers who use the Creative Cloud suite. It isn’t available without a Creative Cloud subscription.
+The USP of Adobe Portfolio is that it is integrated with Lightroom, a photo management and editing system that is also part of the Creative Cloud ecosystem.</description>
+    </item>
+    
+  </channel>
+</rss>
